@@ -12,4 +12,4 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
     
 | Name                                   | Difficulty               |  Technologies / Approaches         |
 | -----------                            | -----------              | -----------                        |
-| [Card With Transparent Image]()            |⭐                          | HTML, CSS                                    |
+| [Card With Transparent Image](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/card-with-transparent-image/)|⭐                  | HTML, CSS     |

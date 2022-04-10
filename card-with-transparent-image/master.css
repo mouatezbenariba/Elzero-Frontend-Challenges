@@ -86,3 +86,29 @@ span.mark {
   color: white;
   font-weight: bold;
 }
+
+footer {
+  margin-top: 5px;
+  background-color: #222222;
+  color: #b4b4b9;
+  /* font-size: 2rem; */
+  /* font-weight: 400; */
+  /* min-height: 30px; */
+  /* line-height: 30px; */
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  display: block;
+  transform: translateX(-50%);
+  bottom: 0;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  width: 100vw;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+}

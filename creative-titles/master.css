@@ -1,0 +1,137 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: #2c6ccf;
+  --color-two: #cf2c2c;
+  --color-three: #309e0e;
+  --color-four: #cd661a;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3:nth-of-type(1) {
+  color: var(--color-one);
+}
+h3:nth-of-type(2) {
+  color: var(--color-two);
+}
+h3:nth-of-type(3) {
+  color: var(--color-three);
+}
+h3:nth-of-type(4) {
+  color: var(--color-four);
+}
+
+h3 {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+h3::before {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+h3::after {
+  content: '';
+  position: absolute;
+  top: calc(2rem + 0.4rem);
+  left: 0.8rem;
+  transform: translateY(-50%);
+  width: 16rem;
+  height: 0.1rem;
+  z-index: -1;
+}
+
+.triangle-up h3::after,
+.triangle-down h3::after {
+  top: 2rem;
+}
+
+h3:nth-of-type(1)::before {
+  background-color: var(--color-one);
+}
+
+h3:nth-of-type(2)::before {
+  background-color: var(--color-two);
+}
+
+h3:nth-of-type(3)::before {
+  background-color: var(--color-three);
+}
+
+h3:nth-of-type(4)::before {
+  background-color: var(--color-four);
+}
+
+h3:nth-of-type(1)::after {
+  background: linear-gradient(to right, var(--color-one) 50%, #ddd 50%);
+}
+
+h3:nth-of-type(2)::after {
+  background: linear-gradient(to right, var(--color-two) 50%, #ddd 50%);
+}
+
+h3:nth-of-type(3)::after {
+  background: linear-gradient(to right, var(--color-three) 50%, #ddd 50%);
+}
+
+h3:nth-of-type(4)::after {
+  background: linear-gradient(to right, var(--color-four) 50%, #ddd 50%);
+}
+
+.circle h3::before {
+  border-radius: 50%;
+}
+
+.triangle-up h3::before {
+  background-color: transparent;
+  border: 0.6rem solid;
+  transform: translateY(calc(-100% + 0.05rem));
+}
+
+.triangle-up h3:nth-of-type(1)::before {
+  border-color: transparent transparent var(--color-one) transparent;
+}
+
+.triangle-up h3:nth-of-type(2)::before {
+  border-color: transparent transparent var(--color-two) transparent;
+}
+
+.triangle-up h3:nth-of-type(3)::before {
+  border-color: transparent transparent var(--color-three) transparent;
+}
+
+.triangle-up h3:nth-of-type(4)::before {
+  border-color: transparent transparent var(--color-four) transparent;
+}
+
+.triangle-down h3::before {
+  background-color: transparent;
+  border: 0.6rem solid;
+  transform: translateY(-0.05rem);
+}
+
+.triangle-down h3:nth-of-type(1)::before {
+  border-color: var(--color-one) transparent transparent transparent;
+}
+
+.triangle-down h3:nth-of-type(2)::before {
+  border-color: var(--color-two) transparent transparent transparent;
+}
+
+.triangle-down h3:nth-of-type(3)::before {
+  border-color: var(--color-three) transparent transparent transparent;
+}
+
+.triangle-down h3:nth-of-type(4)::before {
+  border-color: var(--color-four) transparent transparent transparent;
+}

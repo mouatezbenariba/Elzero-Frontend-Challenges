@@ -14,9 +14,9 @@ body {
 .box {
   position: relative;
   top: 50vh;
-  -webkit-transform: translateY(-40%);
-  -ms-transform: translateY(-40%);
-  transform: translateY(-40%);
+  -webkit-transform: translateY(-37%);
+  -ms-transform: translateY(-37%);
+  transform: translateY(-37%);
   width: 28rem;
   margin: auto;
   padding: 2rem;
@@ -89,29 +89,5 @@ span.mark {
   border-radius: 12%;
   background-color: steelblue;
   color: white;
-  font-weight: bold;
-}
-
-footer {
-  position: absolute;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
-  left: 50%;
-  width: calc(100vw - 2rem); 
-  margin-top: 5px;
-  padding: 10px;
-  background-color: #222222;
-  color: #b4b4b9;
-  line-height: 1.5;
-  font-size: 1.1rem;
-  text-align: center;
-  display: block;
-}
-
-footer a {
-  text-decoration: none;
-  color: #2196f3;
   font-weight: bold;
 }

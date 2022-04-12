@@ -50,7 +50,7 @@ footer {
           transform: translateX(-50%);
   bottom: 0;
   left: 50%;
-  width: 100vw;
+  width: calc(100vw - 2rem); 
   margin-top: 5px;
   padding: 10px;
   background-color: #222222;

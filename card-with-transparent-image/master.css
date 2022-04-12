@@ -100,7 +100,7 @@ footer {
   padding: 10px;
   line-height: 1.5;
   font-size: 1.1rem;
-  width: 100vw;
+  width: calc(100vw - 2rem);
 }
 
 footer a {

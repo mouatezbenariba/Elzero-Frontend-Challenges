@@ -15,6 +15,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 | [Card With Transparent Image](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/card-with-transparent-image/)|⭐                  | HTML, CSS     |
 | [Scroll To Top Button CSS Only](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/scroll-to-top-button/)     |⭐                  | HTML, CSS     |
 | [Creative Titles](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/creative-titles/)                        |⭐                  | HTML, CSS     |
+| [Gaming Profile Sections](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/gaming-profile-sections/)        |⭐                  | HTML, CSS     |
 
 
 

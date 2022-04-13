@@ -1,0 +1,217 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --color-one: #009688;
+  --color-two: #e92a6b;
+  --color-three: #1d880d;
+  --color-four: #3e9af3;
+  --color-five: #607d8b;
+  --background-color: #f5f5f5;
+}
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+.container {
+  margin: 1rem auto;
+  background-color: white;
+  position: relative;
+  width: 1080px;
+}
+
+.container h3 {
+  background-color: var(--color-five);
+  margin: 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.4rem;
+}
+
+hr {
+  width: 1080px;
+  background-color: #eee;
+  height: 1px;
+  border: none;
+}
+.image.unlocked::before {
+  content: '';
+  width: 5.25rem;
+  height: 5.25rem;
+  background-color: white;
+  position: absolute;
+  opacity: 0.9;
+}
+
+.main-card .media {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-right: 1px solid var(--background-color);
+}
+
+.main-card .media .image {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.main-card .media .image img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 7px 1px #777;
+          box-shadow: 0 0 7px 1px #777;
+  width: 10rem;
+}
+
+.main-card .media p:last-child {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.main-card span:nth-child(2) {
+  position: relative;
+  display: block;
+  margin-bottom: 1.3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 13rem;
+}
+
+.main-card span:nth-child(2)::before,
+.main-card span:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  height: 1.1rem;
+}
+
+.main-card span:nth-child(2)::before {
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: var(--background-color);
+}
+
+.main-card span:nth-child(2)::after {
+  width: 70%;
+  border-radius: 0.3rem 0 0 0.3rem;
+  background-color: var(--color-one);
+}
+
+.main-card .media p span {
+  color: var(--color-one);
+  font-weight: bold;
+}
+
+.main-card .info {
+  position: absolute;
+  display: inline-block;
+  width: 75%;
+  padding: 1rem;
+}
+
+.main-card .info h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.main-card .info p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.main-card .info + span {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.points-log .container {
+  padding: 1rem;
+}
+
+.points-log p:not(:last-child) {
+  padding-bottom: 1rem;
+}
+
+.points-log p:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.points-log p span:first-of-type {
+  color: var(--color-two);
+  font-weight: bold;
+}
+
+.points-log p span:last-of-type {
+  color: var(--color-one);
+  font-weight: bold;
+}
+
+.trophies .container {
+  padding: 1rem;
+}
+
+.trophies .images {
+  padding: 1rem 0 0;
+}
+
+.trophies .images .first-row img,
+.trophies .images .second-row img {
+  width: calc(9% - 10.3px);
+}
+
+.trophies .images .image {
+  display: inline;
+}
+
+.ladder .container {
+  padding: 1rem;
+}
+
+.ladder p span:first-of-type {
+  color: var(--color-four);
+  font-weight: bold;
+}
+
+.ladder p span:nth-of-type(2) {
+  color: var(--color-two);
+  font-weight: bold;
+}
+
+.powers .container {
+  padding: 1rem;
+}
+
+.powers p:not(:last-child) {
+  border-bottom: 1px solid #eee;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.powers p span {
+  position: absolute;
+  right: 1rem;
+  font-weight: bold;
+}
+
+.powers p span.yes {
+  color: green;
+}
+
+.powers p span.no {
+  color: red;
+}

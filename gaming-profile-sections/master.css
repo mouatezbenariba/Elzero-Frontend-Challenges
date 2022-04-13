@@ -209,7 +209,7 @@ hr {
 }
 
 .powers p span.yes {
-  color: green;
+  color: var(--color-three);
 }
 
 .powers p span.no {

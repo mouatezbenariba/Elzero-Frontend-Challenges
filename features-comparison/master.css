@@ -20,13 +20,23 @@ body {
 /* End Components */
 
 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
   top: 50vh;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   height: 5rem;
   padding: 1rem;
@@ -49,16 +59,26 @@ span::after {
 
 span::before {
   content: 'this Is Tooltip Content';
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: absolute;
   top: -6rem;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 21rem;
   height: 4rem;
   background-color: var(--color-two);
+  -webkit-transition-duration: 0s;
+  -o-transition-duration: 0s;
   transition-duration: 0s;
   opacity: 0;
   visibility: hidden;
@@ -66,6 +86,8 @@ span::before {
 
 span:hover::before,
 span:hover::after {
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
   transition-duration: 1s;
   opacity: 1;
   visibility: visible;

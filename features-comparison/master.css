@@ -18,9 +18,6 @@ body {
   background-color: var(--background-color);
   margin: 0;
 }
-/* Start Components */
-
-/* End Components */
 
 .offers {
   display: flex;

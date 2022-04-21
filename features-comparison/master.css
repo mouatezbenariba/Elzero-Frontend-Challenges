@@ -5,8 +5,10 @@
   box-sizing: border-box;
 }
 :root {
-  --color-one: red;
-  --color-two: black;
+  --color-one: #2196f3;
+  --color-two: #f44336;
+  --color-three: #119d90;
+  --color-four: #e91f64;
   --background-color: #f6f6f6;
 }
 
@@ -19,76 +21,143 @@ body {
 
 /* End Components */
 
-span {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.offers {
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   position: relative;
-  top: 50vh;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 5rem;
+  margin: 5rem auto;
+}
+
+ul.basic,
+ul.professional {
+  list-style: none;
+  padding: 0;
+  background-color: white;
+  margin: 1rem;
+  width: 100%;
+}
+
+ul li {
+  position: relative;
   padding: 1rem;
-  background-color: var(--color-one);
+  border-bottom: 0.1rem solid #eee;
+}
+
+ul li:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
   color: white;
-  text-align: center;
-  font-size: 1.3rem;
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
-span::after {
-  content: '';
-  border: 1rem solid;
-  border-color: var(--color-two) transparent transparent transparent;
-  position: absolute;
-  top: -2rem;
-  visibility: hidden;
-  opacity: 0;
-}
-
-span::before {
-  content: 'this Is Tooltip Content';
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: absolute;
-  top: -6rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 21rem;
-  height: 4rem;
+ul.basic li:first-child {
   background-color: var(--color-two);
-  -webkit-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  transition-duration: 0s;
-  opacity: 0;
-  visibility: hidden;
 }
 
-span:hover::before,
-span:hover::after {
-  -webkit-transition-duration: 1s;
-  -o-transition-duration: 1s;
-  transition-duration: 1s;
-  opacity: 1;
-  visibility: visible;
+ul.professional li:first-child {
+  background-color: var(--color-one);
+}
+
+ul li:not(:first-child) {
+  padding-left: 3rem;
+}
+
+li {
+  position: relative;
+}
+
+.icon.true,
+.icon.false {
+  width: 1.15rem;
+  height: 1.15rem;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 1.4rem;
+  transform: translateY(-50%);
+}
+
+.icon.true {
+  background-color: var(--color-three);
+}
+
+.icon.false {
+  background-color: var(--color-four);
+}
+
+.true::before,
+.true::after,
+.false::before,
+.false::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0.3rem;
+  background-color: white;
+}
+
+.true::before {
+  left: -105%;
+  top: 1.849rem;
+  height: 1rem;
+  transform: rotateZ(45deg) translateY(-40px) scale(0.5);
+}
+
+.true::after {
+  left: -0.6rem;
+  top: 1.9rem;
+  height: 0.65rem;
+  transform: rotateZ(-45deg) scale(0.5) translate(55px, -14px);
+}
+
+.false::before {
+  height: 1.15rem;
+  left: calc(50% - 0.15rem);
+  top: 0;
+  transform: rotateZ(-45deg) scale(0.5);
+}
+
+.false::after {
+  height: 1.15rem;
+  left: calc(50% - 0.15rem);
+  top: 0;
+  transform: rotateZ(45deg) scale(0.5);
+}
+
+ul.professional li:nth-child(13)::before {
+  content: '?';
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #777;
+  color: white;
+  line-height: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul.professional li:first-child::before {
+  content: 'Save 50%';
+  position: absolute;
+  width: 7rem;
+  line-height: 3rem;
+  height: 3rem;
+  text-align: center;
+  top: -4rem;
+  right: 2rem;
+  background-color: var(--color-one);
+}
+
+ul.professional li:first-child::after {
+  content: '';
+  position: absolute;
+  border: 1.5rem solid;
+  border-left: 0.5rem solid;
+  border-color: var(--color-one) transparent var(--color-one) var(--color-one);
+  top: -4rem;
+  right: 0;
 }

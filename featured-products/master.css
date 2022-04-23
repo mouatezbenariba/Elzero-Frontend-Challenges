@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :root {
   --color-one: #2e6371;
   --color-two: #e0e0e0;
@@ -19,9 +20,13 @@ body {
 
 .container {
   width: 54rem;
+  position: relative;
   margin: auto;
+  top: 50vh;
+  -webkit-transform: translateY(-64%);
+  -ms-transform: translateY(-64%);
+  transform: translateY(-64%);
 }
-
 h3 {
   background-color: var(--color-one);
   width: -webkit-fit-content;

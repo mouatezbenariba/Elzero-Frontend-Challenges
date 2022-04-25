@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta name="description" content="" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="master.css" />
+    <title></title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="#user">Username <span>*</span></label>
+        <input
+          type="text"
+          name="username"
+          id="user"
+          placeholder="Type Your Name In English Only"
+          required
+        />
+      </div>
+      <div>
+        <label for="#pass">Password <span>*</span></label>
+        <input
+          type="password"
+          name="password"
+          id="pass"
+          placeholder="Type A Complexe Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="#mail">Email <span>*</span></label>
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          placeholder="Type A Valid Email"
+          required
+        />
+      </div>
+      <div>
+        <label for="brieft">Brieft</label>
+        <textarea name="brieft" id="brieft" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label for="#phone">Phone <span>*</span></label>
+        <input type="tel" name="phone" id="user" required />
+      </div>
+      <input type="submit" name="send" value="Register" />
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>

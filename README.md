@@ -19,6 +19,8 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 | [Features Comparison](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/features-comparison/)                |⭐                  | HTML, CSS     |
 | [Hover To Show Tooltip](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hover-to-show-tooltip/)            |⭐                  | HTML, CSS     |
 | [Featured Products](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/featured-products/)                    |⭐                  | HTML, CSS     |
+| [Splitted Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/featured-products/)                       |⭐                  | HTML, CSS     |
+| [Two Columns Form](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/featured-products/)                     |⭐                  | HTML, CSS     |
 
 
 

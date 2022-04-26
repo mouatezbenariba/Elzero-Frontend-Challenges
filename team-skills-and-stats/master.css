@@ -1,0 +1,130 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: #05aaf4;
+  --color-two: #b33939;
+  --color-three: #227093;
+  --color-four: #218c74;
+  --background-color: #f6f6f6;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+/* start components  */
+.container {
+  width: 800px;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* end components  */
+
+/* start header  */
+header {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav span.logo {
+  font-weight: bold;
+}
+
+nav ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul.menu li {
+  padding-left: 1rem;
+}
+
+header nav ul.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* end header  */
+/* start service description*/
+section.services-description h2 {
+  text-align: center;
+}
+
+section.services-description h2 span {
+  color: var(--color-one);
+}
+
+section.services-description p {
+  text-align: center;
+}
+/* end service description*/
+/* start services items */
+section.services-items {
+  background-color: white;
+}
+
+section.services-items .services {
+  display: flex;
+  text-align: center;
+}
+/* end services items */
+/* start about */
+.about .container {
+  display: flex;
+}
+/* end about */
+/* start stats */
+section.stats {
+  background-color: white;
+}
+
+section.stats .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.stats p {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 32%;
+  height: 8rem;
+  color: white;
+}
+
+section.stats p:first-child {
+  background-color: var(--color-two);
+}
+
+section.stats p:nth-child(2) {
+  background-color: var(--color-three);
+}
+
+section.stats p:last-child {
+  background-color: var(--color-four);
+}
+
+section.stats p .stats-number {
+  font-size: 4rem;
+}
+
+section.stats p span {
+  display: block;
+  text-align: center;
+}
+/* end stats */

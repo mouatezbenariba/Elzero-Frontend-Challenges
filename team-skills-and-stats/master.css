@@ -65,6 +65,7 @@ header nav ul.menu li a {
 /* start service description*/
 section.services-description h2 {
   text-align: center;
+  font-size: 1.7rem;
 }
 
 section.services-description h2 span {
@@ -95,6 +96,15 @@ section.services-items .services {
   margin-top: 0.5rem;
   font-weight: 400;
   color: #88888e;
+}
+
+section.services-items .service .image {
+  width: 30%;
+  margin: auto;
+}
+
+section.services-items .service .image img {
+  width: 100%;
 }
 /* end services items */
 /* start about */

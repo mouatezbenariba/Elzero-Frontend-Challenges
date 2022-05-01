@@ -1,0 +1,182 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: #e5af40;
+  --color-two: #4a5568;
+  --color-three: #51509b;
+  --color-four: #404b5f;
+  --main-padding: 1rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-three);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+/* start components */
+.bold-text {
+  font-weight: bold;
+}
+/* end components */
+h1 {
+  color: white;
+}
+
+h1 + p {
+  color: white;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  color: var(--color-four);
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 0;
+  z-index: 1;
+}
+
+h2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0.5rem;
+  background-color: var(--color-one);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+h2 i {
+  padding-right: var(--main-padding);
+  color: var(--color-one);
+}
+
+.premium h2::before {
+  width: calc(100% - 33px - var(--main-padding));
+}
+
+.essentials h2::before {
+  width: calc(100% - 25px - var(--main-padding));
+}
+
+.packages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.premium,
+.essentials {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.essentials {
+  width: 40%;
+  -webkit-box-shadow: inset 42px 0px 34px -29px #efefef;
+  box-shadow: inset 42px 0px 34px -29px #efefef;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+ul li:not(:last-child) {
+  border-bottom: 0.12rem solid #efefef;
+}
+
+.premium {
+  width: 60%;
+}
+
+.premium h2 {
+  font-size: 1.8rem;
+}
+
+.essentials {
+  width: 40%;
+}
+
+.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.action + p {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+span.price {
+  position: relative;
+  padding-left: 1rem;
+  color: var(--color-two);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+span.price::before {
+  content: '$';
+  position: absolute;
+  left: 0;
+  font-size: 1.7rem;
+}
+
+span.price::after {
+  content: 'USD';
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+button.buy {
+  padding: 1rem;
+  border-style: none;
+  border-radius: 0.25rem;
+  background-color: var(--color-one);
+}
+
+button.buy a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

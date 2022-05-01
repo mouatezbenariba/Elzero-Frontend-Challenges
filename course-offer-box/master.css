@@ -20,8 +20,8 @@ body {
 }
 
 .container {
-  width: 1000px;
-  margin: auto;
+  width: 1100px;
+  margin: 5rem;
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
 }

@@ -22,6 +22,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 | [Splitted Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/splitted-frame/)                          |⭐                  | HTML, CSS     |
 | [Two Columns Form](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/two-columns-form/)                      |⭐                  | HTML, CSS     |
 | [Team Skills and Stats](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/team-skills-and-stats/)            |⭐                  | HTML, CSS     |
+| [Picture With Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/picture-with-frame/)                  |⭐⭐               | HTML, CSS     |
 
 
 

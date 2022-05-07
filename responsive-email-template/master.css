@@ -104,7 +104,8 @@ header .info .register li span.check {
   padding-right: var(--main-padding);
 }
 
-header .info button {
+header .info button,
+footer button {
   width: 15rem;
   height: 4rem;
   border: none;
@@ -112,7 +113,8 @@ header .info button {
   background-color: var(--color-one);
 }
 
-header .info button a {
+header .info button a,
+footer button a {
   color: white;
   font-size: 2rem;
   text-decoration: none;

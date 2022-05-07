@@ -26,3 +26,4 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 | [Team Skills and Stats](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/team-skills-and-stats/)             | ⭐         | HTML, CSS                 |
 | [Picture With Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/picture-with-frame/)                   | ⭐⭐       | HTML, CSS                 |
 | [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                       | ⭐⭐       | HTML, CSS                 |
+| [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)     | ⭐⭐       | HTML, CSS                 |

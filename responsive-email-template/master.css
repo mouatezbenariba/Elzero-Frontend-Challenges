@@ -1,0 +1,225 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: #ed4c21;
+  --color-two: #122333;
+  --main-padding: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+}
+
+.orange-line::before {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  width: 3.5rem;
+  height: 0.2rem;
+  background-color: var(--color-one);
+}
+
+header {
+  height: 44rem;
+}
+
+header .banner {
+  position: relative;
+  height: 25rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+header .banner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-one);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+header .banner img {
+  max-width: 100%;
+}
+
+header .info {
+  position: relative;
+  top: -22rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 0 1rem;
+  z-index: 2;
+}
+
+header .info .register {
+  width: 45%;
+  padding: 2rem 2rem;
+  background-color: var(--color-two);
+  color: white;
+}
+
+header .info .register h2 {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+
+header .info .register ul {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+header .info .register li {
+  font-size: 1.6rem;
+  line-height: 2.4;
+}
+
+header .info .register li span.check {
+  color: #77a93d;
+  padding-right: var(--main-padding);
+}
+
+header .info button {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: var(--color-one);
+}
+
+header .info button a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+header .info p.details {
+  width: 47%;
+  padding: var(--main-padding);
+  border: 0.2rem solid var(--color-one);
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  counter-reset: counter;
+}
+
+section .service {
+  width: 30%;
+  padding: 3rem 2rem 3rem;
+  background-color: #f2f8fa;
+  counter-increment: num;
+}
+
+section .service::before {
+  content: '0' counter(num);
+  color: var(--color-one);
+  font-size: 2.5rem;
+}
+
+section .service h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+section .service p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+section .service a {
+  text-decoration: none;
+  color: var(--color-one);
+  font-size: 1.4rem;
+}
+
+footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 27rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  background-image: url(images/denys-nevozhai-7nrsVjvALnA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .info {
+  position: relative;
+  width: 50%;
+  color: white;
+  line-height: 2;
+  z-index: 3;
+}
+
+footer h3 {
+  position: relative;
+  margin-top: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+footer .image {
+  width: 44%;
+  z-index: 1;
+}
+
+footer img {
+  max-width: 100%;
+}
+
+footer span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  background-color: var(--color-two);
+  opacity: 0.7;
+}

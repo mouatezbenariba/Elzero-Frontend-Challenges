@@ -8,7 +8,7 @@
 :root {
   --color-one: #1652f0;
   --color-two: #f2f6fe;
-  --color-three: #9aa8c2;
+  --color-three: #efefef;
   --color-four: #eef2fe;
   --color-five: #869ab8;
   --color-six: #fe879b;
@@ -18,16 +18,14 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-/* .container {
-  margin: 2rem;
-  padding-top: var(--main-padding);
-  padding-bottom: var(--main-padding);
-  background-color: white;
-} */
 nav.side-nav {
+  position: fixed;
+  height: 100vh;
   background-color: var(--color-one);
 }
 
@@ -39,24 +37,31 @@ nav.side-nav ul {
   top: 5rem;
 }
 
-nav ul li {
+nav.side-nav ul li {
   padding: 1.3rem;
 }
 
-nav ul li a {
+nav.side-nav ul li a {
   color: white;
 }
 
-main header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid #ddd;
+main {
+  width: 100vw;
+  margin-left: 3.7rem;
 }
 
-main header .icon {
-  width: 8%;
+main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid var(--color-four);
 }
 
 main header .icon img {
@@ -64,15 +69,28 @@ main header .icon img {
 }
 
 main header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
-main nav .balance {
-  display: flex;
+@media screen and (min-width: 750px) {
+  main header nav .balance {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media screen and (max-width: 750px) {
+  main header nav .balance {
+    display: none;
+  }
 }
 
-main nav .balance p {
+main header nav .balance p {
   display: inline-block;
   margin: 0;
   padding: 3px 1rem;
@@ -81,19 +99,19 @@ main nav .balance p {
   font-weight: 600;
 }
 
-main nav .balance p:focus {
+main header nav .balance p:focus {
   background-color: var(--color-four);
   color: var(--color-one);
 }
 
-main nav .balance p:first-child {
-  border: 1px solid #efefef;
+main header nav .balance p:first-child {
+  border: 1px solid var(--color-three);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
 
-main nav .balance p:last-child {
-  border: 1px solid #efefef;
+main header nav .balance p:last-child {
+  border: 1px solid var(--color-three);
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
@@ -114,6 +132,12 @@ main header nav ul.drop-down-menu span {
   margin-right: 0.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  main header nav ul.drop-down-menu span {
+    display: none;
+  }
+}
+
 main section {
   padding: 1rem 3rem;
 }
@@ -131,17 +155,50 @@ main section p span {
 }
 
 main section .operation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 1rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-main section .operation .operation-amount {
-  width: 35%;
+@media (min-width: 1100px) {
+  main section .operation .operation-amount {
+    width: 35%;
+  }
+  main section .operation .operation-details {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  main section .operation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  main section .operation .operation-amount {
+    width: 100%;
+  }
+  main section .operation .operation-details {
+    width: 100%;
+  }
+}
+
+main section .operation .operation-amount .operation-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 main section .operation .operation-amount .operation-type button {
-  width: 49%;
+  width: 47%;
   padding: 0.8rem 1rem;
   background-color: white;
   border: 1px solid var(--color-four);
@@ -166,19 +223,15 @@ main section .operation input[type='number'] {
 }
 /*hide arrows from input number end*/
 
-main section .operation .operation-details {
-  width: 60%;
-}
-
-label {
+main section .operation .operation-amount form label {
   display: block;
   margin: 1rem 0;
   font-size: 0.8rem;
   font-weight: bold;
 }
 
-.operation form select,
-.operation form select + input {
+main section .operation .operation-amount form select,
+main section .operation .operation-amount form select + input {
   width: 49.5%;
   height: 2.5rem;
   padding: 0.5rem 1rem;
@@ -187,19 +240,34 @@ label {
   color: #777;
 }
 
-.operation form select + input {
+main section .operation .operation-amount form select + input {
   margin-left: -5px;
 }
 
-.limit {
+@media screen and (max-width: 575px) {
+  main section .operation .operation-amount form select,
+  main section .operation .operation-amount form select + input {
+    display: block;
+    width: 100%;
+  }
+  main section .operation .operation-amount form select + input {
+    margin: 0.5rem 0;
+  }
+}
+
+main section .operation .operation-amount form .limit {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 1rem;
   font-size: 0.8rem;
   color: #777;
 }
 
-input#exchange-button {
+main section .operation .operation-amount form input#exchange-button {
   width: 100%;
   padding: 0.8rem;
   border-color: transparent;
@@ -209,43 +277,61 @@ input#exchange-button {
   font-weight: bold;
 }
 
-form + p {
+main section .operation .operation-amount form + p {
   color: #777;
   font-size: 0.8rem;
   margin-top: 4rem;
 }
 
-.buyer-seller-info {
+main section .operation .operation-details .buyer-seller-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.info p {
+@media screen and (max-width: 750px) {
+  main section .operation .operation-details .buyer-seller-info .info a {
+    display: none;
+  }
+}
+
+main section .operation .operation-details .buyer-seller-info .info p {
   margin-bottom: 0;
   margin-top: 0.3rem;
 }
 
-.info p:first-child {
+main section .operation .operation-details .buyer-seller-info .info p:first-child {
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
-.info p.email {
+main section .operation .operation-details .buyer-seller-info .info a {
   color: var(--color-one);
+  text-decoration: none;
 }
 
-.buyer,
-.seller {
+main section .operation .operation-details .buyer-seller-info .buyer,
+main section .operation .operation-details .buyer-seller-info .seller {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-.operation .image img {
+main section .operation .operation-details .buyer-seller-info .image img {
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
 }
 
-.operation ul li {
+main section .operation ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 3rem;
   padding: 0.5rem 1rem;
@@ -254,22 +340,58 @@ form + p {
   margin: 1rem 0;
 }
 
-.operation ul li p {
-  width: 35%;
+main section .operation ul li:first-child {
+  color: var(--color-one);
+  font-weight: bold;
 }
 
-.operation-info ul {
+main section .operation-info ul {
   padding: 0;
   margin: 0;
-  font-weight: 600;
 }
 
-.buyer-seller-info .image {
+main section .operation .operation-details .buyer-seller-info .image {
   position: relative;
   top: 17%;
   margin-right: 1rem;
 }
 
-.tax {
+main section .operation .operation-details .operation-info ul li p {
+  width: 35%;
+}
+
+main section .operation .operation-details .operation-info .tax {
   color: #fe879b;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[name='payment-method-details']::-webkit-input-placeholder {
+  font-weight: lighter;
+}
+
+input[name='payment-method-details']::-moz-placeholder {
+  font-weight: lighter;
+}
+
+input[name='payment-method-details']:-ms-input-placeholder {
+  font-weight: lighter;
+}
+
+input[name='payment-method-details']::-ms-input-placeholder {
+  font-weight: lighter;
+}
+
+input[name='payment-method-details']::placeholder {
+  font-weight: lighter;
+}
+
+form,
+form + p,
+.operation-info,
+.info .name,
+.info a {
+  font-size: 0.8rem;
 }

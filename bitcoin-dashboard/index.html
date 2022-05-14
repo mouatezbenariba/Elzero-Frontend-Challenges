@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Elmouatez Billah Benariba" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Simple Bitcoin Dashboard Elzero Web School Challenge"
+    />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="all.css" />
     <!-- main style css -->
     <link rel="stylesheet" href="master.css" />
-    <title></title>
+    <title>Simple Bitcoin Dashboard</title>
   </head>
   <body>
     <nav class="side-nav">
@@ -39,7 +42,7 @@
     <main>
       <header>
         <div class="icon">
-          <img src="images/Tradem-logos_transparent.png" alt="" />
+          <img src="images/logo.PNG" alt="" />
         </div>
         <nav>
           <div class="balance">
@@ -62,38 +65,42 @@
               <button>SELL</button>
             </div>
             <form action="">
-              <div class="currency">
-                <label for="curncy">Currency</label>
+              <div>
+                <label for="curncy">Receive</label>
                 <select name="currency" id="curncy">
                   <option value="bitcoin">Bitcoin (BTC)</option>
                   <option value="ethereum">Ethereum (ETH)</option>
                   <option value="tether">Tether (USDT)</option>
                   <option value="solana">Solana (Sol)</option>
                   <option value="binance-coin">Binance Coin (BNB)</option>
+                  <option value="binance-coin">United States Dollar (USD)</option>
                 </select>
-                <input type="number" name="amount" id="amount" />
+                <input type="number" name="amount" id="amount" placeholder="Amount" />
               </div>
-              <div class="payment-method">
-                <label for="curncy">Payment Method</label>
-                <select name="currency" id="curncy">
-                  <option value="bitcoin">Bitcoin (BTC)</option>
-                  <option value="ethereum">Ethereum (ETH)</option>
-                  <option value="tether">Tether (USDT)</option>
-                  <option value="solana">Solana (Sol)</option>
-                  <option value="binance-coin">Binance Coin (BNB)</option>
+              <div>
+                <label for="method">Payment Method</label>
+                <select name="payment-method" id="method">
+                  <option value="bitcoin">Bank Transfer</option>
+                  <option value="ethereum">Credit Card</option>
+                  <option value="tether">Debit Card</option>
                 </select>
-                <input type="number" name="amount" id="amount" />
+                <input
+                  type="text"
+                  name="payment-method-details"
+                  placeholder="Payment Method Details"
+                />
               </div>
-              <div class="enter-amount">
-                <label for="curncy">Enter your amount</label>
+              <div>
+                <label for="curncy">Spend</label>
                 <select name="currency" id="curncy">
                   <option value="bitcoin">Bitcoin (BTC)</option>
                   <option value="ethereum">Ethereum (ETH)</option>
                   <option value="tether">Tether (USDT)</option>
                   <option value="solana">Solana (Sol)</option>
                   <option value="binance-coin">Binance Coin (BNB)</option>
+                  <option value="binance-coin">United States Dollar (USD)</option>
                 </select>
-                <input type="number" name="amount" id="amount" />
+                <input type="number" name="amount" id="amount" placeholder="Amount" />
               </div>
               <div class="limit">
                 <span>Monthly Limit</span>
@@ -122,7 +129,10 @@
                 <div class="info">
                   <p>Buyer</p>
                   <p class="name">Mouatez</p>
-                  <p class="email">abcd@gmail.com</p>
+
+                  <a href="mailto: elmouatez-billah.benariba@student.umc.dz"
+                    >elmouatez-billah.benariba@student.umc.dz</a
+                  >
                 </div>
               </div>
               <div class="seller">
@@ -132,7 +142,7 @@
                 <div class="info">
                   <p>Seller</p>
                   <p class="name">Khaled</p>
-                  <p class="email">bcd@gmail.com</p>
+                  <a>abcd@gmail.com</a>
                 </div>
               </div>
             </div>

@@ -6,11 +6,12 @@
 }
 
 :root {
-  --color-one: #0d40c6;
-  --color-two: #1652f0;
-  --color-three: #f8b6c5;
+  --color-one: #1652f0;
+  --color-two: #f2f6fe;
+  --color-three: #9aa8c2;
   --color-four: #eef2fe;
   --color-five: #869ab8;
+  --color-six: #fe879b;
   --main-padding: 1rem;
 }
 
@@ -26,16 +27,20 @@ body {
   padding-bottom: var(--main-padding);
   background-color: white;
 } */
+nav.side-nav {
+  background-color: var(--color-one);
+}
 
 nav.side-nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: var(--color-one);
+  position: relative;
+  top: 5rem;
 }
 
 nav ul li {
-  padding: 0.6rem;
+  padding: 1.3rem;
 }
 
 nav ul li a {
@@ -107,4 +112,164 @@ main header nav ul.drop-down-menu span {
   font-size: 0.8rem;
   margin-left: 0.3rem;
   margin-right: 0.5rem;
+}
+
+main section {
+  padding: 1rem 3rem;
+}
+
+main section > p {
+  color: var(--color-one);
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+main section p span {
+  color: var(--color-five);
+  font-weight: 400;
+}
+
+main section .operation {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+main section .operation .operation-amount {
+  width: 35%;
+}
+
+main section .operation .operation-amount .operation-type button {
+  width: 49%;
+  padding: 0.8rem 1rem;
+  background-color: white;
+  border: 1px solid var(--color-four);
+  border-radius: 0.25rem;
+  color: var(--color-one);
+  font-weight: bold;
+}
+
+main section .operation .operation-amount .operation-type button:focus {
+  background-color: var(--color-one);
+  color: white;
+}
+/*hide arrows from input number start*/
+main section .operation input#amount::-webkit-outer-spin-button,
+.operation input#amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* firefox */
+main section .operation input[type='number'] {
+  -moz-appearance: textfield;
+}
+/*hide arrows from input number end*/
+
+main section .operation .operation-details {
+  width: 60%;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.operation form select,
+.operation form select + input {
+  width: 49.5%;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-four);
+  background-color: var(--color-two);
+  color: #777;
+}
+
+.operation form select + input {
+  margin-left: -5px;
+}
+
+.limit {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+input#exchange-button {
+  width: 100%;
+  padding: 0.8rem;
+  border-color: transparent;
+  border-radius: 0.2rem;
+  background-color: #10d876;
+  color: white;
+  font-weight: bold;
+}
+
+form + p {
+  color: #777;
+  font-size: 0.8rem;
+  margin-top: 4rem;
+}
+
+.buyer-seller-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info p {
+  margin-bottom: 0;
+  margin-top: 0.3rem;
+}
+
+.info p:first-child {
+  font-weight: bold;
+}
+
+.info p.email {
+  color: var(--color-one);
+}
+
+.buyer,
+.seller {
+  display: flex;
+}
+
+.operation .image img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.operation ul li {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-two);
+  color: #777;
+  margin: 1rem 0;
+}
+
+.operation ul li p {
+  width: 35%;
+}
+
+.operation-info ul {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.buyer-seller-info .image {
+  position: relative;
+  top: 17%;
+  margin-right: 1rem;
+}
+
+.tax {
+  color: #fe879b;
 }

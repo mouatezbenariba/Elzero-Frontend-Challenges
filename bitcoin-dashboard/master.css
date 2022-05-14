@@ -127,10 +127,12 @@ main header nav ul.drop-down-menu i:first-of-type {
   line-height: 1.7rem;
 }
 
-main header nav ul.drop-down-menu span {
+main header nav ul.drop-down-menu a {
   font-size: 0.8rem;
   margin-left: 0.3rem;
   margin-right: 0.5rem;
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {

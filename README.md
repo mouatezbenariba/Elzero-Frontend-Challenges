@@ -14,6 +14,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                     | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)    | ⭐⭐       | HTML, CSS                 |
 | [Custom Checkbox Todo List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/custom-checkbox-todo-list/)     | ⭐⭐       | HTML, CSS                 |
 | [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)     | ⭐⭐       | HTML, CSS                 |
 | [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                       | ⭐⭐       | HTML, CSS                 |

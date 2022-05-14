@@ -196,6 +196,7 @@ main section .operation .operation-amount .operation-type {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 main section .operation .operation-amount .operation-type button {

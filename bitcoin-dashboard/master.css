@@ -157,7 +157,7 @@ main header nav ul.drop-down-menu a {
 }
 
 @media screen and (max-width: 575px) {
-  main header nav ul.drop-down-menu span {
+  main header nav ul.drop-down-menu a {
     display: none;
   }
 }

@@ -279,6 +279,7 @@ main section .operation .operation-amount form input#exchange-button {
   background-color: #10d876;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 main section .operation .operation-amount form + p {

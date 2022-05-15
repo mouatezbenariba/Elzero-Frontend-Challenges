@@ -50,6 +50,27 @@ main {
   margin-left: 3.7rem;
 }
 
+@media screen and (max-width: 750px) {
+  body {
+    flex-direction: column;
+  }
+  nav.side-nav {
+    position: relative;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  nav.side-nav ul {
+    position: initial;
+  }
+  nav.side-nav ul li {
+    display: inline-block;
+  }
+  main {
+    margin-left: 0;
+  }
+}
+
 main header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +156,7 @@ main header nav ul.drop-down-menu a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
   main header nav ul.drop-down-menu span {
     display: none;
   }

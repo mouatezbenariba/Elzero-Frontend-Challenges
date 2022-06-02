@@ -1,0 +1,105 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --main-padding: 1rem;
+  --color-one: #979797;
+  --color-two: #9d9d9d;
+  --color-three: #eeeeee;
+  --color-four: #009688;
+  --color-five: #f1f2f2;
+}
+
+.container {
+  width: 22rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: var(--color-three);
+}
+
+.container > .image {
+  overflow: hidden;
+}
+
+.container > .image img {
+  max-width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.info {
+  position: relative;
+  padding: 1rem;
+  background-color: white;
+}
+
+.info .profile-image {
+  position: absolute;
+  right: 2rem;
+  top: -2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  -webkit-box-shadow: 0px 4px 4px 1px #ddd;
+  box-shadow: 0px 4px 4px 1px #ddd;
+}
+
+.info .profile-image img {
+  border-radius: 0;
+  width: 5rem;
+  position: absolute;
+  top: -12px;
+  left: -14px;
+}
+
+.info .head-info h3 {
+  margin-top: 0;
+}
+
+.info .head-info p span {
+  color: var(--color-four);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info .head-info p span i {
+  color: #777;
+  padding-right: 0.2rem;
+}
+
+.description p i {
+  color: var(--color-four);
+  padding-right: 0.3rem;
+}
+
+.stats {
+  background-color: var(--color-five);
+}
+
+.stats .progress-bar {
+  width: 50%;
+  height: 0.9rem;
+  background-color: var(--color-four);
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.stat-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.stat-info div span.value {
+  display: block;
+  font-weight: bold;
+}

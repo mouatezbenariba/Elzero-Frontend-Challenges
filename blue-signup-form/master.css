@@ -1,0 +1,130 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --primary-color: #2196f3;
+  --color-one: #3b5998;
+  --color-two: #2196f3;
+  --color-three: #db4437;
+  --color-five: #ddd;
+  --color-six: #777;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  width: 18rem;
+  margin: 2rem auto;
+  padding: 1rem 1.8rem;
+  border-radius: 0.3rem;
+  background-color: white;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+form input {
+  width: 100%;
+}
+
+form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+form div input {
+  padding: 1rem 0 1rem 0.5rem;
+  border-style: none;
+}
+
+form div label {
+  position: relative;
+  top: -0.8px;
+  font-size: 0.7rem;
+  color: var(--color-six);
+}
+
+form input[type='submit'] {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border-style: none;
+  border-radius: 0.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form + p {
+  margin-top: 0;
+  padding: 1.5rem 0;
+  border-bottom: 1px dashed var(--color-five);
+  color: var(--color-six);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+form + p a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.container p:nth-of-type(2) {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  color: #666;
+}
+
+ul.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.3rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+li.facebook {
+  background-color: var(--color-one);
+}
+
+li.twitter {
+  background-color: var(--color-two);
+}
+
+li.gmail {
+  background-color: var(--color-three);
+}

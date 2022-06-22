@@ -14,6 +14,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/) | ⭐⭐       | HTML, CSS                 |
 | [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/) | ⭐⭐       | HTML, CSS                 |
 | [Product Box With Progress Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/product-box-with-progress/) | ⭐⭐       | HTML, CSS                 |
 | [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)          | ⭐⭐       | HTML, CSS                 |

@@ -1,0 +1,150 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --color-one: #2196f3;
+  --color-two: #80dcfe;
+  --color-three: #47d5bd;
+  --color-four: #ffd260;
+}
+
+.parent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 33rem;
+  height: 33rem;
+  padding: 5rem;
+  border-radius: 50%;
+  background-image: url(images/ian-battaglia-9drS5E_Rguc-unsplash.webp);
+  background-size: contain;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.parent::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #3d4959;
+  opacity: 0.8;
+}
+
+.main-h {
+  position: absolute;
+  top: -12rem;
+}
+
+.parent h2,
+.parent h2 + p {
+  position: relative;
+  color: white;
+}
+
+.parent h2 + p {
+  margin: 0;
+}
+
+.child {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: normal;
+}
+
+.child:nth-of-type(3),
+.child:nth-of-type(4) {
+  top: 0;
+}
+
+.child:nth-of-type(5),
+.child:nth-of-type(6) {
+  bottom: 0;
+}
+
+.child:nth-of-type(4),
+.child:nth-of-type(6) {
+  right: -18rem;
+  text-align: left;
+}
+
+.child:nth-of-type(3),
+.child:nth-of-type(5) {
+  left: -18rem;
+  text-align: right;
+}
+
+.child:nth-of-type(4) .info,
+.child:nth-of-type(6) .info {
+  margin-left: 2rem;
+}
+
+.child:nth-of-type(3) .info,
+.child:nth-of-type(5) .info {
+  margin-right: 2rem;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 3.5rem;
+  width: 7rem;
+  height: 7rem;
+  border: 0.7rem solid white;
+  border-radius: 50%;
+}
+
+.child:nth-of-type(3) .icon {
+  background-color: var(--color-one);
+}
+
+.child:nth-of-type(4) .icon {
+  background-color: var(--color-two);
+}
+
+.child:nth-of-type(6) .icon {
+  background-color: var(--color-three);
+}
+
+.child:nth-of-type(5) .icon {
+  background-color: var(--color-four);
+}
+
+.child .info p {
+  width: 19rem;
+}

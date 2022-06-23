@@ -108,7 +108,7 @@ span.plan::before {
 }
 
 .container .offer:nth-child(3) span.plan::before {
-  border-color: transparent transparent transparent var(--color-one-dark);
+  border-color: transparent transparent transparent var(--color-three-dark);
 }
 
 ul.features {

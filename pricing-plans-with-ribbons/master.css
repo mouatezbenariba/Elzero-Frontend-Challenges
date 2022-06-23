@@ -33,7 +33,6 @@ body {
 .offer {
   position: relative;
   flex-shrink: 0;
-  left: 4rem;
   width: 20.5rem;
   height: 36rem;
   margin: 2rem;

@@ -33,7 +33,6 @@ body {
 .offer {
   position: relative;
   flex-shrink: 0;
-  top: 4rem;
   left: 4rem;
   width: 20.5rem;
   height: 36rem;
@@ -42,6 +41,10 @@ body {
   border-radius: 1rem;
   background-color: white;
   text-align: center;
+}
+
+.offer:nth-child(1) {
+  top: 4rem;
 }
 
 .offer:nth-child(2) {

@@ -1,0 +1,120 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --background-color: #e8f4fc;
+  --color-one: #13c8a6;
+  --color-one-dark: #10aa8c;
+  --color-two: #efcb53;
+  --color-two-dark: #be9b25;
+  --color-three: #555fae;
+  --color-three-dark: #404da2;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer {
+  position: relative;
+  top: 4rem;
+  left: 4rem;
+  width: 20.5rem;
+  height: 36rem;
+  margin: 2rem;
+  padding: 2.5rem 5rem;
+  border-radius: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+.offer:nth-child(2) {
+  top: 6rem;
+}
+
+.offer:nth-child(3) {
+  top: 8rem;
+}
+
+span.price {
+  display: inline-block;
+  margin-bottom: 7rem;
+  font-size: 3rem;
+}
+
+span.plan {
+  position: absolute;
+  left: -0.5rem;
+  top: 8rem;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 0 1.3rem 1.3rem 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.container .offer:nth-child(1) span.plan,
+.container .offer:nth-child(1) a {
+  background-color: var(--color-one);
+}
+
+.container .offer:nth-child(2) span.plan,
+.container .offer:nth-child(2) a {
+  background-color: var(--color-two);
+}
+
+.container .offer:nth-child(3) span.plan,
+.container .offer:nth-child(3) a {
+  background-color: var(--color-three);
+}
+
+span.plan::before {
+  content: '';
+  position: absolute;
+  top: -0.35rem;
+  left: 0.15rem;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotateZ(45deg);
+  border: 0.35rem solid;
+}
+
+.container .offer:nth-child(1) span.plan::before {
+  border-color: transparent transparent transparent var(--color-one-dark);
+}
+
+.container .offer:nth-child(2) span.plan::before {
+  border-color: transparent transparent transparent var(--color-two-dark);
+}
+
+.container .offer:nth-child(3) span.plan::before {
+  border-color: transparent transparent transparent var(--color-one-dark);
+}
+
+ul.features {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2.8;
+}
+
+a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+}

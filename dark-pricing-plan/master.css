@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --background-color: #e8f4fc;
+  --color-one: #242424;
+  --color-two: #2a2a2a;
+  --color-three: #03a9f4;
+  --color-four: #676464;
+}
+
+.container {
+  position: relative;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.offer {
+  text-align: center;
+  background-color: var(--color-four);
+}
+
+.offer:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.offer:hover,
+.offer:hover .offer-name,
+.offer:hover ul.features li,
+.offer:hover .offer-link {
+  background-color: var(--color-three);
+  color: white;
+}
+
+.offer:hover .offer-link a {
+  border-color: white;
+}
+
+.offer-name {
+  margin: 0.5px;
+  padding: 2rem;
+  color: white;
+  background-color: var(--color-one);
+}
+
+.offer-name span {
+  font-size: 2rem;
+}
+
+.offer-name span::after {
+  content: '/mo';
+  font-size: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul.features {
+  margin: 1px 0;
+  padding: 0;
+  list-style: none;
+  color: var(--color-four);
+}
+
+ul.features li {
+  margin: 0.5px;
+  padding: 1rem;
+}
+
+ul.features li:nth-child(1),
+ul.features li:nth-child(3),
+.offer-link {
+  background-color: var(--color-one);
+}
+
+ul.features li:nth-child(2),
+ul.features li:nth-child(4) {
+  background-color: var(--color-two);
+}
+
+.offer-link {
+  margin: -0.5px 0.5px;
+  padding: 2rem;
+}
+
+a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-four);
+  text-decoration: none;
+  color: white;
+}

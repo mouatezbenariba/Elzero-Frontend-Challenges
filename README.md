@@ -14,16 +14,12 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
-| [Dark Pricing Plan](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/tree/main/dark-pricing-plan)                 | ⭐⭐       | HTML, CSS       
-    |
-| [Pricing Plans With Ribbons](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/pricing-plans-with-ribbons/)         | ⭐⭐       | HTML, CSS       
-    |
-| [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-features/)                               | ⭐⭐       | HTML, CSS           
-    |
-| [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/)                   | ⭐⭐       | HTML, CSS 
-    |
-| [Product Box With Progress Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/product-box-with-progress/) | ⭐⭐       | HTML, CSS                 |
-| [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)          | ⭐⭐       | HTML, CSS                 |
+| [Dark Pricing Plan](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/tree/main/dark-pricing-plan)                 | ⭐⭐       | HTML, CSS |
+| [Pricing Plans With Ribbons](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/pricing-plans-with-ribbons/)         | ⭐⭐       | HTML, CSS |
+| [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-features/)                               | ⭐⭐       | HTML, CSS |
+| [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/)                   | ⭐⭐       | HTML, CSS |
+| [Product Box With Progress Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/product-box-with-progress/) | ⭐⭐       | HTML, CSS |
+| [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)          | ⭐⭐       | HTML, CSS |
 | [Custom Checkbox Todo List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/custom-checkbox-todo-list/)           | ⭐⭐       | HTML, CSS                 |
 | [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)           | ⭐⭐       | HTML, CSS                 |
 | [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                             | ⭐⭐       | HTML, CSS                 |

@@ -1,0 +1,172 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Dosis', sans-serif;
+  --background-color: #e8f4fc;
+  --color-one: #ff5722;
+  --color-two: #eeeeee;
+  --color-three: #777777;
+  --color-four: #dfdfdf;
+  --color-five: #ffab91;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 37rem;
+  margin: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header h3 {
+  position: relative;
+  padding: 1rem;
+  background-color: var(--color-one);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+header h3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  margin-left: calc(-100vw);
+  background-color: var(--color-five);
+  z-index: -1;
+}
+
+header .view-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .view-all a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  background-color: var(--color-four);
+}
+
+header .view-all i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-one);
+}
+
+hr {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  z-index: -2;
+}
+
+section .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 8rem;
+  margin: 1rem 0;
+  background-color: var(--color-two);
+}
+
+.post > span {
+  padding: 1rem;
+  text-align: center;
+}
+
+.post > span::before {
+  content: '14';
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.post > span::after {
+  content: 'March';
+  display: block;
+  font-size: 0.7rem;
+}
+
+.post .image {
+  width: 8rem;
+  height: 100%;
+}
+
+.post:nth-child(1) .image {
+  background-image: url(images/cairo.jpg);
+  background-size: cover;
+}
+
+.post:nth-child(2) .image {
+  background-image: url(images/giza.jpg);
+  background-size: cover;
+}
+
+.post:nth-child(3) .image {
+  background-image: url(images/alexandria.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.post .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 300;
+}
+
+.description h3.title {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.description .info span {
+  color: var(--color-three);
+}
+
+.description .info span:not(:first-child) {
+  margin-left: 1rem;
+}

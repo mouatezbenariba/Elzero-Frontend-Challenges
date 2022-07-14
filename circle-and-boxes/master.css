@@ -107,8 +107,8 @@ span.idea {
 span.phone::before {
   content: 'Retina Ready';
   position: absolute;
-  top: 0;
-  left: 2.5rem;
+  top: -1rem;
+  left: 5.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   background-color: var(--color-two);
@@ -118,8 +118,8 @@ span.phone::before {
 span.pc::before {
   content: 'Responsive Template';
   position: absolute;
-  top: 2.2rem;
-  left: 2.5rem;
+  top: 1.3rem;
+  left: 5.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   background-color: white;

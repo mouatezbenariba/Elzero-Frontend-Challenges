@@ -118,7 +118,7 @@ span.phone::before {
 span.pc::before {
   content: 'Responsive Template';
   position: absolute;
-  top: 2.3rem;
+  top: 2.2rem;
   left: 2.5rem;
   padding: 0.5rem;
   font-size: 1rem;

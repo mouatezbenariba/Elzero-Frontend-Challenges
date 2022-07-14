@@ -130,7 +130,7 @@ span.pc::before {
 span.settings::before {
   content: 'Unique Design';
   position: absolute;
-  bottom: 1.7rem;
+  bottom: 1.8rem;
   right: 6rem;
   padding: 0.5rem;
   font-size: 1rem;

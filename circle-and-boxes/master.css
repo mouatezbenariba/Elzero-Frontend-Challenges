@@ -104,44 +104,47 @@ span.idea {
   font-size: 3rem;
 }
 
-span.phone::before,
-span.pc::before,
-span.setting::before,
-.span.idea::before {
-  position: absolute;
-  padding: 0.5rem;
-  font-size: 1rem;
-}
-
 span.phone::before {
   content: 'Retina Ready';
+  position: absolute;
   top: 0;
   left: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
   background-color: var(--color-two);
   color: white;
 }
 
 span.pc::before {
   content: 'Responsive Template';
+  position: absolute;
   top: 2.3rem;
   left: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
   background-color: white;
   color: var(--color-two);
   z-index: 3;
 }
 
-span.idea::before {
-  content: 'Easy To Customize';
-  bottom: 4rem;
+span.settings::before {
+  content: 'Unique Design';
+  position: absolute;
+  bottom: 1.7rem;
   right: 6rem;
-  background-color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--color-one);
   color: var(--color-two);
 }
 
-span.settings::before {
-  content: 'Unique Design';
-  bottom: 1.7rem;
+span.idea::before {
+  content: 'Easy To Customize';
+  position: absolute;
+  bottom: 4rem;
   right: 6rem;
-  background-color: var(--color-one);
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: white;
   color: var(--color-two);
 }

@@ -28,6 +28,7 @@
   height: 99%;
   background-color: red;
   opacity: 0.5;
+  transition-duration: 0.5s;
 }
 
 .container:hover .image::before {
@@ -48,6 +49,7 @@ p {
   padding: 0.5rem 2rem;
   box-shadow: 0px 0 4px 1px grey;
   line-height: 1.5;
+  transition-duration: 0.5s;
 }
 
 .container:hover p {

@@ -6,6 +6,7 @@
 
 :root {
   font-family: 'Roboto', sans-serif;
+  --color-one: #6ec6bc;
 }
 
 .container {
@@ -26,7 +27,7 @@
   position: absolute;
   width: 0;
   height: 99%;
-  background-color: red;
+  background-color: var(--color-one);
   opacity: 0.5;
   transition-duration: 0.5s;
 }

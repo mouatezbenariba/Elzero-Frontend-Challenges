@@ -14,9 +14,10 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
-| [Circle And Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-and-boxes/)                  | ⭐⭐       | HTML, CSS |
-| [Latest Posts With Head](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/latest-posts-with-head/)                  | ⭐⭐       | HTML, CSS |
-| [Dark Pricing Plan](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/dark-pricing-plan/)                            | ⭐⭐       | HTML, CSS |
+| [Overlay Effects On Hover](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/overlay-effects-on-hover/)             | ⭐⭐       | HTML, CSS |
+| [Circle And Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-and-boxes/)                             | ⭐⭐       | HTML, CSS |
+| [Latest Posts With Head](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/latest-posts-with-head/)                 | ⭐⭐       | HTML, CSS |
+| [Dark Pricing Plan](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/dark-pricing-plan/)                           | ⭐⭐       | HTML, CSS |
 | [Pricing Plans With Ribbons](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/pricing-plans-with-ribbons/)         | ⭐⭐       | HTML, CSS |
 | [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-features/)                               | ⭐⭐       | HTML, CSS |
 | [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/)                   | ⭐⭐       | HTML, CSS |

@@ -23,7 +23,7 @@ body {
 .container {
   width: 70rem;
   margin: auto;
-  padding: 0 3rem;
+  padding: 0 3rem 0 6rem;
   background-color: var(--color-four);
 }
 

@@ -14,6 +14,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Simple Jobs List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-jobs-list/)                             | ⭐⭐       | HTML, CSS |
 | [Overlay Effects On Hover](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/overlay-effects-on-hover/)             | ⭐⭐       | HTML, CSS |
 | [Circle And Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-and-boxes/)                             | ⭐⭐       | HTML, CSS |
 | [Latest Posts With Head](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/latest-posts-with-head/)                 | ⭐⭐       | HTML, CSS |

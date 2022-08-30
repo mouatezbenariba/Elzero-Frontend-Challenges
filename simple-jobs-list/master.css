@@ -55,6 +55,7 @@ h1::before {
 .header p {
   padding: 0 1rem;
   color: var(--color-seven);
+  line-height: 1.8;
 }
 
 .offer {

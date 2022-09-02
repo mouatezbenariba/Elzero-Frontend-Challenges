@@ -144,7 +144,7 @@ span.job-type.partnership {
   background-color: var(--color-six);
 }
 
-h3.offer-title {
+h2.offer-title {
   margin: 0.9rem 0px 0.7rem;
   line-height: 1.5;
 }

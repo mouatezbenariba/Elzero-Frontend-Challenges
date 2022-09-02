@@ -21,9 +21,7 @@ body {
 }
 
 .container {
-  width: 70rem;
   margin: auto;
-  padding: 0 3rem 0 6rem;
   background-color: var(--color-four);
 }
 
@@ -56,6 +54,15 @@ h1::before {
   padding: 0 1rem;
   color: var(--color-seven);
   line-height: 1.8;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.offers {
+  width: 93%;
 }
 
 .offer {
@@ -113,12 +120,6 @@ h1::before {
   box-shadow: 0 0 0px 2px #eee;
 }
 
-.basic-info {
-  -ms-flex-preferred-size: 28rem;
-  flex-basis: 28rem;
-  padding-left: 2rem;
-}
-
 span.job-type {
   padding: 0.2rem 1rem;
   border-radius: 0.2rem;
@@ -145,6 +146,7 @@ span.job-type.partnership {
 
 h3.offer-title {
   margin: 0.9rem 0px 0.7rem;
+  line-height: 1.5;
 }
 
 span.publisher,
@@ -230,7 +232,7 @@ button {
 
 button.more {
   position: relative;
-  left: 50%;
+  left: calc(50% + 1.5rem);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -249,4 +251,139 @@ button.more {
 @font-face {
   font-family: 'MontserratMedium';
   src: url(fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+  .offer {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image {
+    margin-top: 3rem;
+    width: 75%;
+  }
+  .basic-info {
+    text-align: center;
+  }
+  .basic-info .job-type {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .location {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    flex-basis: auto;
+    position: absolute;
+    top: 2.5rem;
+  }
+  .action {
+    position: relative;
+    top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+  .offer {
+    flex-wrap: wrap;
+  }
+  .offer .image {
+    order: 1;
+    flex-basis: 17rem;
+  }
+  .basic-info {
+    order: 2;
+    flex-basis: 18rem;
+    flex-grow: 0.5;
+  }
+  .basic-info .info span {
+    display: block;
+    padding-bottom: 0.4rem;
+  }
+  .location {
+    display: none;
+  }
+  .action {
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    order: 3;
+  }
+  button {
+    width: 6rem;
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .offer {
+    flex-wrap: nowrap;
+  }
+  .offer .image {
+    flex-basis: auto;
+  }
+  .basic-info {
+    flex-basis: 17rem;
+    padding-left: 1rem;
+  }
+  .basic-info .info span {
+    display: block;
+    padding-bottom: 0.4rem;
+  }
+  .location {
+    display: flex;
+    order: 3;
+  }
+  .action {
+    position: initial;
+    order: 4;
+  }
+  button {
+    width: 9rem;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .offer {
+    flex-wrap: nowrap;
+  }
+  .offer .image {
+    flex-basis: auto;
+  }
+  .basic-info {
+    flex-basis: 17rem;
+    padding-left: 0;
+  }
+  .basic-info .info {
+    display: flex;
+  }
+  .location {
+    display: flex;
+    order: 3;
+  }
+  .action {
+    position: initial;
+    order: 4;
+  }
+  button {
+    width: 9rem;
+    padding: 0.2rem;
+  }
 }

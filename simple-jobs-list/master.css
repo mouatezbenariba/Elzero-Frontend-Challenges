@@ -351,10 +351,10 @@ button.more {
     position: initial;
     order: 4;
   }
-  /* button {
+  button {
     width: 9rem;
     padding: 0.2rem;
-  } */
+  }
 }
 
 @media screen and (min-width: 1200px) {

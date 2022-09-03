@@ -6,7 +6,7 @@
 }
 
 :root {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'MontserratRegular', sans-serif;
   --color-one: #2779B0;
   --color-two: #587D2B;
   --color-three: #8e44ad;
@@ -191,9 +191,8 @@ span.date::before {
 }
 
 span.city {
-  font-family: 'MontserratLight', sans-serif;
+  font-family: 'MontserratBold', sans-serif;
   font-size: 1rem;
-  font-weight: bold;
 }
 
 span.country {
@@ -227,7 +226,6 @@ button {
   border-radius: 0.2rem;
   background-color: var(--color-one);
   color: white;
-  font-weight: 200;
   cursor: pointer;
 }
 
@@ -242,6 +240,16 @@ button.more {
   margin-bottom: 2rem;
   padding: 1rem;
   font-weight: bold;
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url(fonts/Montserrat/static/Montserrat-Bold.ttf);
 }
 
 @font-face {

@@ -111,12 +111,7 @@ main {
   font-weight: bold;
 }
 
-.image {
-  width: 9rem;
-}
-
 .image img {
-  max-width: 100%;
   border: 0.3rem solid var(--color-four);
   border-radius: 0.3rem;
   -webkit-box-shadow: 0 0 0px 1px #eee;
@@ -280,7 +275,9 @@ font-display: swap
   }
   .image {
     margin-top: 3rem;
-    width: 75%;
+  }
+  .offer .image img {
+    width: 13rem;
   }
   .basic-info {
     text-align: center;
@@ -318,7 +315,9 @@ font-display: swap
   }
   .offer .image {
     order: 1;
-    flex-basis: 17rem;
+  }
+  .offer .image img {
+    width: 17rem;
   }
   .basic-info {
     order: 2;
@@ -358,6 +357,9 @@ font-display: swap
   .offer .image {
     flex-basis: auto;
   }
+  .offer .image img {
+    width: 13rem;
+  }
   .basic-info {
     flex-basis: 17rem;
     padding-left: 1rem;
@@ -391,6 +393,9 @@ font-display: swap
   }
   .offer .image {
     flex-basis: auto;
+  }
+  .offer .image img {
+    width: 13rem;
   }
   .basic-info {
     flex-basis: 17rem;

@@ -293,8 +293,8 @@ button.more {
     order: 1;
   }
   .offer .image img {
-    width: 17rem;
     height: auto;
+    width: 17rem;
   }
   .basic-info {
     order: 2;

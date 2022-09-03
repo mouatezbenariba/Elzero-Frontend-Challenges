@@ -294,6 +294,7 @@ button.more {
   }
   .offer .image img {
     width: 17rem;
+    height: auto;
   }
   .basic-info {
     order: 2;

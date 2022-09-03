@@ -284,6 +284,9 @@ button.more {
     left: 23%;
     transform: translateX(-50%);
   }
+  .basic-info .info span::before {
+    display: none;
+  }
   .location {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -318,6 +321,9 @@ button.more {
   .basic-info .info span {
     display: block;
     padding-bottom: 0.4rem;
+  }
+  .basic-info .info span::before {
+    display: contents;
   }
   .location {
     display: none;

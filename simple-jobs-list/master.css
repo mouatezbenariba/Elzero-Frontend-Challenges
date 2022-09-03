@@ -244,22 +244,22 @@ button.more {
 
 @font-face {
   font-family: 'MontserratRegular';
-  src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+  src: url(fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
   font-family: 'MontserratBold';
-  src: url(fonts/Montserrat/static/Montserrat-Bold.ttf);
+  src: url(fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
   font-family: 'MontserratLight';
-  src: url(fonts/Montserrat/static/Montserrat-Light.ttf);
+  src: url(fonts/Montserrat-Light.ttf);
 }
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: url(fonts/Montserrat/static/Montserrat-Medium.ttf);
+  src: url(fonts/Montserrat-Medium.ttf);
 }
 
 @media screen and (max-width: 768px) {

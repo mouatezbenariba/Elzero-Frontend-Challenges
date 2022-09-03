@@ -365,32 +365,10 @@ button.more {
   .container {
     width: 1170px;
   }
-  /* .offer {
-    flex-wrap: nowrap;
-  } */
-  /* .offer .image {
-    flex-basis: auto;
-  } */
-  /* .offer .image img {
-    width: 13rem;
-  } */
   .basic-info {
-    /* flex-basis: 17rem; */
     padding-left: 0;
   }
   .basic-info .info {
     display: flex;
   }
-  /* .location {
-    display: flex;
-    order: 3;
-  } */
-  /* .action {
-    position: initial;
-    order: 4;
-  } */
-  /* button {
-    width: 9rem;
-    padding: 0.2rem;
-  } */
 }

@@ -190,7 +190,7 @@ span.date::before {
   -ms-flex-align: flex-start;
   align-items: flex-start;
   -ms-flex-preferred-size: 9rem;
-  flex-basis: 9rem;
+flex-basis: 7rem;
 }
 
 span.city {
@@ -369,6 +369,8 @@ button.more {
   .action {
     position: initial;
     order: 4;
+    left: 0;
+    transform: translateX(0);
   }
   button {
     width: 9rem;

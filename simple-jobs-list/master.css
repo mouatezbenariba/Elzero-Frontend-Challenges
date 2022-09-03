@@ -312,7 +312,7 @@ button.more {
     display: none;
   }
   .action {
-    /* position: relative; */
+    position: relative;
     top: 1rem;
     left: 50%;
     transform: translateX(-50%);

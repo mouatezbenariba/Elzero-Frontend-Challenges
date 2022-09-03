@@ -329,7 +329,7 @@ font-display: swap
     padding-bottom: 0.4rem;
   }
   .basic-info .info span::before {
-    display: contents;
+    display: inline;
   }
   .location {
     display: none;

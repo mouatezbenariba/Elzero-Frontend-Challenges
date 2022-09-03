@@ -341,10 +341,6 @@ button.more {
     flex-basis: 17rem;
     padding-left: 1rem;
   }
-  .basic-info .info span {
-    display: block;
-    padding-bottom: 0.4rem;
-  }
   .location {
     display: flex;
     order: 3;

@@ -63,6 +63,8 @@ main {
 
 .offers {
   width: 93%;
+  margin: 0;
+  padding: 0;
 }
 
 .offer {
@@ -78,6 +80,7 @@ main {
   padding: 2rem;
   border-bottom: 0.15rem solid var(--color-four);
   background-color: white;
+  list-style: none;
 }
 
 .offer:first-child {

@@ -280,17 +280,18 @@ button.more {
   }
   .basic-info .job-type {
     position: absolute;
-    top: 1rem;
-    left: 50%;
+    top: 1.6rem;
+    left: 23%;
     transform: translateX(-50%);
   }
   .location {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    display: block;
     flex-basis: auto;
+    align-items: center;
     position: absolute;
-    top: 2.5rem;
+    top: 0.5rem;
+    right: 7%;
   }
   .action {
     position: relative;

@@ -1,0 +1,78 @@
+:root {
+  --color-one: #ee4534;
+  --color-two: #029684;
+  --color-three: #02c2d4;
+}
+
+.color-one {
+  animation-name: changeColorOne;
+}
+
+.color-two {
+  animation-name: changeColorTwo;
+}
+
+.color-three {
+  animation-name: changeColorThree;
+}
+
+.color-one,
+.color-two,
+.color-three {
+  animation-fill-mode: forwards;
+}
+
+#one {
+  animation-delay: 100ms;
+}
+
+#two {
+  animation-delay: 300ms;
+}
+
+#three {
+  animation-delay: 500ms;
+}
+
+#four {
+  animation-delay: 700ms;
+}
+
+#five {
+  animation-delay: 900ms;
+}
+
+#six {
+  animation-delay: 1100ms;
+}
+
+#seven {
+  animation-delay: 1300ms;
+}
+
+@keyframes changeColorOne {
+  0% {
+    stroke: transparent;
+  }
+  100% {
+    stroke: var(--color-one);
+  }
+}
+
+@keyframes changeColorTwo {
+  0% {
+    stroke: transparent;
+  }
+  100% {
+    stroke: var(--color-two);
+  }
+}
+
+@keyframes changeColorThree {
+  0% {
+    stroke: transparent;
+  }
+  100% {
+    stroke: var(--color-three);
+  }
+}

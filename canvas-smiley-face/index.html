@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta
+      name="description"
+      content="Elzero Frontend Challenge Solution : Create a smiley face using CANVAS"
+    />
+    <!-- main style css -->
+    <link rel="stylesheet" href="master.css" />
+    <title>Smiley Face with Canvas</title>
+    <script>
+      function draw() {
+        const canvas = document.getElementById('smiley-face');
+        if (canvas.getContext) {
+          const ctx = canvas.getContext('2d');
+
+          ctx.lineWidth = '4';
+          ctx.beginPath();
+          ctx.fillStyle = '#ffff00';
+          ctx.arc(250, 250, 150, 0, Math.PI * 2, true); // Outer circle
+          ctx.stroke();
+          ctx.fill();
+          ctx.moveTo(360, 250);
+          ctx.arc(250, 250, 110, 0, Math.PI, false); // Mouth (clockwise)
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.fillStyle = '#000';
+          ctx.moveTo(235, 200);
+          ctx.arc(210, 200, 25, 0, Math.PI * 2, true); // Left eye
+          ctx.moveTo(315, 200);
+          ctx.arc(290, 200, 25, 0, Math.PI * 2, true); // Right eye
+          ctx.fill();
+          ctx.font = 'bold 48px sans-serif';
+          ctx.fillText('Elzero', 180, 460);
+        }
+      }
+    </script>
+  </head>
+  <body onload="draw();">
+    <canvas
+      id="smiley-face"
+      width="500"
+      height="500"
+      style="display: block; margin: auto; background-color: #f6f6f6"
+    ></canvas>
+  </body>
+</html>

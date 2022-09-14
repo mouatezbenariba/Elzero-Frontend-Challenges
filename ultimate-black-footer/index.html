@@ -10,10 +10,27 @@
       content="Elzero Frontend Challenge Solution : Create an Ultimate Black Footer"
     />
     <!-- FontAwesome Library -->
-    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="all.css" />
     <!-- main style css -->
     <link rel="stylesheet" href="master.css" />
+    <!-- non critical css -->
+    <!-- <link
+      rel="preload"
+      href="non-critical-css.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="non-critical-css.css" /></noscript> -->
+    <!-- favicon -->
 
+    <!-- openGraph tags -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Ultimate Black Footer</title>
   </head>
   <body>
@@ -27,19 +44,19 @@
               the ways bellow :
             </p>
             <div class="phone">
-              <h4>PHONE NUMBER</h4>
+              <span>PHONE NUMBER</span>
               <span>+1 (800) 060-07-30</span>
             </div>
             <div class="email">
-              <h4>EMAIL ADDRESS</h4>
+              <span>EMAIL ADDRESS</span>
               <span>us@example</span>
             </div>
             <div class="location">
-              <h4>OUR LOCATION</h4>
+              <span>OUR LOCATION</span>
               <span>715 Fake Street, New York, 10021 USA</span>
             </div>
             <div class="work-hours">
-              <h4>WORKING HOURS</h4>
+              <span>WORKING HOURS</span>
               <span>Mon Sat 10:00pm - 7:00pm</span>
             </div>
           </div>
@@ -88,14 +105,35 @@
               <p>Follow us on social networks</p>
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
               <i class="fa-brands fa-instagram"></i>
               <i class="fa-solid fa-rss"></i>
             </div>
           </div>
         </section>
       </section>
-      <section class="secondary-footer"></section>
+      <section class="secondary-footer">
+        <div class="copy-right">
+          Powered by <span>Tech</span> — Designed by <span>Mouatez</span>
+        </div>
+        <div class="payment-methods">
+          <div>
+            <img src="images/ppcom.webp" alt="" />
+          </div>
+          <div>
+            <img src="images/visa.webp" alt="" />
+          </div>
+          <div>
+            <img src="images/american_express.webp" alt="" />
+          </div>
+          <div>
+            <img src="images/Mastercard_logo.webp" alt="" />
+          </div>
+          <div>
+            <img src="images/Mastercard_logo-pro.webp" alt="" />
+          </div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>

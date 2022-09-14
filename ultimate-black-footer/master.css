@@ -1,0 +1,190 @@
+*,
+:before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-one: #2b2b2b;
+  --color-two: #333333;
+  --color-three: #839094;
+  --color-four: #4c4c4c;
+  --color-six: hsl(0, 0%, 95%);
+  --fb-color: #3c5a99;
+  --tw-color: #00a2e8;
+  --yt-color: #e52e2e;
+  --ig-color: #815dc7;
+  --rss-color: #ffc338;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  width: 1280px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  color: var(--color-three);
+  background-color: var(--color-two);
+}
+
+section.main-footer section:not(:last-child) {
+  margin-right: 4rem;
+}
+
+section.main-footer {
+  display: flex;
+}
+
+h3,
+section.contact .content div span:last-child {
+  color: var(--color-six);
+}
+
+section.contact {
+  flex-basis: 29rem;
+}
+
+section.contact .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section.contact .content p {
+  grid-area: 1 / 1 / 1 / 3;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+section.contact .content span {
+  display: block;
+}
+
+section.contact .content div {
+  margin-bottom: 1.5rem;
+}
+
+section.contact .content div span:first-child {
+  font-size: 0.9rem;
+}
+
+section.information {
+  flex-basis: 11rem;
+}
+
+section.my-account {
+  flex-basis: 11rem;
+}
+
+section.information .content span,
+section.my-account .content span {
+  display: block;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+section.newsletter {
+  flex-basis: 29rem;
+}
+
+section.newsletter .content .subscribe {
+  display: flex;
+}
+section.newsletter .content .subscribe input[type='email'] {
+  flex-grow: 0.5;
+  padding: 0.8rem;
+  background-color: var(--color-four);
+  border-style: none;
+  margin-right: 0.5rem;
+}
+
+section.newsletter .content .subscribe input[type='email']::placeholder {
+  color: var(--color-three);
+  font-size: 1.1rem;
+}
+
+section.newsletter .content .subscribe button {
+  border-style: none;
+  background-color: var(--yt-color);
+  color: white;
+  padding: 0.8rem;
+  flex-grow: 0.13;
+  font-weight: bold;
+}
+
+.secondary-footer {
+  background-color: var(--color-one);
+  color: var(--color-three);
+}
+
+.secondary-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.secondary-footer .copy-right span {
+  color: var(--color-six);
+}
+
+.secondary-footer .payment-methods {
+  display: flex;
+  align-items: center;
+}
+
+.payment-methods div {
+  display: flex;
+}
+
+.payment-methods div:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.payment-methods img {
+  width: 3.5rem;
+}
+
+i.fa-brands.fa-facebook-f,
+i.fa-brands.fa-twitter,
+i.fa-brands.fa-youtube,
+i.fa-brands.fa-instagram,
+i.fa-solid.fa-rss {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  line-height: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+i.fa-brands.fa-facebook-f {
+  background-color: var(--fb-color);
+}
+
+i.fa-brands.fa-twitter {
+  background-color: var(--tw-color);
+}
+
+i.fa-brands.fa-youtube {
+  background-color: var(--yt-color);
+}
+
+i.fa-brands.fa-instagram {
+  background-color: var(--ig-color);
+}
+
+i.fa-solid.fa-rss {
+  background-color: var(--rss-color);
+}

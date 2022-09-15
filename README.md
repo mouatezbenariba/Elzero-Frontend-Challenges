@@ -14,6 +14,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Ultimate Black Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/ultimate-black-footer/)                         | ⭐⭐       | HTML, CSS |
 | [Canvas Smiley Face](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/canvas-smiley-face/)                         | ⭐⭐       | HTML, CSS |
 | [Circle Animated Progress](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-animated-progress/)             | ⭐⭐       | HTML, CSS |
 | [Simple Jobs List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-jobs-list/)                             | ⭐⭐       | HTML, CSS |

@@ -192,10 +192,6 @@ section.clothes > ul ul {
 }
 
 .right i {
-  padding: 0 0.3rem;
-}
-
-.right i {
   color: white;
   padding: 0.5rem;
   border-radius: 50%;
@@ -225,10 +221,6 @@ section.clothes > ul ul {
   color: white;
   padding: 0.5rem;
   border-radius: 50%;
-}
-
-.right i:nth-child(1) {
-  background-color: black;
 }
 
 span.gray {

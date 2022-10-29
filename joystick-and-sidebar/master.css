@@ -9,6 +9,11 @@
   --color-two: #f3cd1e;
   --color-three: #81827f;
   --color-four: #e73d10;
+  --color-gray: #aab2bd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-camel: #c19a6b;
+  --color-orange: #f39c11;
 }
 
 body {

@@ -116,7 +116,30 @@ aside {
   flex-basis: 28%;
 }
 
+aside h4 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+aside h4::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    width: 2.5rem;
+    height: 2px;
+    background-color: red;
+}
+
 section.clothes, section.color {
     border: 0.3rem solid var(--color-one);
     padding: 1rem;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+.colors span {
+    margin-bottom: 0.5rem;
 }

@@ -135,6 +135,16 @@ section.clothes, section.color {
     padding: 1rem;
 }
 
+section.clothes > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section.clothes > ul ul {
+    padding: 0 1rem;
+}
+
 .colors {
     display: flex;
     flex-direction: column;
@@ -142,4 +152,8 @@ section.clothes, section.color {
 
 .colors span {
     margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
 }

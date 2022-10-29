@@ -195,6 +195,7 @@ section.clothes > ul ul {
 .right i {
   width: 2rem;
   height: 2rem;
+  margin-right: 0.7rem;
   padding: 0.5rem;
   border-radius: 50%;
   color: white;

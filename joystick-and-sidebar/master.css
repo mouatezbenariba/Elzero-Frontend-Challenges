@@ -145,6 +145,25 @@ section.clothes > ul ul {
     padding: 0 1rem;
 }
 
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right i {
+  padding: 0 0.3rem;
+}
+
+.right i {
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.right i:nth-child(1) {
+  background-color: black;
+}
+
 .colors {
     display: flex;
     flex-direction: column;

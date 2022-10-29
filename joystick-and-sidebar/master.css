@@ -33,23 +33,23 @@ body {
   box-shadow: 3px 3px 4px 1px #ddd;
 }
 
-.bg-gray {
+.bg-gray::before {
   background-color: var(--color-gray);
 }
 
-.bg-white {
+.bg-white::before {
   background-color: var(--color-white);
 }
 
-.bg-black {
+.bg-black::before {
   background-color: var(--color-black);
 }
 
-.bg-camel {
+.bg-camel::before {
   background-color: var(--color-camel);
 }
 
-.bg-orange {
+.bg-orange::before {
   background-color: var(--color-orange);
 }
 

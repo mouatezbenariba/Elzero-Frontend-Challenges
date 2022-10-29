@@ -24,6 +24,7 @@ header nav ul {
 
 section.page {
   display: flex;
+  justify-content: space-between;
 }
 
 main .result-bar {
@@ -100,4 +101,17 @@ ul.links li {
 
 ul.links li:not(:last-child) {
   border-right: 0.5px solid var(--color-one);
+}
+
+.container {
+  max-width: 83rem;
+  margin: auto;
+}
+
+main {
+  flex-basis: 64%;
+}
+
+aside {
+  flex-basis: 28%;
 }

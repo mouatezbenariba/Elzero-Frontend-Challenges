@@ -85,6 +85,25 @@ main .result-bar {
   align-items: center;
 }
 
+.items .item .image {
+    position: relative;
+}
+
+.item .image::before {
+    content: "-12%";
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--color-four);
+    color: white;
+    font-weight: bold;
+}
+
 .item .information {
   margin: 1rem;
 }

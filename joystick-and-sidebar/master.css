@@ -192,9 +192,12 @@ section.clothes > ul ul {
 }
 
 .right i {
-  color: white;
+  width: 2rem;
+  height: 2rem;
   padding: 0.5rem;
   border-radius: 50%;
+  color: white;
+  text-align: center;
 }
 
 .right i:nth-child(1) {

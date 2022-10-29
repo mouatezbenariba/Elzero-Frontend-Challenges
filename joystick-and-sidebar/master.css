@@ -115,3 +115,8 @@ main {
 aside {
   flex-basis: 28%;
 }
+
+section.clothes, section.color {
+    border: 0.3rem solid var(--color-one);
+    padding: 1rem;
+}

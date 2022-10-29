@@ -134,6 +134,7 @@ main .result-bar {
 
 ul.links li {
   padding: 0.3rem 0.55rem;
+  cursor: pointer;
 }
 
 ul.links li:not(:last-child) {
@@ -200,12 +201,12 @@ section.clothes > ul ul {
   text-align: center;
 }
 
-.right i:nth-child(2) {
-  background-color: black;
+.right i:nth-child(1) {
+  background-color: var(--color-gray);
 }
 
 .right i:nth-child(2) {
-  background-color: var(--color-gray);
+  background-color: black;
 }
 
 .colors {

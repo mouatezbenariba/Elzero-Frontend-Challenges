@@ -200,8 +200,12 @@ section.clothes > ul ul {
   text-align: center;
 }
 
-.right i:nth-child(1) {
+.right i:nth-child(2) {
   background-color: black;
+}
+
+.right i:nth-child(2) {
+  background-color: var(--color-gray);
 }
 
 .colors {

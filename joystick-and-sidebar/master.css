@@ -240,6 +240,20 @@ section.clothes > ul ul {
   margin-left: 1.5rem;
 }
 
+select#sort {
+    width: 8.5rem;
+}
+
+select#n-show:focus-visible, select#sort:focus-visible {
+    outline: none;
+}
+
+select#n-show, select#sort {
+    border-style: none;
+    color: var(--color-three);
+    height: 1.5rem;
+}
+
 .right {
   display: flex;
   align-items: center;

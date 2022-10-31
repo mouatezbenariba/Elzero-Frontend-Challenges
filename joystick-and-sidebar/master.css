@@ -22,6 +22,7 @@ body {
   margin: 0;
 }
 
+/* start framework */
 .small-box::before {
   content: "";
   position: absolute;
@@ -52,6 +53,11 @@ body {
 .bg-orange::before {
   background-color: var(--color-orange);
 }
+
+.pointer {
+  cursor: pointer;
+}
+/* end framework */
 
 span.gray {
   position: relative;

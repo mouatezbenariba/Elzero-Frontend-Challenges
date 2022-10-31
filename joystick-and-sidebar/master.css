@@ -289,12 +289,12 @@ section.clothes > ul {
   color: #777;
 }
 
-section.colors {
+.colors {
     display: flex;
     flex-direction: column;
 }
 
-section.colors span {
+.colors span {
   position: relative;
   margin-bottom: 0.5rem;
   margin-left: 1.5rem;

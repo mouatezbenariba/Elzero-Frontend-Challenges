@@ -255,14 +255,14 @@ aside section.clothes {
 }
 
 ul > li {
-    position: relative;
+  position: relative;
 }
 
 i.fa-solid.fa-angle-down {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 i.fa-solid.fa-angle-down:first-child {
@@ -271,7 +271,7 @@ i.fa-solid.fa-angle-down:first-child {
 
 section.clothes, section.color {
   padding: 1rem;
-    border: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
 }
 
 section.clothes h4 {
@@ -298,6 +298,10 @@ section.clothes > ul {
   font-size: .7rem;
   line-height: 2;
   color: #777;
+}
+
+section.clothes > ul ul {
+  padding: 0 0.7rem;
 }
 
 .colors {

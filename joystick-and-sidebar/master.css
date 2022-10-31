@@ -258,6 +258,10 @@ i.fa-solid.fa-angle-down {
     transform: translateY(-50%);
 }
 
+i.fa-solid.fa-angle-down:first-child {
+  top: 14px;
+}
+
 section.clothes, section.color {
   padding: 1rem;
     border: 2px solid #e5e5e5;

@@ -57,6 +57,8 @@ header nav ul {
   list-style: none;
   display: inline-block;
   padding: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
 }
 
 section.page {
@@ -70,6 +72,7 @@ main .result-bar {
   align-items: center;
   padding: 0.5rem;
   background-color: var(--color-one);
+  font-size: .7rem;
 }
 
 .result-bar .filter {
@@ -92,52 +95,57 @@ main .result-bar {
 .item .image::before {
     content: "-12%";
     position: absolute;
-    top: -4rem;
+    top: -3rem;
     right: 0;
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
     text-align: center;
     border-radius: 50%;
     background-color: var(--color-four);
     color: white;
     font-weight: bold;
+    font-size: .6rem;
 }
 
 .item .information {
-  margin: 1rem;
+  margin: 1rem 0 1rem 2rem;
 }
 
 .information .rating {
   color: var(--color-two);
+  font-size: .6rem;
 }
 
 .item .information h4 {
-  margin: 0.5rem 0;
+  margin: 0.3rem 0;
+  font-size: .95rem;
 }
 
 .information span.availability {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   color: var(--color-three);
   font-weight: 500;
   display: block;
 }
 
 .information span.previous-price {
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
   color: var(--color-three);
   text-decoration: line-through;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .information span.actual-price {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: .9rem;
   color: var(--color-four);
 }
 
 .information p.description {
+  margin-top: 0;
+  font-size: .7rem;
   color: var(--color-three);
 }
 
@@ -166,16 +174,19 @@ ul.links li:not(:last-child) {
 }
 
 main {
-  flex-basis: 70%;
+  flex-basis: 75.5%;
 }
 
 aside {
-  flex-basis: 28%;
+  flex-basis: 23%;
 }
 
 aside h4 {
     text-transform: uppercase;
     position: relative;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: .7rem;
 }
 
 aside h4::before {
@@ -188,22 +199,25 @@ aside h4::before {
 }
 
 section.clothes, section.color {
-    border: 1px solid var(--color-one);
+    border: 2px solid #e5e5e5;
     padding: 1rem;
 }
 
 section.clothes {
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
 }
 
 section.clothes > ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: .7rem;
+  line-height: 2;
+  color: #777;
 }
 
 section.clothes > ul ul {
-    padding: 0 1rem;
+    padding: 0 .7rem;
 }
 
 .right {
@@ -219,6 +233,7 @@ section.clothes > ul ul {
   border-radius: 50%;
   color: white;
   text-align: center;
+  font-size: 1rem;
 }
 
 .right i:nth-child(1) {
@@ -238,6 +253,8 @@ section.clothes > ul ul {
   position: relative;
   margin-bottom: 0.5rem;
   margin-left: 1.5rem;
+  font-size: .7rem;
+  color: #777;
 }
 
 select#sort {
@@ -270,3 +287,30 @@ ul {
 .cover-image img {
     max-width: 100%;
 }
+
+select#n-show, select#sort {
+  border-style: none;
+  color: var(--color-three);
+  height: 1.5rem;
+}
+
+select#n-show:focus-visible, select#sort:focus-visible {
+  outline: none;
+}
+
+select#sort {
+  width: 8.5rem;
+}
+
+header {
+  height: 4rem;
+}
+
+.items .item .image img {
+  width: 11rem;
+}
+
+.items {
+  margin-top: 1.5rem;
+}
+

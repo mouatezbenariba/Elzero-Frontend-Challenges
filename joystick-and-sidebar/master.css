@@ -187,6 +187,7 @@ select#n-show:focus-visible, select#sort:focus-visible {
 .item .information h4 {
   margin: 0.3rem 0;
   font-size: .95rem;
+  font-weight: 400;
 }
 
 .information span.availability {

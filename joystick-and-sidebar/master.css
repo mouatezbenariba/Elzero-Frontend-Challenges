@@ -53,10 +53,23 @@ body {
   background-color: var(--color-orange);
 }
 
+span.gray {
+  position: relative;
+}
+
+.container {
+  max-width: 72rem;
+  margin: auto;
+}
+
+header {
+  height: 4rem;
+}
+
 header nav ul {
-  list-style: none;
   display: inline-block;
   padding: 0;
+  list-style: none;
   font-size: 0.75rem;
   font-weight: 500;
 }
@@ -66,6 +79,14 @@ section.page {
   justify-content: space-between;
 }
 
+main {
+  flex-basis: 75.5%;
+}
+
+main .cover-image img {
+  max-width: 100%;
+}
+
 main .result-bar {
   display: flex;
   justify-content: space-between;
@@ -73,151 +94,6 @@ main .result-bar {
   padding: 0.5rem;
   background-color: var(--color-one);
   font-size: .7rem;
-}
-
-.result-bar .filter {
-  display: flex;
-}
-
-.filter .show {
-  margin-right: 1rem;
-}
-
-.items .item {
-  display: flex;
-  align-items: center;
-}
-
-.items .item .image {
-    position: relative;
-}
-
-.item .image::before {
-    content: "-12%";
-    position: absolute;
-    top: -3rem;
-    right: 0;
-    width: 2.2rem;
-    height: 2.2rem;
-    line-height: 2.2rem;
-    text-align: center;
-    border-radius: 50%;
-    background-color: var(--color-four);
-    color: white;
-    font-weight: bold;
-    font-size: .6rem;
-}
-
-.item .information {
-  margin: 1rem 0 1rem 2rem;
-}
-
-.information .rating {
-  color: var(--color-two);
-  font-size: .6rem;
-}
-
-.item .information h4 {
-  margin: 0.3rem 0;
-  font-size: .95rem;
-}
-
-.information span.availability {
-  font-size: 0.6rem;
-  color: var(--color-three);
-  font-weight: 500;
-  display: block;
-}
-
-.information span.previous-price {
-  margin-right: 0.3rem;
-  color: var(--color-three);
-  text-decoration: line-through;
-  font-weight: bold;
-  font-size: 0.7rem;
-}
-
-.information span.actual-price {
-  font-weight: bold;
-  font-size: .9rem;
-  color: var(--color-four);
-}
-
-.information p.description {
-  margin-top: 0;
-  font-size: .7rem;
-  color: var(--color-three);
-}
-
-.information ul.links {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  list-style: none;
-  color: var(--color-three);
-  box-shadow: 0px 0px 2px 0px var(--color-gray);
-}
-
-ul.links li {
-  padding: 0.3rem 0.55rem;
-  cursor: pointer;
-}
-
-ul.links li:not(:last-child) {
-  border-right: 0.5px solid var(--color-one);
-}
-
-.container {
-  max-width: 72rem;
-  margin: auto;
-}
-
-main {
-  flex-basis: 75.5%;
-}
-
-aside {
-  flex-basis: 23%;
-}
-
-aside h4 {
-    text-transform: uppercase;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 2rem;
-    font-size: .7rem;
-}
-
-aside h4::before {
-    content: "";
-    position: absolute;
-    bottom: -7px;
-    width: 2.5rem;
-    height: 2px;
-    background-color: red;
-}
-
-section.clothes, section.color {
-    border: 2px solid #e5e5e5;
-    padding: 1rem;
-}
-
-section.clothes {
-  margin-bottom: 1.3rem;
-}
-
-section.clothes > ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-size: .7rem;
-  line-height: 2;
-  color: #777;
-}
-
-section.clothes > ul ul {
-    padding: 0 .7rem;
 }
 
 .right {
@@ -244,73 +120,173 @@ section.clothes > ul ul {
   background-color: black;
 }
 
-.colors {
-    display: flex;
-    flex-direction: column;
+.result-bar .filter {
+  display: flex;
 }
 
-.colors span {
-  position: relative;
-  margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
-  font-size: .7rem;
-  color: #777;
+.filter .show {
+  margin-right: 1rem;
 }
 
 select#sort {
     width: 8.5rem;
 }
 
-select#n-show:focus-visible, select#sort:focus-visible {
-    outline: none;
-}
-
 select#n-show, select#sort {
-    border-style: none;
-    color: var(--color-three);
-    height: 1.5rem;
-}
-
-.right {
-  display: flex;
-  align-items: center;
-}
-
-span.gray {
-  position: relative;
-}
-
-ul {
-    list-style: none;
-}
-
-.cover-image img {
-    max-width: 100%;
-}
-
-select#n-show, select#sort {
+  height: 1.5rem;
   border-style: none;
   color: var(--color-three);
-  height: 1.5rem;
 }
 
 select#n-show:focus-visible, select#sort:focus-visible {
-  outline: none;
-}
-
-select#sort {
-  width: 8.5rem;
-}
-
-header {
-  height: 4rem;
-}
-
-.items .item .image img {
-  width: 11rem;
+    outline: none;
 }
 
 .items {
   margin-top: 1.5rem;
 }
 
+.items .item {
+  display: flex;
+  align-items: center;
+}
+
+.items .item .image {
+    position: relative;
+}
+
+.item .image::before {
+    content: "-12%";
+    position: absolute;
+    top: -3rem;
+    right: 0;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: var(--color-four);
+    color: white;
+    line-height: 2.2rem;
+    text-align: center;
+    font-size: .6rem;
+    font-weight: bold;
+}
+
+.items .item .image img {
+  width: 11rem;
+}
+
+.item .information {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.information .rating {
+  color: var(--color-two);
+  font-size: .6rem;
+}
+
+.item .information h4 {
+  margin: 0.3rem 0;
+  font-size: .95rem;
+}
+
+.information span.availability {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--color-three);
+}
+
+.information span.previous-price {
+  margin-right: 0.3rem;
+  color: var(--color-three);
+  text-decoration: line-through;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.information span.actual-price {
+  font-size: .9rem;
+  font-weight: bold;
+  color: var(--color-four);
+}
+
+.information p.description {
+  margin-top: 0;
+  font-size: .7rem;
+  color: var(--color-three);
+}
+
+.information ul.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  box-shadow: 0px 0px 2px 0px var(--color-gray);
+  list-style: none;
+  color: var(--color-three);
+}
+
+ul.links li {
+  padding: 0.3rem 0.55rem;
+  cursor: pointer;
+}
+
+ul.links li:not(:last-child) {
+  border-right: 0.5px solid var(--color-one);
+}
+
+aside {
+  flex-basis: 23%;
+}
+
+ul {
+    list-style: none;
+}
+
+aside section.clothes {
+  margin-bottom: 1.3rem;
+}
+
+section.clothes, section.color {
+  padding: 1rem;
+    border: 2px solid #e5e5e5;
+}
+
+section.clothes h4 {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+}
+
+section.clothes h4::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    width: 2.5rem;
+    height: 2px;
+    background-color: red;
+}
+
+section.clothes > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: .7rem;
+  line-height: 2;
+  color: #777;
+}
+
+section.colors {
+    display: flex;
+    flex-direction: column;
+}
+
+section.colors span {
+  position: relative;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: .7rem;
+  color: #777;
+}

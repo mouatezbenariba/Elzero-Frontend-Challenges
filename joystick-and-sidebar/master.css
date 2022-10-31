@@ -247,6 +247,17 @@ aside section.clothes {
   margin-bottom: 1.3rem;
 }
 
+ul > li {
+    position: relative;
+}
+
+i.fa-solid.fa-angle-down {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 section.clothes, section.color {
   padding: 1rem;
     border: 2px solid #e5e5e5;

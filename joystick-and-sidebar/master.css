@@ -274,7 +274,7 @@ section.clothes, section.color {
   border: 2px solid #e5e5e5;
 }
 
-section h4 {
+aside section h4 {
   position: relative;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -282,7 +282,7 @@ section h4 {
   text-transform: uppercase;
 }
 
-section h4::before {
+aside section h4::before {
     content: "";
     position: absolute;
     bottom: -7px;

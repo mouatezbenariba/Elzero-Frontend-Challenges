@@ -170,3 +170,25 @@ section .post {
 .description .info span:not(:first-child) {
   margin-left: 1rem;
 }
+
+/* start footer style */
+footer {
+  min-width: 37rem;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

@@ -316,3 +316,26 @@ section.clothes > ul ul {
   font-size: .7rem;
   color: #777;
 }
+
+/* start footer style */
+footer {
+  width: 100%;
+  height: 4rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

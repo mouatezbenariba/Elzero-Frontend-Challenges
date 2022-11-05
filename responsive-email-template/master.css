@@ -225,3 +225,25 @@ footer span {
   background-color: var(--color-two);
   opacity: 0.7;
 }
+
+/* start footer style */
+.footer {
+  min-width: 1000px;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

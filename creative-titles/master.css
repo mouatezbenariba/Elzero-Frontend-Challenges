@@ -135,3 +135,30 @@ h3:nth-of-type(4)::after {
 .triangle-down h3:nth-of-type(4)::before {
   border-color: var(--color-four) transparent transparent transparent;
 }
+
+/* start footer style */
+footer {
+  position:absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

@@ -89,3 +89,25 @@ input[type='checkbox']:checked::before {
   padding: 1rem;
   background-color: #f9f9f9;
 }
+
+/* start footer style */
+footer {
+  min-width: 614px;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

@@ -102,3 +102,28 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* start footer style */
+footer {
+  min-width: 50rem;
+  height: 4rem;
+  line-height: 2rem;
+  margin-top: 6rem;
+  padding: 1rem;
+  background-color: #FFD447;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+  border-style: none;
+  padding: 0;
+}
+
+.footer-name:before,.footer-name:after {
+  content: "❤";
+  color: #850021;
+}
+/* end footer style */

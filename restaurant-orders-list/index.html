@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmouatez Billah Benariba" />
+    <meta
+      name="description"
+      content="Restaurant Orders List - Elzero Web School Challenge Solution - by Elmouatez Billah Benariba"
+    />
+    <!-- FontAwesome Library -->
+    <link rel="stylesheet" href="../css/all.css" />
+    <!-- main style css -->
+    <link rel="stylesheet" href="master.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Restaurant Orders List - Elmouatez</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <div class="title">
+          <h2>Order List</h2>
+          <i class="fa-solid fa-ellipsis cursor-pointer"></i>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Invoice Search" />
+          <input type="text" placeholder="Search by Title" />
+          <input type="tel" name="" id="" placeholder="Search by Phone" />
+          <input type="submit" value="search" />
+        </div>
+      </div>
+      <div class="orders">
+        <table>
+          <thead>
+            <tr>
+              <th class="invoice cursor-pointer">
+                <input
+                  type="checkbox"
+                  name="invoices"
+                  id="invoices"
+                  title="all-invoices"
+                  class="remove-checkbox"
+                />
+                <label for="all-invoices">Invoice</label>
+              </th>
+              <th class="order-image cursor-pointer">Image</th>
+              <th class="order-menu caret-down cursor-pointer">Menu</th>
+              <th class="customer-name caret-down cursor-pointer">Customer Name</th>
+              <th class="order-quantity cursor-pointer">Quantity</th>
+              <th class="order-money caret-down cursor-pointer">Amount</th>
+              <th class="order-status caret-down cursor-pointer">Order Status</th>
+              <th class="customer-phone caret-down cursor-pointer">Phone</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1150"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                  checked
+                />
+                <label for="inv-1150" class="cursor-pointer"># 1150</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p1.PNG" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Cheese Pizza</td>
+              <td class="customer-name">Mark Willy</td>
+              <td class="order-quantity qtn-box">05</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="confirmed">Confirmed</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1151"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                />
+                <label for="inv-1151" class="cursor-pointer"># 1151</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p2.png" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Big Burger</td>
+              <td class="customer-name">Mithila Zaman</td>
+              <td class="order-quantity qtn-box">03</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="pending">Pending</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1152"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                />
+                <label for="inv-1152" class="cursor-pointer"># 1152</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p3.png" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Chicken Pasta</td>
+              <td class="customer-name">Siddikur Rahman</td>
+              <td class="order-quantity qtn-box">05</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="confirmed">Confirmed</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1153"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                />
+                <label for="inv-1153" class="cursor-pointer"># 1153</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p4.png" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Chicken Pasta</td>
+              <td class="customer-name">Siddikur Rahman</td>
+              <td class="order-quantity qtn-box">05</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="confirmed">Confirmed</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1154"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                />
+                <label for="inv-1154" class="cursor-pointer"># 1154</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p5.png" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Big Burger</td>
+              <td class="customer-name">Mithila Zaman</td>
+              <td class="order-quantity qtn-box">03</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="pending">Pending</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+            <tr>
+              <td class="invoice">
+                <input
+                  type="checkbox"
+                  name="invoice"
+                  id="inv-1155"
+                  title="invoice-1150"
+                  class="remove-checkbox"
+                />
+                <label for="inv-1155" class="cursor-pointer"># 1155</label>
+              </td>
+              <td class="order-image">
+                <div class="image">
+                  <img src="images/p6.png" alt="" />
+                </div>
+              </td>
+              <td class="order-menu">Chicken Pasta</td>
+              <td class="customer-name">Siddikur Rahman</td>
+              <td class="order-quantity qtn-box">05</td>
+              <td class="order-money">$2,590</td>
+              <td class="order-status"><span class="confirmed">Confirmed</span></td>
+              <td class="customer-phone"><span>+123 9856047</span></td>
+              <td><i class="fa-solid fa-ellipsis cursor-pointer"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <footer>
+        <p>Showing 1-30 / 150 Results</p>
+        <p>
+          Previous <button autofocus>1</button><button>2</button><button>3</button
+          ><button>4</button> Next
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

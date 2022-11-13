@@ -87,9 +87,10 @@
 /* End My Elements */
 
 .container {
-  width: 1084px;
+  width: calc(1084px + 2rem);
   margin: auto;
-  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .title {

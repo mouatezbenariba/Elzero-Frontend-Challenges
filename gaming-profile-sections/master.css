@@ -223,9 +223,10 @@ hr {
 footer {
     width: 67.5rem;
     height: 4rem;
-    line-height: 2rem;
+    margin: auto;
     padding: 1rem;
     background-color: #FFD447;
+    line-height: 2rem;
     text-align: center;
     font-size: 1.2rem;
 }

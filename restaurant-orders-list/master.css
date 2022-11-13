@@ -392,3 +392,27 @@ tbody tr input:checked + label:before {
   -webkit-box-shadow: 0 4px 8px 0 #b8b6d6;
   box-shadow: 0 4px 8px 0 #b8b6d6;
 }
+
+/* personal footer */
+
+.footer {
+  width: 100%;
+  height: 4rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #ffd447;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
+  color: #850021;
+}

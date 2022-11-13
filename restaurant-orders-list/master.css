@@ -396,7 +396,7 @@ tbody tr input:checked + label:before {
 /* personal footer */
 
 .footer {
-  width: 100%;
+  width: 1084px;
   height: 4rem;
   margin-top: 2rem;
   padding: 1rem;

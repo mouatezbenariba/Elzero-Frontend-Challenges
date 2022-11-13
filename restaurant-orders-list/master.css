@@ -399,6 +399,7 @@ tbody tr input:checked + label:before {
 .footer {
   width: 1084px;
   height: 4rem;
+  margin: auto;
   margin-top: 2rem;
   padding: 1rem;
   background-color: #ffd447;

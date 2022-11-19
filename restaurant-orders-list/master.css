@@ -168,7 +168,7 @@ input[type='tel']::placeholder {
 }
 
 .search-bar input:nth-child(3) {
-  width: 20.8rem;
+  width: 20.4rem;
 }
 
 .search-bar input:not(:last-child) {

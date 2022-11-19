@@ -14,6 +14,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)                         | ⭐⭐       | HTML, CSS |
 | [Restaurant Orders List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/restaurant-orders-list/)                 | ⭐⭐       | HTML, CSS |
 | [Joystick and Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/joystick-and-sidebar/)                     | ⭐⭐       | HTML, CSS |
 | [Ultimate Black Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/ultimate-black-footer/)                   | ⭐⭐       | HTML, CSS |

@@ -17,8 +17,10 @@
 }
 
 .container {
-  width: 69.4rem;
+  width: calc(69.4rem + 2rem);
   margin: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .header {

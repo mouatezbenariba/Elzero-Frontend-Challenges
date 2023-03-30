@@ -1,5 +1,5 @@
 # Elzero Frontend Challenges
-This repository contains my solutions to the Frontend Challenges provided by [Elzero Web School](https://elzero.org/). The challenges include various topics related to frontend web development, including HTML, CSS, JavaScript, and responsive design. Feel free to browse the solutions, fork the repository, or use them as inspiration for your own frontend projects.
+This repository contains my solutions to the Frontend Challenges provided by [Elzero Web School](https://elzero.org/). The challenges include various topics related to frontend web development, including HTML, CSS, JavaScript, and responsive design.
 
 ## About Elzero Web School
 [Elzero Web School](https://elzero.org/) is a popular online platform that provides comprehensive courses on web development. Their HTML & CSS challenges are designed to help learners practice their frontend skills and gain hands-on experience with common web development concepts.
@@ -60,3 +60,7 @@ This particular challenge comprises of four website design projects that require
 |Elzero Template| [template-html-css-03](https://github.com/mouatezbenariba/template-html-css-03)|[Demo](https://mouatezbenariba.github.io/template-html-css-03/)|
 |Kasper - One Page Creative HTML Theme| [template-html-css-02](https://github.com/mouatezbenariba/template-html-css-02)|[Demo](https://mouatezbenariba.github.io/template-html-css-02/)|
 |Leon Template| [template-html-css-01](https://github.com/mouatezbenariba/template-html-css-01)|[Demo](https://mouatezbenariba.github.io/template-html-css-01/)|
+
+### Contributing
+Feel free to browse the solutions, fork the repository, or use them as inspiration for your own frontend projects.
+

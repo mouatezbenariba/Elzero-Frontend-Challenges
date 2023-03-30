@@ -2,7 +2,7 @@
 This repository contains my solutions to the Frontend Challenges provided by [Elzero Web School](https://elzero.org/). The challenges include various topics related to frontend web development, including HTML, CSS, JavaScript, and responsive design.
 
 ## About Elzero Web School
-[Elzero Web School](https://elzero.org/) is a popular online platform that provides comprehensive courses on web development. Their HTML & CSS challenges are designed to help learners practice their frontend skills and gain hands-on experience with common web development concepts.
+[Elzero Web School](https://elzero.org/) is a popular online platform that provides comprehensive courses on web development. Their HTML & CSS challenges are designed to help learners practice their frontend skills and gain hands-on experience with common web development concepts (See **[my progression]()**).
 
 
 ## Finished Projects
@@ -64,3 +64,5 @@ This particular challenge comprises of four website design projects that require
 ### Contributing
 Feel free to browse the solutions, fork the repository, or use them as inspiration for your own frontend projects.
 
+### Acknowledgments
+Thanks to [Elzero Web School](https://github.com/ElzeroWebSchool) and eng [Osama Mohamed](https://github.com/OsamaElzero) for providing the challenges and helping me improve my frontend skills.

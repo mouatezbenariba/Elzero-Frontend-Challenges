@@ -1,19 +1,14 @@
 # Elzero Frontend Challenges
-This repository contains my solutions to the Frontend Challenges provided by [Elzero Web School](https://elzero.org/). The challenges include various topics related to frontend web development, including HTML, CSS, JavaScript, and responsive design.
+This repository contains my solutions to the Frontend Challenges provided by [Elzero Web School](https://elzero.org/). The challenges include various topics related to frontend web development, including HTML, CSS, JavaScript, and responsive design. Feel free to browse the solutions, fork the repository, or use them as inspiration for your own frontend projects.
 
-This repository contains my solution of [Elzero Web School Frontend Challenges](https://elzero.org/category/challenges/front-end-challenges/).
+## About Elzero Web School
+[Elzero Web School](https://elzero.org/) is a popular online platform that provides comprehensive courses on web development. Their HTML & CSS challenges are designed to help learners practice their frontend skills and gain hands-on experience with common web development concepts.
+
 
 ## Finished Projects
 
-### 1. [Practical HTML & CSS](https://elzero.org/category/challenges/front-end-challenges/)
-This particular challenge comprises of four website design projects that require the use of HTML and CSS to code them. These projects aim to provide practice and improve skills in the areas of HTML and CSS by coding four different website designs.
-
-| Project    | Github Repository  | Demo           |
-| ---------- | ------------------ | -------------- |
-|Elzero Dashboard| [template-html-css-04](https://github.com/mouatezbenariba/template-html-css-04)|[Demo](https://mouatezbenariba.github.io/template-html-css-04/)|
-|Elzero Template| [template-html-css-03](https://github.com/mouatezbenariba/template-html-css-03)|[Demo](https://mouatezbenariba.github.io/template-html-css-03/)|
-|Kasper - One Page Creative HTML Theme| [template-html-css-02](https://github.com/mouatezbenariba/template-html-css-02)|[Demo](https://mouatezbenariba.github.io/template-html-css-02/)|
-|Leon Template| [template-html-css-01](https://github.com/mouatezbenariba/template-html-css-01)|[Demo](https://mouatezbenariba.github.io/template-html-css-01/)|
+### 1. [HTML & CSS Challenges](https://elzero.org/category/challenges/front-end-challenges/)
+This collection features my solutions to various HTML & CSS challenges from Elzero Web School. The challenges range from easy to hard and showcase my frontend skills. The solutions are organized by challenge difficulty, so you can easily find the ones that match your skill level.
 
 | Difficulty | Description    |
 | ---------- | -------------- |
@@ -55,3 +50,13 @@ This particular challenge comprises of four website design projects that require
 | [Creative Titles](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/creative-titles/)                               | ⭐         | HTML, CSS                 |
 | [Scroll To Top Button CSS Only](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/scroll-to-top-button/)            | ⭐         | HTML, CSS                 |
 | [Card With Transparent Image](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/card-with-transparent-image/)       | ⭐         | HTML, CSS                 |
+
+### 2. [Practical HTML & CSS](https://elzero.org/practical-html-css/)
+This particular challenge comprises of four website design projects that require the use of HTML and CSS to code them. These projects aim to provide practice and improve skills in the areas of HTML and CSS by coding four different website designs.
+
+| Project    | Github Repository  | Demo           |
+| ---------- | ------------------ | -------------- |
+|Elzero Dashboard| [template-html-css-04](https://github.com/mouatezbenariba/template-html-css-04)|[Demo](https://mouatezbenariba.github.io/template-html-css-04/)|
+|Elzero Template| [template-html-css-03](https://github.com/mouatezbenariba/template-html-css-03)|[Demo](https://mouatezbenariba.github.io/template-html-css-03/)|
+|Kasper - One Page Creative HTML Theme| [template-html-css-02](https://github.com/mouatezbenariba/template-html-css-02)|[Demo](https://mouatezbenariba.github.io/template-html-css-02/)|
+|Leon Template| [template-html-css-01](https://github.com/mouatezbenariba/template-html-css-01)|[Demo](https://mouatezbenariba.github.io/template-html-css-01/)|

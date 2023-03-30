@@ -61,8 +61,8 @@ This particular challenge comprises of four website design projects that require
 |Kasper - One Page Creative HTML Theme| [template-html-css-02](https://github.com/mouatezbenariba/template-html-css-02)|[Demo](https://mouatezbenariba.github.io/template-html-css-02/)|
 |Leon Template| [template-html-css-01](https://github.com/mouatezbenariba/template-html-css-01)|[Demo](https://mouatezbenariba.github.io/template-html-css-01/)|
 
-### Contributing
+## Contributing
 Feel free to browse the solutions, fork the repository, or use them as inspiration for your own frontend projects.
 
-### Acknowledgments
+## Acknowledgments
 Thanks to [Elzero Web School](https://github.com/ElzeroWebSchool) and eng [Osama Mohamed](https://github.com/OsamaElzero) for providing the challenges and helping me improve my frontend skills.

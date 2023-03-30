@@ -5,7 +5,7 @@ This repository contains my solution of [Elzero Web School Frontend Challenges](
 
 ## Finished Projects
 
-### 1. Practical HTML & CSS 
+### 1. [Practical HTML & CSS](https://elzero.org/category/challenges/front-end-challenges/)
 This particular challenge comprises of four website design projects that require the use of HTML and CSS to code them. These projects aim to provide practice and improve skills in the areas of HTML and CSS by coding four different website designs.
 
 | Project    | Github Repository  | Demo           |

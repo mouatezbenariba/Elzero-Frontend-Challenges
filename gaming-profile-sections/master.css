@@ -11,6 +11,7 @@
   --color-three: #1d880d;
   --color-four: #3e9af3;
   --color-five: #607d8b;
+  --color-six: #ff0000;
   --background-color: #f5f5f5;
 }
 
@@ -45,14 +46,40 @@ hr {
   border: none;
 }
 
-.image.unlocked::before {
-  content: '';
-  width: 5.25rem;
-  height: 5.25rem;
-  background-color: white;
-  position: absolute;
-  opacity: 0.9;
+/* --------------- */
+/* utility classes */
+/* --------------- */
+
+.unlocked img {
+  filter: opacity(0.5);
 }
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.blue {
+  color: var(--color-four);
+}
+
+.pink {
+  color: var(--color-two);
+}
+
+.green {
+  color: var(--color-one);
+}
+
+.yes {
+  color: var(--color-three);
+}
+
+.no {
+  color: var(--color-six);
+}
+/* --------- */
+/* main-card */
+/* --------- */
 
 .main-card .container {
   display: flex;
@@ -61,7 +88,7 @@ hr {
   text-align: center;
 }
 
-.main-card__media {
+.main-card-media {
   display: inline-block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -69,21 +96,21 @@ hr {
   padding: 1rem;
 }
 
-.main-card__media .image {
+.main-card-media__image {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
 }
 
-.main-card__media .image img {
+.main-card-media__image img {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 7px 1px #777;
   box-shadow: 0 0 7px 1px #777;
   width: 10rem;
 }
 
-.main-card__media p:last-child {
+.main-card-media p:last-child {
   margin-bottom: 0;
   text-align: center;
 }
@@ -119,7 +146,7 @@ hr {
   background-color: var(--color-one);
 }
 
-.main-card__media p span {
+.main-card-media p span {
   color: var(--color-one);
   font-weight: bold;
 }
@@ -139,81 +166,66 @@ hr {
   line-height: 2;
 }
 
+/* ---------- */
+/* Points Log */
+/* ---------- */
+
 .points-log .container {
   padding: 1rem;
 }
 
-.points-log p:not(:last-child) {
+.points-log-item:not(:last-child) {
   padding-bottom: 1rem;
-}
-
-.points-log p:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
 
-.points-log p span:first-of-type {
-  color: var(--color-two);
-  font-weight: bold;
-}
-
-.points-log p span:last-of-type {
-  color: var(--color-one);
-  font-weight: bold;
-}
+/* -------- */
+/* trophies */
+/* -------- */
 
 .trophies .container {
   padding: 1rem;
 }
 
-.trophies .images {
+.images {
   padding: 1rem 0 0;
 }
 
-.trophies .images .first-row img,
-.trophies .images .second-row img {
-  width: calc(9% - 10.3px);
+.images__item {
+  display: inline-block;
+  width: 5.25rem;
 }
 
-.trophies .images .image {
-  display: inline;
+.images__item img {
+  max-width: 100%;
 }
+
+/* ------ */
+/* ladder */
+/* ------ */
 
 .ladder .container {
   padding: 1rem;
 }
 
-.ladder p span:first-of-type {
-  color: var(--color-four);
-  font-weight: bold;
-}
-
-.ladder p span:nth-of-type(2) {
-  color: var(--color-two);
-  font-weight: bold;
-}
+/* ------ */
+/* powers */
+/* ------ */
 
 .powers .container {
   padding: 1rem;
 }
 
-.powers p:not(:last-child) {
+.powers__item:not(:last-child) {
   border-bottom: 1px solid #eee;
   margin: 0;
   padding: 1rem 0;
 }
 
-.powers p span {
+.powers__item span {
   position: absolute;
   right: 1rem;
   font-weight: bold;
-}
-
-.powers p span.yes {
-  color: var(--color-three);
-}
-
-.powers p span.no {
-  color: red;
 }
 
 @media screen and (min-width: 650px) {
@@ -230,14 +242,14 @@ hr {
     right: 1rem;
   }
 
-  .main-card__media {
+  .main-card-media {
     border-right: 1px solid var(--background-color);
   }
 }
+
 /* start footer style */
 footer {
-  width: 67.5rem;
-  height: 4rem;
+  min-height: 4rem;
   margin: auto;
   padding: 1rem;
   background-color: #ffd447;

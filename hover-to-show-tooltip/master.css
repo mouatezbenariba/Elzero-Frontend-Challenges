@@ -11,7 +11,6 @@
 }
 
 body {
-  font-family: 'Cairo', sans-serif;
   background-color: var(--background-color);
   margin: 0;
 }
@@ -95,7 +94,7 @@ span:hover::after {
 
 /* start footer style */
 footer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -103,7 +102,7 @@ footer {
   height: 4rem;
   line-height: 2rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -113,8 +112,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

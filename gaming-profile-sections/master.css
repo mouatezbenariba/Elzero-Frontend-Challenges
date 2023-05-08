@@ -17,14 +17,14 @@
 body {
   font-family: 'Cairo', sans-serif;
   background-color: var(--background-color);
-  margin: 0;
+  margin: 1rem;
 }
 
 .container {
   margin: 1rem auto;
   background-color: white;
   position: relative;
-  width: 1080px;
+  max-width: 1080px;
 }
 
 .container h3 {
@@ -54,30 +54,36 @@ hr {
   opacity: 0.9;
 }
 
-.main-card .media {
+.main-card .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main-card__media {
   display: inline-block;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 1rem;
-  border-right: 1px solid var(--background-color);
 }
 
-.main-card .media .image {
+.main-card__media .image {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   margin: auto;
 }
 
-.main-card .media .image img {
+.main-card__media .image img {
   border-radius: 50%;
   -webkit-box-shadow: 0 0 7px 1px #777;
-          box-shadow: 0 0 7px 1px #777;
+  box-shadow: 0 0 7px 1px #777;
   width: 10rem;
 }
 
-.main-card .media p:last-child {
+.main-card__media p:last-child {
   margin-bottom: 0;
   text-align: center;
 }
@@ -113,33 +119,24 @@ hr {
   background-color: var(--color-one);
 }
 
-.main-card .media p span {
+.main-card__media p span {
   color: var(--color-one);
   font-weight: bold;
 }
 
-.main-card .info {
-  position: absolute;
-  display: inline-block;
-  width: 75%;
+.main-card-info {
   padding: 1rem;
 }
 
-.main-card .info h2 {
+.main-card-info__name {
   margin: 0;
   font-weight: 700;
   font-size: 1.7rem;
 }
 
-.main-card .info p {
+.main-card-info__description {
   font-size: 1rem;
   line-height: 2;
-}
-
-.main-card .info + span {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
 }
 
 .points-log .container {
@@ -219,16 +216,34 @@ hr {
   color: red;
 }
 
+@media screen and (min-width: 650px) {
+  .main-card .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .main-card__day {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .main-card__media {
+    border-right: 1px solid var(--background-color);
+  }
+}
 /* start footer style */
 footer {
-    width: 67.5rem;
-    height: 4rem;
-    margin: auto;
-    padding: 1rem;
-    background-color: #FFD447;
-    line-height: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
+  width: 67.5rem;
+  height: 4rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: #ffd447;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .footer-name {
@@ -236,8 +251,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

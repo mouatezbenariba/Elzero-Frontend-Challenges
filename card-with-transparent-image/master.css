@@ -11,12 +11,14 @@ body {
   background-color: #eee;
 }
 
-.box {
+.container {
+  display: flex;
+  height: calc(100vh - 4rem);
+}
+
+.usercard {
+  transform: translateY(3rem);
   position: relative;
-  top: 50vh;
-  -webkit-transform: translateY(-37%);
-  -ms-transform: translateY(-37%);
-  transform: translateY(-37%);
   width: 28rem;
   margin: auto;
   padding: 2rem;
@@ -27,16 +29,16 @@ body {
   text-align: center;
 }
 
-.image {
+.usercard-image {
   position: absolute;
-  top: -32.5%;
+  top: -6.8rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-h2 {
+.usercard-info__name {
   margin-bottom: 0.7rem;
   margin-top: 0.7rem;
   color: #3b74ba;
@@ -44,7 +46,7 @@ h2 {
   letter-spacing: -0.1rem;
 }
 
-p {
+.usercard-info__profession {
   margin-top: 0.7rem;
   color: #777;
   font-weight: 100;
@@ -56,30 +58,33 @@ hr {
   background-color: #ddd;
 }
 
-ul {
+.usercard-info-socialmedia {
   margin: 0;
   margin-top: 1.3rem;
   padding: 0;
 }
 
-li {
+.usercard-info-socialmedia__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  height: 5rem;
   margin-top: 0.3rem;
   padding: 1rem;
   background-color: #f6f6f6;
 }
 
-.box .name a {
+.usercard-info__socialmedia-link {
   text-decoration: none;
   color: inherit;
 }
 
-span.mark {
+.mark {
   position: absolute;
   right: 3%;
   -webkit-transform: translateY(50%);
@@ -92,17 +97,22 @@ span.mark {
   font-weight: bold;
 }
 
+@media screen and (min-width: 350px) {
+  .usercard-info-socialmedia__item {
+    height: auto;
+    flex-direction: row;
+  }
+}
+
 /* start footer style */
 footer {
-  position:absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
   height: 4rem;
   line-height: 2rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -112,8 +122,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

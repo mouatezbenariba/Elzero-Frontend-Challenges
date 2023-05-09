@@ -61,7 +61,7 @@ header nav ul.menu li a {
 
 /* end header  */
 /* start service description*/
-.services {
+.services .container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -80,33 +80,33 @@ section.services-description p {
 }
 /* end service description*/
 /* start services items */
-section.services-items {
+section.services {
   background-color: white;
 }
 
-section.services-items .services {
+.services .container {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.services-items .service .info h4 {
+.services-item__info h4 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.services-items .service .info p {
+.services-item__info p {
   margin-top: 0.5rem;
   font-weight: 100;
   color: #88888e;
 }
 
-section.services-items .service .image {
+.services-item__image {
   width: 30%;
   margin: auto;
 }
 
-section.services-items .service .image img {
+.services-item__image img {
   width: 100%;
 }
 /* end services items */
@@ -118,7 +118,7 @@ section.services-items .service .image img {
   text-align: center;
 }
 
-.about .about-image img {
+.about .about__image img {
   max-width: 100%;
 }
 /* end about */
@@ -133,7 +133,7 @@ section.stats {
   flex-direction: column;
 }
 
-.stats p {
+.stats-item {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -141,55 +141,55 @@ section.stats {
   color: white;
 }
 
-.stats p:first-child {
+.stats-item:first-child {
   background-color: var(--color-two);
 }
 
-.stats p:nth-child(2) {
+.stats-item:nth-child(2) {
   background-color: var(--color-three);
 }
 
-section.stats p:last-child {
+.stats-item:last-child {
   background-color: var(--color-four);
 }
 
-section.stats p .stats-number {
+.stats-item .stats-item__number {
   font-size: 4rem;
 }
 
-section.stats p span {
+.stats-item span {
   display: block;
   text-align: center;
 }
 /* end stats */
 /* start skills */
-.skills .skill {
+.skills .skills-item {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.skills .skill span {
+.skills .skills-item span {
   flex-basis: 7rem;
   padding-right: 1rem;
   font-weight: bold;
 }
 
-.skill p {
+.skills-item p {
   background-color: white;
   height: 2rem;
   position: relative;
   width: 88%;
 }
 
-.skill p::before {
+.skills-item p::before {
   content: '';
   position: absolute;
   background-color: var(--color-one);
   height: 2rem;
 }
 
-.skill p::after {
+.skills-item p::after {
   color: white;
   font-weight: bold;
   position: absolute;
@@ -197,47 +197,47 @@ section.stats p span {
   transform: translateY(-50%);
 }
 
-.skill:nth-child(1) p::before {
+.skills-item:nth-child(1) p::before {
   width: 60%;
 }
 
-.skill:nth-child(1) p::after {
+.skills-item:nth-child(1) p::after {
   content: '60%';
   right: calc((100% - 60%) + 0.5rem);
 }
 
-.skill:nth-child(2) p::before {
+.skills-item:nth-child(2) p::before {
   width: 70%;
 }
 
-.skill:nth-child(2) p::after {
+.skills-item:nth-child(2) p::after {
   content: '70%';
   right: calc((100% - 70%) + 0.5rem);
 }
 
-.skill:nth-child(3) p::before {
+.skills-item:nth-child(3) p::before {
   width: 80%;
 }
 
-.skill:nth-child(3) p::after {
+.skills-item:nth-child(3) p::after {
   content: '80%';
   right: calc((100% - 80%) + 0.5rem);
 }
 
-.skill:nth-child(4) p::before {
+.skills-item:nth-child(4) p::before {
   width: 65%;
 }
 
-.skill:nth-child(4) p::after {
+.skills-item:nth-child(4) p::after {
   content: '65%';
   right: calc((100% - 65%) + 0.5rem);
 }
 
-.skill:nth-child(5) p::before {
+.skills-item:nth-child(5) p::before {
   width: 90%;
 }
 
-.skill:nth-child(5) p::after {
+.skills-item:nth-child(5) p::after {
   content: '90%';
   right: calc((100% - 90%) + 0.5rem);
 }
@@ -265,7 +265,7 @@ footer span {
     margin: 0;
   }
 
-  .services {
+  .services .container {
     flex-wrap: nowrap;
   }
 
@@ -274,11 +274,11 @@ footer span {
     text-align: left;
   }
 
-  .about-info {
+  .about__info {
     width: 50%;
   }
 
-  .about-image {
+  .about__image {
     width: 45%;
   }
 
@@ -286,7 +286,7 @@ footer span {
     flex-direction: row;
   }
 
-  .stats p {
+  .stats-item {
     width: 32%;
   }
 

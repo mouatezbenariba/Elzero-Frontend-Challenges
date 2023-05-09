@@ -18,15 +18,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: var(--background-color);
-  margin: 0;
 }
 
 /* start components / Framework */
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
-  padding-top: var(--main-padding);
-  padding-bottom: var(--main-padding);
+  padding: var(--main-padding);
 }
 
 /* end components / Framework */
@@ -63,6 +61,11 @@ header nav ul.menu li a {
 
 /* end header  */
 /* start service description*/
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 section.services-description h2 {
   text-align: center;
   font-size: 1.7rem;
@@ -83,7 +86,7 @@ section.services-items {
 
 section.services-items .services {
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
   text-align: center;
 }
 
@@ -108,22 +111,15 @@ section.services-items .service .image img {
 }
 /* end services items */
 /* start about */
-section.about .container {
+.about .container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
-section.about .about-image {
-  width: 45%;
-}
-
-section.about .about-image img {
+.about .about-image img {
   max-width: 100%;
-}
-
-section.about .about-info {
-  width: 52%;
 }
 /* end about */
 /* start stats */
@@ -131,25 +127,25 @@ section.stats {
   background-color: white;
 }
 
-section.stats .container {
+.stats .container {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
-section.stats p {
+.stats p {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 32%;
   height: 8rem;
   color: white;
 }
 
-section.stats p:first-child {
+.stats p:first-child {
   background-color: var(--color-two);
 }
 
-section.stats p:nth-child(2) {
+.stats p:nth-child(2) {
   background-color: var(--color-three);
 }
 
@@ -174,8 +170,9 @@ section.stats p span {
 }
 
 .skills .skill span {
-  font-weight: bold;
+  flex-basis: 7rem;
   padding-right: 1rem;
+  font-weight: bold;
 }
 
 .skill p {
@@ -253,7 +250,8 @@ footer {
 
 footer .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
 }
 
@@ -261,3 +259,39 @@ footer span {
   color: var(--color-one);
 }
 /* end footer */
+
+@media screen and (min-width: 700px) {
+  body {
+    margin: 0;
+  }
+
+  .services {
+    flex-wrap: nowrap;
+  }
+
+  .about .container {
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+
+  .about-info {
+    width: 50%;
+  }
+
+  .about-image {
+    width: 45%;
+  }
+
+  .stats .container {
+    flex-direction: row;
+  }
+
+  .stats p {
+    width: 32%;
+  }
+
+  footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -34,12 +34,12 @@ body {
   padding-bottom: var(--main-padding);
 }
 
-.image {
+.about__image {
   width: 22rem;
   position: relative;
 }
 
-.image::before {
+.about__image::before {
   content: '';
   position: absolute;
   top: -2.5rem;
@@ -50,16 +50,16 @@ body {
   z-index: -1;
 }
 
-.image img {
+.about__image img {
   max-width: 100%;
   border-radius: 0.5rem;
 }
 
-h2 {
+.about-info__welcome-message {
   text-transform: capitalize;
 }
 
-.text {
+.about-info {
   width: 22rem;
 }
 
@@ -73,14 +73,14 @@ h2 {
   max-width: 100%;
 }
 
-span {
+.about-info__title {
   position: relative;
   padding-left: 4rem;
   color: var(--color-two);
   font-weight: 600;
 }
 
-span::before {
+.about-info__title::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -93,7 +93,7 @@ span::before {
   background-color: var(--color-two);
 }
 
-span::after {
+.about-info__title::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -106,14 +106,14 @@ span::after {
   border: 0.2rem solid var(--color-two);
 }
 
-span + p {
+.about-info__description {
   color: #777;
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 2;
 }
 
-.services {
+.about-info-services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -122,7 +122,7 @@ span + p {
   justify-content: space-between;
 }
 
-.services .service {
+.about-info-services__service {
   counter-increment: num1;
   position: relative;
   width: 7rem;
@@ -132,7 +132,7 @@ span + p {
   text-align: center;
 }
 
-.services .service::before {
+.about-info-services__service::before {
   content: '';
   position: absolute;
   top: -0.7rem;
@@ -144,7 +144,7 @@ span + p {
   border-color: transparent transparent transparent var(--color-three);
 }
 
-.services .service::after {
+.about-info-services__service::after {
   content: '0' counter(num1);
   position: absolute;
   top: 2rem;
@@ -154,16 +154,16 @@ span + p {
   z-index: -1;
 }
 
-.services .service .icon {
+.about-info-services__service .icon {
   width: 45%;
   margin: auto;
 }
 
-.services .service .icon img {
+.about-info-services__service .icon img {
   max-width: 100%;
 }
 
-.services .service .icon + p {
+.about-info-services__service .icon + p {
   margin: 0;
   font-size: 0.8rem;
   font-weight: 700;
@@ -175,7 +175,7 @@ footer {
   height: 4rem;
   line-height: 2rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -185,8 +185,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

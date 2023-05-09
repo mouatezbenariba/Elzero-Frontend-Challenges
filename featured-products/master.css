@@ -19,14 +19,14 @@ body {
 }
 
 .container {
-  width: 54rem;
-  position: relative;
   margin: auto;
-  top: 50vh;
-  -webkit-transform: translateY(-64%);
-  -ms-transform: translateY(-64%);
-  transform: translateY(-64%);
+  padding: 3rem;
 }
+
+.images {
+  width: 11rem;
+}
+
 h3 {
   background-color: var(--color-one);
   width: -webkit-fit-content;
@@ -41,6 +41,8 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -52,7 +54,7 @@ h3 {
 .item {
   position: relative;
   width: 12rem;
-  margin-right: 1rem;
+  margin: 1rem;
   border: 0.3rem solid var(--color-two);
 }
 

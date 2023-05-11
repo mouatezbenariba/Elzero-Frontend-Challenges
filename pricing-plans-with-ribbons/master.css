@@ -33,10 +33,9 @@ body {
 .offer {
   position: relative;
   flex-shrink: 0;
-  width: 20.5rem;
-  height: 36rem;
+  max-width: 14.5rem;
   margin: 2rem;
-  padding: 2.5rem 5rem;
+  padding: 2.5rem 2rem;
   border-radius: 1rem;
   background-color: white;
   text-align: center;
@@ -124,4 +123,12 @@ a {
   border-radius: 0.5rem;
   text-decoration: none;
   color: white;
+}
+
+@media screen and (min-width: 350px) {
+  .offer {
+    max-width: 20.5rem;
+    height: 36rem;
+    padding: 2.5rem 5rem;
+  }
 }

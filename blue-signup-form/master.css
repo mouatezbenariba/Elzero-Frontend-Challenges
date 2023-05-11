@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  width: 18rem;
+  max-width: 18rem;
   margin: 2rem auto;
   padding: 1rem 1.8rem;
   border-radius: 0.3rem;
@@ -106,7 +106,7 @@ ul.icons {
 }
 
 ul li {
-  width: 2rem;
+  min-width: 2rem;
   height: 2rem;
   margin: 0 0.3rem;
   border-radius: 50%;
@@ -135,7 +135,7 @@ footer {
   height: 4rem;
   line-height: 2rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -145,8 +145,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

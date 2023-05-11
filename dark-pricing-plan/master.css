@@ -18,10 +18,11 @@
   position: relative;
   top: 5rem;
   display: grid;
-  grid-template-columns: repeat(4, 15rem);
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin: 1rem;
 }
 
 .offer {
@@ -110,7 +111,7 @@ footer {
   line-height: 2rem;
   margin-top: 6rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -122,8 +123,9 @@ footer {
   padding: 0;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

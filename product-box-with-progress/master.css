@@ -30,12 +30,6 @@
   background-size: cover;
 }
 
-.product__image img {
-  max-width: 100%;
-  border-radius: 0.5rem 0.5rem 0 0;
-  display: none;
-}
-
 .product-info {
   position: relative;
   padding: 1rem;

@@ -15,29 +15,35 @@
   --color-five: #f1f2f2;
 }
 
-.container {
-  width: 22rem;
+.product {
+  max-width: 22rem;
   margin: auto;
   padding: 1rem;
   background-color: var(--color-three);
 }
 
-.container > .image {
+.product__image {
   overflow: hidden;
+  background-image: url('images/lloyd-dirks-0vsk2_9dkqo-unsplash.webp');
+  max-width: 100%;
+  height: 208px;
+  background-size: cover;
 }
 
-.container > .image img {
+.product__image img {
   max-width: 100%;
   border-radius: 0.5rem 0.5rem 0 0;
+  display: none;
 }
 
-.info {
+.product-info {
   position: relative;
   padding: 1rem;
   background-color: white;
+  padding-top: 2rem;
 }
 
-.info .profile-image {
+.product-info__profile-image {
   position: absolute;
   right: 2rem;
   top: -2rem;
@@ -50,7 +56,7 @@
   box-shadow: 0px 4px 4px 1px #ddd;
 }
 
-.info .profile-image img {
+.product-info__profile-image img {
   border-radius: 0;
   width: 5rem;
   position: absolute;
@@ -58,48 +64,58 @@
   left: -14px;
 }
 
-.info .head-info h3 {
+.general__name {
   margin-top: 0;
 }
 
-.info .head-info p span {
+.general__owner,
+.general__field {
   color: var(--color-four);
   font-weight: bold;
   cursor: pointer;
 }
 
-.info .head-info p span i {
+.general__field i {
   color: #777;
   padding-right: 0.2rem;
 }
 
-.description p i {
+.description__locatio i {
   color: var(--color-four);
   padding-right: 0.3rem;
 }
 
-.stats {
+.product-info__stats {
   background-color: var(--color-five);
 }
 
-.stats .progress-bar {
+.stats__bar {
   width: 50%;
   height: 0.9rem;
-  background-color: var(--color-four);
   border-radius: 0 0.3rem 0.3rem 0;
+  background-color: var(--color-four);
 }
 
-.stat-info {
+.stats__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 1rem;
+  background-color: #ffffff;
 }
 
-.stat-info div span.value {
+.stats__info div span.value {
   display: block;
   font-weight: bold;
+}
+
+@media screen and (min-width: 300px) {
+  .info {
+    padding-top: 1rem;
+  }
 }

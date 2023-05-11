@@ -18,52 +18,56 @@
     <!-- main style css -->
     <link rel="stylesheet" href="master.css" />
     <!-- Google Validation -->
-    <meta name="google-site-verification" content="CVE6WqfytS1I3j_MJUG3wZ9fzuDJheBNQm3pwR2dmLc" />
+    <meta
+      name="google-site-verification"
+      content="CVE6WqfytS1I3j_MJUG3wZ9fzuDJheBNQm3pwR2dmLc"
+    />
     <title>Product Box With Progress</title>
   </head>
   <body>
-    <div class="container">
-      <div class="image">
+    <div class="product">
+      <div class="product__image">
         <img src="images/lloyd-dirks-0vsk2_9dkqo-unsplash.webp" alt="" />
       </div>
-      <div class="info">
-        <div class="profile-image">
+      <div class="product-info">
+        <div class="product-info__profile-image">
           <img src="images/ali-kazal--eibEdl1E8A-unsplash.webp" alt="" />
         </div>
-        <div class="head-info">
-          <h3>Cool smartwatch</h3>
+        <div class="product-info__general">
+          <h3 class="general__name">Cool smartwatch</h3>
           <p>
-            By <span class="owner">Mo Ben</span>
-            <span class="field"> <i class="fa-solid fa-tag"></i>Technology</span>
+            By <span class="general__owner">Mo Ben</span>
+            <span class="general__field"> <i class="fa-solid fa-tag"></i>Technology</span>
           </p>
         </div>
-        <div class="description">
+        <div class="product-info__description">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error,
             doloremque aliquam architecto voluptatum dicta perferendis sequi incidunt nam!
             Nulla.
           </p>
-          <p><i class="fa-solid fa-location-dot"></i> Constantine, Algeria</p>
+          <p class="description__location">
+            <i class="fa-solid fa-location-dot"></i> Constantine, Algeria
+          </p>
         </div>
-        <div class="stats">
-          <div class="progress-bar"></div>
-        </div>
-        <div class="stat-info">
-          <div class="percentage">
-            <span class="value">50%</span>
-            <span class="label">funded</span>
-          </div>
-          <div class="target">
-            <span class="value">$5,000</span>
-            <span class="label">target</span>
-          </div>
-          <div class="days">
-            <span class="value">100</span>
-            <span class="label">days to go</span>
+        <div class="product-info__stats">
+          <div class="stats__bar"></div>
+          <div class="stats__info">
+            <div class="percentage">
+              <span class="value">50%</span>
+              <span class="label">funded</span>
+            </div>
+            <div class="target">
+              <span class="value">$5,000</span>
+              <span class="label">target</span>
+            </div>
+            <div class="days">
+              <span class="value">100</span>
+              <span class="label">days to go</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="main.js"></script>
   </body>
 </html>

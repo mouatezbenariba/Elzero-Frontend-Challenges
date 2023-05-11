@@ -17,10 +17,9 @@ body {
 }
 
 .container {
-  width: 1000px;
   margin: auto;
-  padding-top: var(--main-padding);
-  padding-bottom: var(--main-padding);
+  max-width: 1000px;
+  padding: var(--main-padding);
 }
 
 .orange-line::before {
@@ -32,18 +31,14 @@ body {
   background-color: var(--color-one);
 }
 
-header {
-  height: 44rem;
-}
-
-header .banner {
+.header__banner {
   position: relative;
-  height: 25rem;
   border-radius: 0.4rem;
   overflow: hidden;
+  display: none;
 }
 
-header .banner::before {
+.header__banner::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -53,34 +48,35 @@ header .banner::before {
   z-index: 1;
 }
 
-header .banner img {
+.header__banner img {
   max-width: 100%;
 }
 
-header .info {
-  position: relative;
-  top: -22rem;
+.header__info {
+  top: -16rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   margin: 0 1rem;
+  word-wrap: break-word;
   z-index: 2;
 }
 
-header .info .register {
-  width: 45%;
+.header__info .register {
+  min-width: 45%;
   padding: 2rem 2rem;
   background-color: var(--color-two);
   color: white;
 }
 
-header .info .register h2 {
+.header__info .register h2 {
   position: relative;
   font-size: 4rem;
   font-weight: 300;
@@ -88,23 +84,23 @@ header .info .register h2 {
   margin: 0;
 }
 
-header .info .register ul {
+.header__info .register ul {
   list-style: none;
   margin: 2rem 0;
   padding: 0;
 }
 
-header .info .register li {
+.header__info .register li {
   font-size: 1.6rem;
   line-height: 2.4;
 }
 
-header .info .register li span.check {
+.header__info .register li span.check {
   color: #77a93d;
   padding-right: var(--main-padding);
 }
 
-header .info button,
+.header__info button,
 footer button {
   width: 15rem;
   height: 4rem;
@@ -113,55 +109,61 @@ footer button {
   background-color: var(--color-one);
 }
 
-header .info button a,
+.header__info button a,
 footer button a {
   color: white;
   font-size: 2rem;
   text-decoration: none;
 }
 
-header .info p.details {
-  width: 47%;
+.header .header__info p.details {
   padding: var(--main-padding);
   border: 0.2rem solid var(--color-one);
   line-height: 2;
   font-size: 1.3rem;
 }
 
-section {
+.services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   counter-reset: counter;
 }
 
-section .service {
-  width: 30%;
+.services-item {
+  margin-top: 2rem;
   padding: 3rem 2rem 3rem;
   background-color: #f2f8fa;
   counter-increment: num;
 }
 
-section .service::before {
+.services-item::before {
   content: '0' counter(num);
   color: var(--color-one);
   font-size: 2.5rem;
 }
 
-section .service h3 {
+.services-item__title {
   font-size: 2rem;
   text-transform: uppercase;
 }
 
-section .service p {
+.services-item__description {
   font-size: 1.2rem;
   line-height: 2;
 }
 
-section .service a {
+.services-item__action {
   text-decoration: none;
   color: var(--color-one);
   font-size: 1.4rem;
@@ -189,7 +191,6 @@ footer {
 
 footer .info {
   position: relative;
-  width: 50%;
   color: white;
   line-height: 2;
   z-index: 3;
@@ -209,6 +210,7 @@ footer p {
 footer .image {
   width: 44%;
   z-index: 1;
+  display: none;
 }
 
 footer img {
@@ -226,24 +228,48 @@ footer span {
   opacity: 0.7;
 }
 
-/* start footer style */
-.footer {
-  min-width: 1000px;
-  height: 4rem;
-  line-height: 2rem;
-  padding: 1rem;
-  background-color: #FFD447;
-  text-align: center;
-  font-size: 1.2rem;
-}
+@media screen and (min-width: 992px) {
+  .header {
+    height: 44rem;
+  }
 
-.footer-name {
-  text-decoration: none;
-  color: black;
-}
+  .header__banner {
+    display: block;
+  }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
-  color: #850021;
+  .header__info {
+    position: relative;
+    top: -22rem;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .header .header__info p.details {
+    width: 47%;
+  }
+
+  .services {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .services-item {
+    width: 30%;
+  }
+
+  footer .image {
+    display: block;
+  }
+
+  footer .info {
+    width: 50%;
+  }
 }
-/* end footer style */

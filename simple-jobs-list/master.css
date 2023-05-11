@@ -7,12 +7,12 @@
 
 :root {
   font-family: 'MontserratRegular', sans-serif;
-  --color-one: #2779B0;
-  --color-two: #587D2B;
+  --color-one: #2779b0;
+  --color-two: #587d2b;
   --color-three: #8e44ad;
   --color-four: #f3f6f9;
   --color-five: #b2b1b1;
-  --color-six: #0F3A57
+  --color-six: #0f3a57;
   --color-seven: #6c6d6e;
 }
 
@@ -23,6 +23,7 @@ body {
 .container {
   margin: auto;
   background-color: var(--color-four);
+  text-align: center;
 }
 
 header {
@@ -57,13 +58,17 @@ header p {
 }
 
 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
 .offers {
   width: 93%;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -90,14 +95,11 @@ main {
 .offer:first-child::before {
   content: 'Featured';
   position: absolute;
-  top: 3rem;
-  left: -6.02rem;
+  top: -3rem;
+  left: 2.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transform: rotateZ(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotateZ(270deg);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -185,7 +187,7 @@ span.date::before {
   -ms-flex-align: flex-start;
   align-items: flex-start;
   -ms-flex-preferred-size: 9rem;
-flex-basis: 7rem;
+  flex-basis: 7rem;
 }
 
 span.city {
@@ -228,11 +230,6 @@ button {
 }
 
 button.more {
-  position: relative;
-  left: calc(50% + 0.9rem);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
   width: 11rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -242,12 +239,27 @@ button.more {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 300px;
+    max-width: 300px;
   }
   .offer {
     position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+  }
+  .offer:first-child::before {
+    top: -3rem;
+    left: 2.2rem;
+    top: -3rem;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
   }
   .image {
     margin-top: 3rem;
@@ -262,6 +274,8 @@ button.more {
     position: absolute;
     top: 1.6rem;
     left: 23%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
   .basic-info .info span::before {
@@ -271,7 +285,10 @@ button.more {
     position: absolute;
     top: 0.5rem;
     right: 7%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-preferred-size: auto;
     flex-basis: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -287,9 +304,19 @@ button.more {
     width: 740px;
   }
   .offer {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+  .offer:first-child::before {
+    top: 3rem;
+    left: -6.02rem;
+    -webkit-transform: rotateZ(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotateZ(270deg);
+  }
   .offer .image {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
   }
   .offer .image img {
@@ -297,8 +324,13 @@ button.more {
     width: 17rem;
   }
   .basic-info {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
+    -ms-flex-preferred-size: 18rem;
     flex-basis: 18rem;
+    -webkit-box-flex: 0.5;
+    -ms-flex-positive: 0.5;
     flex-grow: 0.5;
   }
   .basic-info .info span {
@@ -312,10 +344,14 @@ button.more {
     display: none;
   }
   .action {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
     position: relative;
     top: 1rem;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
   button {
@@ -329,26 +365,37 @@ button.more {
     width: 970px;
   }
   .offer {
+    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
   .offer .image {
+    -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
   .offer .image img {
     width: 13rem;
   }
   .basic-info {
+    -ms-flex-preferred-size: 17rem;
     flex-basis: 17rem;
     padding-left: 1rem;
   }
   .location {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
   }
   .action {
     position: initial;
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
     order: 4;
     left: 0;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
     transform: translateX(0);
   }
   button {
@@ -365,6 +412,8 @@ button.more {
     padding-left: 0;
   }
   .basic-info .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -372,10 +421,9 @@ button.more {
 /* start footer style */
 footer {
   width: 100%;
-  height: 4rem;
   line-height: 2rem;
   padding: 1rem;
-  background-color: #FFD447;
+  background-color: #ffd447;
   text-align: center;
   font-size: 1.2rem;
 }
@@ -385,8 +433,9 @@ footer {
   color: black;
 }
 
-.footer-name:before,.footer-name:after {
-  content: "❤";
+.footer-name:before,
+.footer-name:after {
+  content: '❤';
   color: #850021;
 }
 /* end footer style */

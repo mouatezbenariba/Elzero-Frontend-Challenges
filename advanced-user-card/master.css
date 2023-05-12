@@ -257,11 +257,7 @@
 
 .side-bar a i {
   position: absolute;
-  /*! top: 50%; */
   left: -1.5rem;
-  /*! -webkit-transform: translateY(-50%); */
-  /*! -ms-transform: translateY(-50%); */
-  /*! transform: translateY(-50%); */
   font-size: 0.85rem;
 }
 
@@ -356,7 +352,10 @@
 
   .side-bar a {
     display: block;
-    width: auto;
+  }
+
+  .side-bar:hover a {
+    padding: 0;
   }
 
   .menu {
@@ -391,15 +390,7 @@
   }
 }
 
-@media screen and (min-width: 840px) {
-  .side-bar {
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-  }
-}
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 917px) {
   .main-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

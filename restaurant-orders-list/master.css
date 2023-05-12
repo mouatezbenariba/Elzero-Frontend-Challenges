@@ -395,8 +395,8 @@ tbody tr input:checked + label:before {
 }
 
 tr td {
-    font-weight: 600;
-    font-size: 15px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 /* personal footer */

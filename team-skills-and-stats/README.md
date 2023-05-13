@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Team Skills and Stats
 
 ## Welcome 👋
 

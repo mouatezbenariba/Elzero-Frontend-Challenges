@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Product Box With Progress
 
 ## Welcome 👋
 

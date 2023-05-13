@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Gaming Profile Sections
 
 ## Welcome 👋
 

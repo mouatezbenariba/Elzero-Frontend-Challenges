@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Restaurant Orders List
 
 ## Welcome 👋
 

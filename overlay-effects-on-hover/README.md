@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Overlay Effects in Hover
 
 ## Welcome 👋
 

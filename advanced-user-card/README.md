@@ -17,12 +17,14 @@ Create a card with user information.
 
 ## Challenges
 
+[Advanced User Card](images/challenge-screenshot.png)
+
 - Use only Flex or Grid to create the design.
 
 ## My Solution
 
-- Demo : []()
-- Codepen : []()
+- Demo : [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)
+- Codepen : [Advanced User Card](https://codepen.io/mouatezbenariba/pen/jOKajEB)
 - Screenshot :
 
 ## Technologies Used

@@ -2,11 +2,14 @@
 
 ## Welcome 👋
 
-Hello and welcome to my solution for the [Challenge Name] frontend challenge from [Elzero Web School](https://elzero.org/category/challenges/front-end-challenges/).
+Hello and welcome to my solution for the **Advanced User Card** frontend challenge from [Elzero Web School](https://elzero.org/category/challenges/front-end-challenges/).
 
 ## The Challenge
 
-Create a card with user information.
+- Create a card with user information.
+  </br>
+
+![Advanced User Card](images/challenge-screenshot.png)
 
 ## Requirements
 
@@ -17,15 +20,12 @@ Create a card with user information.
 
 ## Challenges
 
-[Advanced User Card](images/challenge-screenshot.png)
-
 - Use only Flex or Grid to create the design.
 
 ## My Solution
 
-- Demo : [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)
-- Codepen : [Advanced User Card](https://codepen.io/mouatezbenariba/pen/jOKajEB)
-- Screenshot :
+- **Demo** : [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)
+- **Codepen** : [Advanced User Card](https://codepen.io/mouatezbenariba/pen/jOKajEB)
 
 ## Technologies Used
 
@@ -37,4 +37,4 @@ Create a card with user information.
 
 ## Conclusion
 
-Thank you for taking the time to review my solution for the [Challenge Name] challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!
+Thank you for taking the time to review my solution for the Advanced User Card challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!

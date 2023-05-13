@@ -1,9 +1,23 @@
-# Elzero Frontend Challenge - Advanced User Card
+# Elzero Frontend Challenge -
 
-- **Challenge :** https://elzero.org/frontend-advanced-user-card/
-- **Live Demo :** https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/
-- **Codepen :** https://codepen.io/mouatezbenariba/pen/jOKajEB
+## Welcome 👋
 
-- **Screenshot :**
+Hello and welcome to my solution for the [Challenge Name] frontend challenge from [Elzero Web School](https://elzero.org/category/challenges/front-end-challenges/).
 
-![A person seatting on a chair](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/advanced-user-card/images/challenge-screenshot.png)
+## The Challenge
+
+## Requirements
+
+## Challenges
+
+## Technologies Used
+
+## My Solution
+
+- Demo : []()
+- Codepen : []()
+- Screenshot :
+
+## Conclusion
+
+Thank you for taking the time to review my solution for the [Challenge Name] challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!

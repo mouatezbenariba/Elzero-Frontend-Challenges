@@ -8,7 +8,13 @@ Hello and welcome to my solution for the [Challenge Name] frontend challenge fro
 
 ## Requirements
 
+- Create the same background and colors for the elements.
+- You can use Font Awesome library to add Icons or any preferred library.
+- Use any images you want.
+
 ## Challenges
+
+- Do not use Float at all.
 
 ## Technologies Used
 

@@ -6,9 +6,12 @@ Hello and welcome to my solution for the [Challenge Name] frontend challenge fro
 
 ## The Challenge
 
+- Create a to-do list with Custom Checkboxes.
+
 ## Requirements
 
-## Challenges
+- Create the same background and colors for the elements.
+- You can use Font Awesome library to add Icons or any preferred library.
 
 ## Technologies Used
 

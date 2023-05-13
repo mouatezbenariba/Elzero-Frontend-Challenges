@@ -1,4 +1,4 @@
-# Elzero Frontend Challenge -
+# Elzero Frontend Challenge - Advanced User Card
 
 ## Welcome 👋
 
@@ -6,17 +6,32 @@ Hello and welcome to my solution for the [Challenge Name] frontend challenge fro
 
 ## The Challenge
 
+Create a card with user information.
+
 ## Requirements
+
+- Create the required design in the exercise.
+- Ensure that the same colors are used in the background and in all elements on the page.
+- You can use any image you like in the exercise.
+- You can use any preferred Icons library.
 
 ## Challenges
 
-## Technologies Used
+- Use only Flex or Grid to create the design.
 
 ## My Solution
 
 - Demo : []()
 - Codepen : []()
 - Screenshot :
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- Responsive Design
+- Mobile-first workflow
 
 ## Conclusion
 

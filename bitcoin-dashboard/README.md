@@ -2,11 +2,11 @@
 
 ## Welcome 👋
 
-Hello and welcome to my solution for the Simple Bitcoin Dashboard frontend challenge from [Elzero Web School](https://elzero.org/category/challenges/front-end-challenges/).
+Hello and welcome to my solution for the **Simple Bitcoin Dashboard** frontend challenge from [Elzero Web School](https://elzero.org/category/challenges/front-end-challenges/).
 
 ## The Challenge
 
-- Create a Bitcoin Dashboard.
+The challenge was to build a Bitcoin selling dashboard. The design for the challenge was provided in the form of an image.
 
 ![Bitcoin Dashboard Challenge](images/frontend-task-simple-bitcoin-dashboard.png)
 
@@ -32,6 +32,17 @@ Hello and welcome to my solution for the Simple Bitcoin Dashboard frontend chall
 - Demo : [Simple Bitcoin Dashboard](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)
 - Codepen : [Simple Bitcoin Dashboard](https://codepen.io/mouatezbenariba/pen/vYdXaRw)
 
-## Conclusion
+## Made with ❤ by:
+
+- Website - [Elmouatez Billah Benariba](https://www.mouatezbenariba.me/)
+- Linkedin - [Elmouatez Billah Benariba](https://www.linkedin.com/in/mouatezbenariba/)
+- Twitter - [@mouatezbenariba](https://twitter.com/mouatezbenariba)
+- Instagram - [@mouatez.benariba](https://www.instagram.com/mouatez.benariba/)
+
+## Acknowledgments
+
+- I would like to express my special thanks of gratitude to eng [Osama Mohamed](https://github.com/OsamaElzero).
+
+## Contribution
 
 Thank you for taking the time to review my solution for the Simple Bitcoin Dashboard challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!

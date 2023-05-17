@@ -132,3 +132,32 @@ a {
     padding: 2.5rem 5rem;
   }
 }
+
+/* personal footer */
+
+footer {
+  margin-top: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform,
+.coder {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.platform {
+  color: #2eca7f;
+}
+
+.coder {
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

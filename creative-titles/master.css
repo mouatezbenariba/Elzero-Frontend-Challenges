@@ -136,30 +136,26 @@ h3:nth-of-type(4)::after {
   border-color: var(--color-four) transparent transparent transparent;
 }
 
-/* start footer style */
+/* personal footer */
+
 footer {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 100%;
-  min-height: 4rem;
-  line-height: 2rem;
-  padding: 1rem;
-  background-color: #ffd447;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
   text-align: center;
-  font-size: 1.2rem;
 }
 
-.footer-name {
+.platform {
+  font-weight: 500;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 500;
+  color: #cf2937;
+}
+
+a {
   text-decoration: none;
-  color: black;
 }
-
-.footer-name:before,
-.footer-name:after {
-  content: '❤';
-  color: #850021;
-}
-/* end footer style */

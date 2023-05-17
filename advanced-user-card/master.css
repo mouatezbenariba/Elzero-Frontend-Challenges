@@ -454,24 +454,24 @@
 
 /* personal footer */
 
-.footer {
-  width: 1084px;
-  height: 4rem;
-  margin-top: 2rem;
-  padding: 1rem;
-  background-color: #ffd447;
-  line-height: 2rem;
+footer {
   text-align: center;
-  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  line-height: 1.5;
 }
 
-.footer-name {
+.platform {
+  font-weight: 500;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 500;
+  color: #cf2937;
+}
+
+a {
   text-decoration: none;
-  color: black;
-}
-
-.footer-name:before,
-.footer-name:after {
-  content: '❤';
-  color: #850021;
 }

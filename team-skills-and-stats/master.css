@@ -353,3 +353,27 @@ footer span {
     justify-content: space-between;
   }
 }
+
+/* personal footer */
+
+.footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform,
+.coder {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.platform {
+  color: #2eca7f;
+}
+
+.coder {
+  color: #cf2937;
+}

@@ -21,180 +21,199 @@
     <!-- main style css -->
     <link rel="stylesheet" href="master.css" />
     <!-- Google Validation -->
-    <meta name="google-site-verification" content="CVE6WqfytS1I3j_MJUG3wZ9fzuDJheBNQm3pwR2dmLc" />
+    <meta
+      name="google-site-verification"
+      content="CVE6WqfytS1I3j_MJUG3wZ9fzuDJheBNQm3pwR2dmLc"
+    />
     <title>Simple Bitcoin Dashboard</title>
   </head>
   <body>
-    <nav class="side-nav" id="top-page">
-      <ul>
-        <li>
-          <a href="#top-page"><i class="fa-solid fa-dungeon"></i></a>
-        </li>
-        <li>
-          <a href="#top-page"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
-        </li>
-        <li>
-          <a href="#top-page"><i class="fa-solid fa-screwdriver-wrench"></i></a>
-        </li>
-        <li>
-          <a href="#top-page"><i class="fa-solid fa-user"></i></a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <header>
-        <div class="icon">
-          <img src="images/logo.PNG" alt="" />
-        </div>
-        <nav>
-          <div class="balance">
-            <p tabindex="0">0.0025 ₿</p>
-            <p tabindex="0">219.63 USD</p>
+    <div class="container">
+      <nav class="side-nav" id="top-page">
+        <ul>
+          <li>
+            <a href="#top-page"><i class="fa-solid fa-dungeon"></i></a>
+          </li>
+          <li>
+            <a href="#top-page"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+          </li>
+          <li>
+            <a href="#top-page"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+          </li>
+          <li>
+            <a href="#top-page"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <header>
+          <div class="icon">
+            <img src="images/logo.PNG" alt="" />
           </div>
-          <ul class="drop-down-menu">
-            <i class="fa-solid fa-user"></i>
-            <a href="https://myurls.co/mouatezbenariba" target="_blank"
-              >Mouatez Benariba</a
-            >
-            <i class="fa-solid fa-angle-down"></i>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <p>Welcome Back, <span>Mouatez</span></p>
-        <div class="operation">
-          <div class="operation-amount">
-            <div class="operation-type">
-              <button autofocus>BUY</button>
-              <button>SELL</button>
+          <nav>
+            <div class="balance">
+              <p tabindex="0">0.0025 ₿</p>
+              <p tabindex="0">219.63 USD</p>
             </div>
-            <form action="">
-              <div>
-                <label for="curncy">Receive</label>
-                <select name="receive-currencies" id="receive-currencies">
-                  <option value="bitcoin">Bitcoin (BTC)</option>
-                  <option value="ethereum">Ethereum (ETH)</option>
-                  <option value="tether">Tether (USDT)</option>
-                  <option value="solana">Solana (Sol)</option>
-                  <option value="binance-coin">Binance Coin (BNB)</option>
-                  <option value="binance-coin">United States Dollar (USD)</option>
-                </select>
-                <input
-                  type="number"
-                  name="receive-amount"
-                  id="receive-amount"
-                  placeholder="Amount"
-                />
+            <ul class="drop-down-menu">
+              <i class="fa-solid fa-user"></i>
+              <a href="https://myurls.co/mouatezbenariba" target="_blank"
+                >Mouatez Benariba</a
+              >
+              <i class="fa-solid fa-angle-down"></i>
+            </ul>
+          </nav>
+        </header>
+        <section>
+          <p>Welcome Back, <span>Mouatez</span></p>
+          <div class="operation">
+            <div class="operation-amount">
+              <div class="operation-type">
+                <button autofocus>BUY</button>
+                <button>SELL</button>
               </div>
-              <div>
-                <label for="method">Payment Method</label>
-                <select name="payment-method" id="method">
-                  <option value="bitcoin">Bank Transfer</option>
-                  <option value="ethereum">Credit Card</option>
-                  <option value="tether">Debit Card</option>
-                </select>
-                <input
-                  type="text"
-                  name="payment-method-details"
-                  placeholder="Payment Method Details"
-                />
-              </div>
-              <div>
-                <label for="curncy">Spend</label>
-                <select name="spend-currencies" id="spend-currencies">
-                  <option value="bitcoin">Bitcoin (BTC)</option>
-                  <option value="ethereum">Ethereum (ETH)</option>
-                  <option value="tether">Tether (USDT)</option>
-                  <option value="solana">Solana (Sol)</option>
-                  <option value="binance-coin">Binance Coin (BNB)</option>
-                  <option value="binance-coin">United States Dollar (USD)</option>
-                </select>
-                <input
-                  type="number"
-                  name="spend-amount"
-                  id="spend-amount"
-                  placeholder="Amount"
-                />
-              </div>
-              <div class="limit">
-                <span>Monthly Limit</span>
-                <span>$49750 remaining</span>
-              </div>
-              <input
-                type="submit"
-                name="exchange"
-                value="Exchange Now"
-                id="exchange-button"
-              />
-            </form>
-            <p>
-              Note : Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              voluptatem alias officia qui maxime adipisci enim, provident fugit sequi
-              mollitia minima. Nostrum modi fugit unde velit sunt! Consequatur, rerum
-              dolore?
-            </p>
-          </div>
-          <div class="operation-details">
-            <div class="buyer-seller-info">
-              <div class="buyer">
-                <div class="image">
-                  <img src="images/3286-1.jpg" alt="" />
+              <form action="">
+                <div>
+                  <label for="curncy">Receive</label>
+                  <select name="receive-currencies" id="receive-currencies">
+                    <option value="bitcoin">Bitcoin (BTC)</option>
+                    <option value="ethereum">Ethereum (ETH)</option>
+                    <option value="tether">Tether (USDT)</option>
+                    <option value="solana">Solana (Sol)</option>
+                    <option value="binance-coin">Binance Coin (BNB)</option>
+                    <option value="binance-coin">United States Dollar (USD)</option>
+                  </select>
+                  <input
+                    type="number"
+                    name="receive-amount"
+                    id="receive-amount"
+                    placeholder="Amount"
+                  />
                 </div>
-                <div class="info">
-                  <p>Buyer</p>
-                  <p class="name">Mouatez</p>
+                <div>
+                  <label for="method">Payment Method</label>
+                  <select name="payment-method" id="method">
+                    <option value="bitcoin">Bank Transfer</option>
+                    <option value="ethereum">Credit Card</option>
+                    <option value="tether">Debit Card</option>
+                  </select>
+                  <input
+                    type="text"
+                    name="payment-method-details"
+                    placeholder="Payment Method Details"
+                  />
+                </div>
+                <div>
+                  <label for="curncy">Spend</label>
+                  <select name="spend-currencies" id="spend-currencies">
+                    <option value="bitcoin">Bitcoin (BTC)</option>
+                    <option value="ethereum">Ethereum (ETH)</option>
+                    <option value="tether">Tether (USDT)</option>
+                    <option value="solana">Solana (Sol)</option>
+                    <option value="binance-coin">Binance Coin (BNB)</option>
+                    <option value="binance-coin">United States Dollar (USD)</option>
+                  </select>
+                  <input
+                    type="number"
+                    name="spend-amount"
+                    id="spend-amount"
+                    placeholder="Amount"
+                  />
+                </div>
+                <div class="limit">
+                  <span>Monthly Limit</span>
+                  <span>$49750 remaining</span>
+                </div>
+                <input
+                  type="submit"
+                  name="exchange"
+                  value="Exchange Now"
+                  id="exchange-button"
+                />
+              </form>
+              <p>
+                Note : Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                voluptatem alias officia qui maxime adipisci enim, provident fugit sequi
+                mollitia minima. Nostrum modi fugit unde velit sunt! Consequatur, rerum
+                dolore?
+              </p>
+            </div>
+            <div class="operation-details">
+              <div class="buyer-seller-info">
+                <div class="buyer">
+                  <div class="image">
+                    <img src="images/3286-1.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <p>Buyer</p>
+                    <p class="name">Mouatez</p>
 
-                  <a href="mailto: elmouatez-billah.benariba@student.umc.dz"
-                    >elmouatez-billah.benariba@student.umc.dz</a
-                  >
+                    <a href="mailto: elmouatez-billah.benariba@student.umc.dz"
+                      >elmouatez-billah.benariba@student.umc.dz</a
+                    >
+                  </div>
+                </div>
+                <div class="seller">
+                  <div class="image">
+                    <img src="images/3286-2.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <p>Seller</p>
+                    <p class="name">Khaled</p>
+                    <a>abcd@gmail.com</a>
+                  </div>
                 </div>
               </div>
-              <div class="seller">
-                <div class="image">
-                  <img src="images/3286-2.jpg" alt="" />
-                </div>
-                <div class="info">
-                  <p>Seller</p>
-                  <p class="name">Khaled</p>
-                  <a>abcd@gmail.com</a>
-                </div>
+              <div class="operation-info">
+                <ul>
+                  <li>
+                    <p>You are selling</p>
+                    <span>0.00254 BTC</span>
+                  </li>
+                  <li>
+                    <p>Payment Method</p>
+                    <span>Bank of America **********5245</span>
+                  </li>
+                  <li>
+                    <p>Exchange Rate</p>
+                    <span>0.00212455 BTC</span>
+                  </li>
+                  <li>
+                    <p>Fee</p>
+                    <span>$28.00 USD</span>
+                  </li>
+                  <li>
+                    <p>Total</p>
+                    <span>$854.00 USD</span>
+                  </li>
+                  <li>
+                    <p>Vat</p>
+                    <span class="tax">$25.00 USD</span>
+                  </li>
+                  <li>
+                    <p>Sub Total</p>
+                    <span>$1232.00 USD</span>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="operation-info">
-              <ul>
-                <li>
-                  <p>You are selling</p>
-                  <span>0.00254 BTC</span>
-                </li>
-                <li>
-                  <p>Payment Method</p>
-                  <span>Bank of America **********5245</span>
-                </li>
-                <li>
-                  <p>Exchange Rate</p>
-                  <span>0.00212455 BTC</span>
-                </li>
-                <li>
-                  <p>Fee</p>
-                  <span>$28.00 USD</span>
-                </li>
-                <li>
-                  <p>Total</p>
-                  <span>$854.00 USD</span>
-                </li>
-                <li>
-                  <p>Vat</p>
-                  <span class="tax">$25.00 USD</span>
-                </li>
-                <li>
-                  <p>Sub Total</p>
-                  <span>$1232.00 USD</span>
-                </li>
-              </ul>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
+    <footer>
+      Challenge by
+      <a
+        href="https://elzero.org/category/challenges/front-end-challenges/"
+        target="_blank"
+        rel="noopener"
+        class="platform"
+        >Elzero Web School.</a
+      >
+      Coded by
+      <a href="https://mouatezbenariba.me/" target="_blank" rel="noopener" class="coder"
+        >Elmouatez Billah Benariba.</a
+      >
+    </footer>
   </body>
 </html>

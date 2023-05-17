@@ -28,7 +28,7 @@ body {
 
 nav.side-nav {
   position: fixed;
-  height: 100vh;
+  height: calc(100% - 56px);
   background-color: var(--color-one);
 }
 

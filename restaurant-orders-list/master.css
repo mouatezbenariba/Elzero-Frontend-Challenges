@@ -403,23 +403,24 @@ tr td {
 
 .footer {
   width: 1084px;
-  height: 4rem;
   margin: auto;
-  margin-top: 2rem;
-  padding: 1rem;
-  background-color: #ffd447;
-  line-height: 2rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
   text-align: center;
-  font-size: 1.2rem;
 }
 
-.footer-name {
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
   text-decoration: none;
-  color: black;
-}
-
-.footer-name:before,
-.footer-name:after {
-  content: '❤';
-  color: #850021;
 }

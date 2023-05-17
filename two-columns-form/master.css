@@ -140,26 +140,26 @@ div:nth-child(5) + input {
   }
 }
 
-/* start footer style */
+/* personal footer */
 
 footer {
-  min-width: 46rem;
-  height: 4rem;
-  line-height: 2rem;
-  padding: 1rem;
-  background-color: #ffd447;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
   text-align: center;
-  font-size: 1.2rem;
 }
 
-.footer-name {
+.platform,
+.coder {
+  font-weight: 600;
   text-decoration: none;
-  color: black;
 }
 
-.footer-name:before,
-.footer-name:after {
-  content: '❤';
-  color: #850021;
+.platform {
+  color: #2eca7f;
 }
-/* end footer style */
+
+.coder {
+  color: #cf2937;
+}

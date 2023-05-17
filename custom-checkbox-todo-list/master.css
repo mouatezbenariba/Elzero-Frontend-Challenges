@@ -90,24 +90,26 @@ input[type='checkbox']:checked::before {
   background-color: #f9f9f9;
 }
 
-/* start footer style */
+/* personal footer */
+
 footer {
-  min-width: 614px;
-  height: 4rem;
-  line-height: 2rem;
-  padding: 1rem;
-  background-color: #FFD447;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
   text-align: center;
-  font-size: 1.2rem;
 }
 
-.footer-name {
+.platform {
+  font-weight: 500;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 500;
+  color: #cf2937;
+}
+
+a {
   text-decoration: none;
-  color: black;
 }
-
-.footer-name:before,.footer-name:after {
-  content: "❤";
-  color: #850021;
-}
-/* end footer style */

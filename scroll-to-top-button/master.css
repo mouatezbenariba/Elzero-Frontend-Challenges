@@ -43,6 +43,8 @@ button.top a {
   color: white;
 }
 
+/* personal footer */
+
 footer {
   position: absolute;
   -webkit-transform: translateX(-50%);
@@ -50,47 +52,23 @@ footer {
   transform: translateX(-50%);
   bottom: 0;
   left: 50%;
-  width: calc(100vw - 2rem);
-  margin-top: 5px;
-  padding: 10px;
-  background-color: #222222;
-  color: #b4b4b9;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   line-height: 1.5;
-  font-size: 1.1rem;
   text-align: center;
-  display: block;
 }
 
-footer a {
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
   text-decoration: none;
-  color: #2196f3;
-  font-weight: bold;
 }
-
-/* start footer style */
-footer {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 100%;
-  height: 4rem;
-  line-height: 2rem;
-  padding: 1rem;
-  background-color: #ffd447;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
-.footer-name {
-  text-decoration: none;
-  color: black;
-}
-
-.footer-name:before,
-.footer-name:after {
-  content: '❤';
-  color: #850021;
-}
-/* end footer style */

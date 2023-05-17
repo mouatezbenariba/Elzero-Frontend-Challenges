@@ -13,6 +13,15 @@
   --color-four: #ffd260;
 }
 
+.container {
+  position: relative;
+  height: 58rem;
+  min-width: 77rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .parent {
   position: absolute;
   display: -webkit-box;
@@ -26,7 +35,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  top: 50%;
+  top: 59%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -147,4 +156,29 @@
 
 .child .info p {
   width: 19rem;
+}
+
+/* personal footer */
+
+footer {
+  min-width: 77rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.platform {
+  font-weight: 500;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 500;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
 }

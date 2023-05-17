@@ -273,3 +273,26 @@ footer span {
     width: 50%;
   }
 }
+
+/* personal footer */
+
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

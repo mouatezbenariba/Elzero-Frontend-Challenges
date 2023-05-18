@@ -29,32 +29,7 @@ The result : I got 100% in Lighthouse Performance score.
 - Page Quality | web.dev :
   <br>
 
-![Page Quality | web.dev](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/simple-jobs-list/images/page%20quality.webp)
-
-- Solution Screen 01:
-  <br>
-
-![screen-01](/images/screen-1.webp)
-
-- Solution Screen 02:
-  <br>
-
-![screen-01](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/simple-jobs-list/images/screen-2.webp)
-
-- Solution Screen 03:
-  <br>
-
-![screen-01](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/simple-jobs-list/images/screen-3.webp)
-
-- Solution Screen 04:
-  <br>
-
-![screen-01](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/simple-jobs-list/images/screen-4.webp)
-
-- Schema Markup Validator :
-  <br>
-
-![screen-01](https://github.com/mouatezbenariba/Elzero-Frontend-Challenges/blob/main/simple-jobs-list/images/schema%20markup%20validator%20report.webp)
+![Page Quality | web.dev](images/page%20quality.webp)
 
 ### Links
 

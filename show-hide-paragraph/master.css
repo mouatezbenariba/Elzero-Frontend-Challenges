@@ -29,7 +29,7 @@ body {
 
 .action__btn {
   all: unset;
-  padding: 0.3rem 1.1rem;
+  padding: 0.2rem 1.2rem;
   background-color: var(--cyan-100);
   border-color: var(--cyan-100);
   border-radius: 0.4rem;

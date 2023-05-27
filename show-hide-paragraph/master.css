@@ -41,7 +41,7 @@ body {
 .action__content {
   padding: 1.16rem 6rem;
   background-color: var(--gray-100);
-  font-size: 1.1rem;
+  font-size: 1rem;
   -webkit-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;

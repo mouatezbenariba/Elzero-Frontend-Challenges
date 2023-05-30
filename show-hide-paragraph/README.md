@@ -28,6 +28,14 @@ The challenge was to build a button that shows and hides a paragraph. The design
 - Demo : [Show / Hide Paragraph](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/show-hide-paragraph/)
 - Codepen : [Show / Hide Paragraph](https://codepen.io/mouatezbenariba/pen/poxBvga/)
 
+## Blog post
+
+Explore my blog post where I provide a step-by-step breakdown of how I tackled Show/Hide Paragraph Elzero Frontend Challenge.
+
+- Personal Blog: [Elzero Frontend Challenges: Build a button that shows and hides a paragraph](https://blog.mouatezbenariba.me/blog/en/2023-05-27-build-a-button-that-shows-and-hides-a-paragraph-elzero-frontend-challenges/i)
+- Hashnode: [Elzero Frontend Challenges: Build a button that shows and hides a paragraph](https://hashnode.mouatezbenariba.me/build-a-button-that-shows-and-hides-a-paragraph-elzero-frontend-challenges)
+- Dev.to: [Elzero Frontend Challenges: Build a button that shows and hides a paragraph](https://dev.to/mouatezbenariba/elzero-frontend-challenges-build-a-button-that-shows-and-hides-a-paragraph-4b2f)
+
 ## Made with ❤ by:
 
 - Website - [Elmouatez Billah Benariba](https://www.mouatezbenariba.me/)

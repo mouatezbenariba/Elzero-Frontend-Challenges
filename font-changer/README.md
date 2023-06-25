@@ -34,8 +34,8 @@ The challenge was to build gaming profile sections. The design for the challenge
 Explore my blog post where I provide a step-by-step breakdown of how I tackled Show/Hide Paragraph Elzero Frontend Challenge.
 
 - Personal Blog: [Create a simple Font Changer - Elzero Frontend Challenges](https://blog.mouatezbenariba.me/blog/en/create-a-simple-font-changer-elzero-frontend-challenges/)
-- Hashnode: [Elzero Frontend Challenges: Build a button that shows and hides a paragraph](https://hashnode.mouatezbenariba.me/build-a-button-that-shows-and-hides-a-paragraph-elzero-frontend-challenges)
-- Dev.to: [Elzero Frontend Challenges: Build a button that shows and hides a paragraph](https://dev.to/mouatezbenariba/elzero-frontend-challenges-build-a-button-that-shows-and-hides-a-paragraph-4b2f)
+- Hashnode: [Create a simple Font Changer - Elzero Frontend Challenges](https://hashnode.mouatezbenariba.me/create-a-simple-font-changer-elzero-frontend-challenges)
+- Dev.to: [Create a simple Font Changer - Elzero Frontend Challenges](https://dev.to/mouatezbenariba/create-a-simple-font-changer-elzero-frontend-challenges-mmi)
 
 ## Made with ❤ by:
 

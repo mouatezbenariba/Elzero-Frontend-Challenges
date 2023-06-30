@@ -112,18 +112,12 @@ svg {
 /* Personal Footer */
 /* --------------- */
 
-footer {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.footer {
+  min-width: 300px;
+  margin: 2rem 1rem;
   line-height: 1.5;
+  font-family: 'Inter', sans-serif;
   text-align: center;
-  position: absolute;
-  bottom: 0.5rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
 }
 
 .platform {

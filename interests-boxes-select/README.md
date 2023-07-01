@@ -6,7 +6,7 @@ Hello and welcome to my solution for the **Interests Boxes Select** frontend cha
 
 ## The Challenge
 
-The challenge was to build gaming profile sections. The design for the challenge was provided in the form of an image.
+The challenge was to build a List of Interest Boxes. The design for the challenge was provided in the form of an image.
 
 ![Interests Boxes Select](https://elzero.org/wp-content/uploads/2022/10/interests-boxes-select.png)
 

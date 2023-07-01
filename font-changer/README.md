@@ -50,4 +50,4 @@ Explore my blog post where I provide a step-by-step breakdown of how I tackled S
 
 ## Contribution
 
-Thank you for taking the time to review my solution for the [Challenge Name] challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!
+Thank you for taking the time to review my solution for the Font Changer challenge from Elzero Web School Frontend Challenges. If you have any feedback or suggestions, I would love to hear them!

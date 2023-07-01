@@ -6,7 +6,7 @@ Hello and welcome to my solution for the **Font Changer** frontend challenge fro
 
 ## The Challenge
 
-The challenge was to build gaming profile sections. The design for the challenge was provided in the form of an image.
+The challenge was to build a simple Font Changer. The design for the challenge was provided in the form of an image.
 
 ![Font Changer](images/javascript-font-changer.gif)
 

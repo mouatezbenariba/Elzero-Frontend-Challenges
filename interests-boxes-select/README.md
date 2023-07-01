@@ -35,6 +35,10 @@ The challenge was to build a List of Interest Boxes. The design for the challeng
 - HTML5
 - CSS3
 
+## Used Icons
+
+- I used Flaticon [Icon Pack: Coding | Outline](https://www.flaticon.com/packs/coding-74) of edt.im.
+
 ## My Solution
 
 - Demo : [Interests Boxes Select](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/interests-boxes-select/)

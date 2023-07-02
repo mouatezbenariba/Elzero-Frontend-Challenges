@@ -22,6 +22,8 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Chat Messenger With Background](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/chat-messenger-with-background/) | ⭐⭐       | HTML, CSS                 |
+| [Interests Boxes Select](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/interests-boxes-select/)                 | ⭐⭐       | HTML, CSS                 |
 | [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)                         | ⭐⭐       | HTML, CSS                 |
 | [Restaurant Orders List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/restaurant-orders-list/)                 | ⭐⭐       | HTML, CSS                 |
 | [Joystick and Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/joystick-and-sidebar/)                     | ⭐⭐       | HTML, CSS                 |
@@ -42,6 +44,8 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 | [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)           | ⭐⭐       | HTML, CSS                 |
 | [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                             | ⭐⭐       | HTML, CSS                 |
 | [Picture With Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/picture-with-frame/)                         | ⭐⭐       | HTML, CSS                 |
+| [Classic Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/classic-sidebar/)                               | ⭐         | HTML, CSS, JS             |
+| [Font Changer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/font-changer/)                                     | ⭐         | HTML, CSS, JS             |
 | [Show / Hide Paragraph](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/show-hide-paragraph/)                     | ⭐         | HTML, CSS                 |
 | [Team Skills and Stats](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/team-skills-and-stats/)                   | ⭐         | HTML, CSS                 |
 | [Two Columns Form](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/two-columns-form/)                             | ⭐         | HTML, CSS                 |

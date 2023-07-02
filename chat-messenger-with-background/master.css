@@ -85,7 +85,7 @@
 
 .chat__item,
 .chat__search {
-  border-width: 2px;
+  border-width: 1px;
   border-style: none none solid;
   border-color: var(--gray-100);
 }
@@ -101,7 +101,7 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 1rem 0;
-  border-width: 2px;
+  border-width: 1px;
   border-style: none none solid;
   border-color: var(--gray-100);
 }
@@ -176,13 +176,13 @@
 
 /* chat content style */
 .chat__content {
-  border-left: 2px solid var(--gray-200);
+  border-left: 1px solid var(--gray-200);
 }
 
 .chat__receiver {
   padding: 1rem 2rem;
   background-color: var(--gray-100);
-  border: 2px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
   border-left-color: transparent;
 }
 
@@ -306,7 +306,7 @@
   }
 
   .chat__content {
-    width: 657px;
+    width: 655px;
   }
 }
 

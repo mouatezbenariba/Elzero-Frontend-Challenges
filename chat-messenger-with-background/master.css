@@ -14,29 +14,12 @@
 /* ---------- */
 /* Main Style */
 /* ---------- */
-
 .container {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  padding: 3rem;
+  align-items: center;
+  padding: 2rem;
   background-image: url(images/ashok-acharya-G8XHYFHFgVc-unsplash.jpg);
-  z-index: 1;
-}
-
-.container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  z-index: -1;
-  opacity: 0.6;
 }
 
 /* messenger container */
@@ -120,7 +103,7 @@
 .chat__item:last-child::before {
   content: '';
   position: absolute;
-  width: calc(100% + 4.6rem);
+  width: calc(100% + 4.4rem);
   height: 100%;
   -webkit-transform: translateX(-2rem);
   -ms-transform: translateX(-2rem);
@@ -286,7 +269,6 @@
   -webkit-transform: translate(100%, -50%);
   -ms-transform: translate(100%, -50%);
   transform: translate(100%, -50%);
-  width: calc(100% - 4.6rem);
   margin: 2rem auto;
   border: 5px solid transparent;
   border-right: 0;

@@ -298,8 +298,8 @@
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  width: calc(100% - 4rem);
-  margin: 3rem auto;
+  width: calc(100% - 4.4rem);
+  margin: 2rem auto;
   padding: 1rem;
   border-radius: 5px;
   background-color: var(--gray-100);

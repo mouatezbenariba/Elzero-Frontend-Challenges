@@ -23,7 +23,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh + 15rem);
   background-image: url(images/ashok-acharya-G8XHYFHFgVc-unsplash.jpg);
   z-index: 1;
 }

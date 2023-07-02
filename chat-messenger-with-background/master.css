@@ -1,0 +1,337 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-100: #eceff1;
+  --gray-200: #c5c5c5;
+  --bluishCyan-100: #00b0ff;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(images/ashok-acharya-G8XHYFHFgVc-unsplash.jpg);
+  z-index: 1;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* messenger container */
+.messenger {
+  display: grid;
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* chat list style */
+.chat__list {
+  padding: 2rem;
+  min-width: 340px;
+}
+
+.chat__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.chat__search input {
+  width: 13.2rem;
+  padding-left: 0.8rem;
+  border-style: none;
+  border: 1px solid var(--gray-200);
+  border-radius: 50px;
+  background-color: var(--gray-100);
+}
+
+.chat__search .button {
+  padding: 0.8rem 1rem;
+  background-color: var(--bluishCyan-100);
+  border-radius: 50%;
+}
+
+.chat__search .button svg {
+  height: 1.3rem;
+  fill: white;
+}
+
+.chat__item,
+.chat__search {
+  border-width: 2px;
+  border-style: none none solid;
+  border-color: var(--gray-100);
+}
+
+.chat__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-width: 2px;
+  border-style: none none solid;
+  border-color: var(--gray-100);
+}
+
+.chat__item:last-child {
+  position: relative;
+  border-style: none;
+  z-index: 1;
+}
+
+.chat__item:last-child::before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 4rem);
+  height: 100%;
+  -webkit-transform: translateX(-2rem);
+  -ms-transform: translateX(-2rem);
+  transform: translateX(-2rem);
+  background-color: var(--bluishCyan-100);
+  z-index: -1;
+}
+
+.chat__item:last-child div {
+  color: white;
+}
+/* .chat__item:last-child {
+  background-color: var(--bluishCyan-100);
+  color: white;
+}
+
+.chat__item:last-child div {
+  color: white;
+} */
+
+.chat__main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.chat__picture {
+  margin-right: 1rem;
+}
+
+.chat__picture img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.chat__info {
+  margin-right: 1rem;
+}
+
+.chat__name {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.chat__message {
+  color: var(--gray-200);
+}
+
+.chat__hour {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  color: var(--gray-200);
+}
+
+/* chat content style */
+.chat__content {
+  border-left: 2px solid var(--gray-200);
+}
+
+.chat__receiver {
+  padding: 1rem 2rem;
+  background-color: var(--gray-100);
+  border: 2px solid var(--gray-200);
+  border-left-color: transparent;
+}
+
+.chat__receiver span:first-child {
+  color: var(--gray-200);
+}
+
+.chat__receiver span:last-child {
+  font-weight: bold;
+}
+
+.chat__date--one {
+  position: relative;
+  margin: 3rem 0;
+  text-align: center;
+  color: var(--gray-200);
+}
+
+.chat__date--one::before,
+.chat__date--one::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 20%;
+  height: 2px;
+  background-color: var(--gray-100);
+}
+
+.chat__date--one::before {
+  left: 1rem;
+}
+
+.chat__date--one::after {
+  right: 1rem;
+}
+
+.chat__convo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.message {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.3rem 2rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.chat__received {
+  position: relative;
+  background-color: var(--bluishCyan-100);
+  color: white;
+}
+
+.chat__received::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(-100%, -50%);
+  -ms-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  border: 5px solid transparent;
+  border-left: 0;
+  border-right: 8px solid var(--bluishCyan-100);
+}
+
+.chat__sent {
+  position: relative;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  background-color: var(--gray-100);
+  color: black;
+}
+
+.chat__sent::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(100%, -50%);
+  -ms-transform: translate(100%, -50%);
+  transform: translate(100%, -50%);
+  border: 5px solid transparent;
+  border-right: 0;
+  border-left: 8px solid var(--gray-100);
+}
+
+.chat__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: calc(100% - 4rem);
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--gray-100);
+}
+
+.chat__send svg {
+  fill: var(--gray-200);
+}
+
+@media screen and (min-width: 1000px) {
+  .messenger {
+    grid-template-columns: 345px 1fr;
+  }
+
+  .chat__content {
+    width: 657px;
+  }
+}
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.footer {
+  min-width: 300px;
+  margin: 2rem 1rem;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

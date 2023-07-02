@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 350px;
   padding: 2rem;
   background-image: url(images/ashok-acharya-G8XHYFHFgVc-unsplash.jpg);
 }

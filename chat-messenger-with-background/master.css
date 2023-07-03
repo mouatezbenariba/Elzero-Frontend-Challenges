@@ -24,7 +24,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-width: 350px;
+  min-width: 410px;
   padding: 2rem;
   background-image: url(images/ashok-acharya-G8XHYFHFgVc-unsplash.jpg);
 }
@@ -124,14 +124,6 @@
 .chat__item:last-child div {
   color: white;
 }
-/* .chat__item:last-child {
-  background-color: var(--bluishCyan-100);
-  color: white;
-}
-
-.chat__item:last-child div {
-  color: white;
-} */
 
 .chat__main-info {
   display: -webkit-box;
@@ -298,6 +290,11 @@
   background-color: var(--gray-100);
 }
 
+.chat__send div:first-child {
+  display: flex;
+  flex-basis: 75%;
+}
+
 .chat__send input[name='upload'] {
   display: none;
 }
@@ -307,6 +304,8 @@
 }
 
 .chat__send svg {
+  position: relative;
+  top: 2px;
   fill: var(--gray-200);
 }
 
@@ -314,6 +313,16 @@
 .chat__emoji {
   border-style: none;
   cursor: pointer;
+}
+
+input.chat__text {
+  margin-left: 0.5rem;
+  background-color: var(--gray-100);
+  border-style: none;
+}
+
+input.chat__text:focus-visible {
+  outline: none;
 }
 
 @media screen and (min-width: 1000px) {

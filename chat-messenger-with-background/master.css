@@ -56,16 +56,18 @@
   background-color: var(--gray-100);
 }
 
-.chat__search .button {
+.chat__search .chat__post {
   height: 3.2rem;
   width: 3.2rem;
   background-color: var(--bluishCyan-100);
+  border-style: none;
   border-radius: 50%;
   text-align: center;
   line-height: 3.8rem;
+  cursor: pointer;
 }
 
-.chat__search .button svg {
+.chat__search .chat__post svg {
   height: 1.3rem;
   fill: white;
 }
@@ -106,9 +108,9 @@
   position: absolute;
   width: calc(100% + 4.4rem);
   height: 100%;
-  -webkit-transform: translateX(-2rem);
-  -ms-transform: translateX(-2rem);
-  transform: translateX(-2rem);
+  -webkit-transform: translateX(-2.1rem);
+  -ms-transform: translateX(-2.1rem);
+  transform: translateX(-2.1rem);
   background-color: var(--bluishCyan-100);
   z-index: -1;
 }
@@ -290,8 +292,22 @@
   background-color: var(--gray-100);
 }
 
+.chat__send input[name='upload'] {
+  display: none;
+}
+
+.chat__send label {
+  cursor: pointer;
+}
+
 .chat__send svg {
   fill: var(--gray-200);
+}
+
+.chat__send-message,
+.chat__emoji {
+  border-style: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) {

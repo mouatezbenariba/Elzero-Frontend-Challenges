@@ -64,11 +64,13 @@ for (let i = 0; i < points.length; i++) {
   }
 }
 
-if (usersList[0].result > usersList[1].result) {
-  usersList = [usersList[0], usersList[1]];
-} else {
-  usersList = [usersList[1], usersList[0]];
-}
+// if (usersList[0].result > usersList[1].result) {
+//   usersList = [usersList[0], usersList[1]];
+// } else {
+//   usersList = [usersList[1], usersList[0]];
+// }
+
+usersList.sort((a, b) => b.result - a.result);
 
 let total = document.createElement('table');
 total.classList.add('table');

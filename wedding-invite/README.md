@@ -29,8 +29,8 @@ The challenge was to build a Wedding Invite.
 
 ## My Solution
 
-- Demo : [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)
-- Codepen : [Wedding Invite](https://codepen.io/mouatezbenariba/pen/XWygKQy)
+- Demo : [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)
+- Codepen : [Wedding Invite](https://codepen.io/mouatezbenariba/pen/abQwRxL)
 
 ## Made with ❤ by:
 

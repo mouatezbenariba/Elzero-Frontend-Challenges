@@ -8,7 +8,7 @@ Hello and welcome to my solution for the **Wedding Invite** frontend challenge f
 
 The challenge was to build a Wedding Invite.
 
-![Wedding Invite](https://elzero.org/wp-content/uploads/2020/11/table-members-points.png)
+![Wedding Invite](https://elzero.org/wp-content/uploads/2020/08/frontend-task-wedding-invite.png)
 
 ## Requirements
 

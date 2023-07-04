@@ -1,0 +1,259 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Blue */
+  --blue-100: #0079ff;
+  --blue-200: #5a616a;
+
+  /* Gray */
+  --gray-100: #f2eff6;
+  --gray-200: #e3e2e8;
+
+  /* Khaki */
+  --khaki-100: #ffc604;
+
+  /* Orange */
+  --orange-100: #ff9a00;
+
+  /* Teal */
+  --teal-100: #14b95c;
+
+  /* Vermilion */
+  --vermilion-100: #ff4a29;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+.bg-bl {
+  background-color: var(--blue-100);
+}
+
+.bg-og {
+  background-color: var(--orange-100);
+}
+
+.bg-gy {
+  background-color: var(--blue-200);
+}
+
+.bg-rd {
+  background-color: var(--vermilion-100);
+}
+
+.bg-gr {
+  background-color: var(--teal-100);
+}
+
+.bg-yl {
+  background-color: var(--khaki-100);
+}
+
+svg {
+  fill: white;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+.container {
+  max-width: 285px;
+  margin: 2rem auto;
+  padding: 0.35rem 0.9rem;
+  background-color: var(--gray-100);
+  font-family: 'Cairo', sans-serif;
+}
+
+/* header */
+.reminder__header {
+  position: relative;
+}
+
+.reminder__edit {
+  position: absolute;
+  right: 0;
+  padding: 0;
+  border-style: none;
+  background-color: none;
+  color: var(--blue-100);
+  font-size: 0.7rem;
+}
+
+.reminder__header input {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.2rem;
+  border-style: none;
+  border-radius: 0.4rem;
+  background-color: var(--gray-200);
+  font-size: 0.7rem;
+}
+
+.reminder__header span {
+  position: absolute;
+  top: 1.75rem;
+  left: 0.4rem;
+}
+
+.reminder__header span svg {
+  height: 0.6rem;
+  fill: var(--blue-200);
+}
+
+/* section stats */
+.reminder__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  -webkit-column-gap: 0.8rem;
+  -moz-column-gap: 0.8rem;
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+}
+
+.reminder__stat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+.reminder__label svg {
+  height: 0.8rem;
+}
+
+.reminder__stat:first-child svg {
+  margin-left: -0.03rem;
+}
+
+.reminder__label p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: var(--blue-200);
+  margin-top: 0.7rem;
+}
+
+.reminder__number {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* section lists */
+.section-header-2 {
+  margin: 1rem 0.45rem 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.reminder__list-items {
+  margin-bottom: 1rem;
+}
+
+.reminder__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0.1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.reminder__list-item:first-child {
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.reminder__list-item:last-child {
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.list-item__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.list-item__label button {
+  margin-right: 0.5rem;
+}
+
+.list-item__number {
+  margin-right: 0.35rem;
+}
+
+.list-item__number span {
+  padding-right: 0.25rem;
+  color: var(--blue-200);
+  font-size: 0.7rem;
+}
+
+.list-item__number svg {
+  height: 0.5rem;
+  fill: var(--gray-200);
+}
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.footer {
+  min-width: 300px;
+  margin: 2rem 1rem;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

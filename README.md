@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Total Points From Tables](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)             | ⭐⭐       | HTML, CSS, JS             |
 | [Chat Messenger With Background](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/chat-messenger-with-background/) | ⭐⭐       | HTML, CSS                 |
 | [Interests Boxes Select](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/interests-boxes-select/)                 | ⭐⭐       | HTML, CSS                 |
 | [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)                         | ⭐⭐       | HTML, CSS                 |

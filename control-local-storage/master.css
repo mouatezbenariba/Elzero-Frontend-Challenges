@@ -5,6 +5,66 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Cyan */
+  --cyan-100: #02968c;
+
+  /* Gray */
+  --gray-100: #f2f2f4;
+}
+
+.container {
+  max-width: 430px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--gray-100);
+  font-family: 'Cairo', sans-serif;
+}
+
+.local__input {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.local__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border-style: none;
+  border-radius: 5px;
+  background-color: var(--cyan-100);
+  color: white;
+  cursor: pointer;
+}
+
+.local__output {
+  width: 100%;
+  padding: 1rem;
+  border: 2px dashed var(--cyan-100);
+  background-color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+span {
+  color: var(--cyan-100);
+  font-weight: bold;
+}
+
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

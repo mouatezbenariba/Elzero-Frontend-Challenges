@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Reminder Menu App](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/reminder-menu-app/)                           | ⭐⭐       | HTML, CSS                 |
 | [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)                                 | ⭐⭐       | HTML, CSS                 |
 | [Total Points From Tables](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)             | ⭐⭐       | HTML, CSS, JS             |
 | [Chat Messenger With Background](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/chat-messenger-with-background/) | ⭐⭐       | HTML, CSS                 |

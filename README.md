@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Control Local Storage](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/control-local-storage/)                   | ⭐⭐       | HTML, CSS, JS             |
 | [Reminder Menu App](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/reminder-menu-app/)                           | ⭐⭐       | HTML, CSS                 |
 | [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)                                 | ⭐⭐       | HTML, CSS                 |
 | [Total Points From Tables](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)             | ⭐⭐       | HTML, CSS, JS             |

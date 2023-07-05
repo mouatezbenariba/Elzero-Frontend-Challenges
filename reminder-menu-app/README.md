@@ -8,7 +8,7 @@ Hello and welcome to my solution for the **Reminder Menu App** frontend challeng
 
 The challenge was to build a Reminder Menu App.
 
-![Reminder Menu App](https://elzero.org/frontend-reminder-menu-app/)
+![Reminder Menu App](https://elzero.org/wp-content/uploads/2020/05/reminder-menu-app.jpg)
 
 ## Requirements
 

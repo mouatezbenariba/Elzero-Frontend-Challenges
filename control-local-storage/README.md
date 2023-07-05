@@ -12,18 +12,17 @@ The challenge was to build a Control Local Storage.
 
 ## Requirements
 
-- Create the same layout with the same colors.
-
-- Use the Font Awesome library to add icons or any other library.
+- Each Action should be represented with a function.
 
 ## Challenges
 
-- Use Flex or Grid exclusively to create the layout.
+- Use 'for...of' and 'Object.entries' in your code.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
+  -JS
 
 ## My Solution
 

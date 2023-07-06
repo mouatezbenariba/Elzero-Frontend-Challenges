@@ -25,7 +25,6 @@ The challenge was to build a Colored Boxes.
 
 - HTML5
 - CSS3
-  -JS
 
 ## My Solution
 

@@ -22,6 +22,8 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Products With Separator](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/products-with-separator/)               | ⭐⭐       | HTML, CSS                 |
+| [Colored Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/colored-boxes/)                                   | ⭐⭐       | HTML, CSS                 |
 | [Control Local Storage](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/control-local-storage/)                   | ⭐⭐       | HTML, CSS, JS             |
 | [Reminder Menu App](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/reminder-menu-app/)                           | ⭐⭐       | HTML, CSS                 |
 | [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)                                 | ⭐⭐       | HTML, CSS                 |

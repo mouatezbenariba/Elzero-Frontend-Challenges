@@ -5,6 +5,285 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Blue */
+  --blue-100: #3498db;
+  --blue-200: #2c3e50;
+
+  /* Orange */
+  --orange-100: #f39c12;
+  --orange-200: #e67e22;
+
+  /* Greenish cyan */
+  --greenishCyan-100: #1abc9c;
+
+  /* Purple magenta */
+  --purpleMagenta-100: #8e44ad;
+
+  /* Red */
+  --red-100: #c0392b;
+
+  /* Teal */
+  --teal-100: #27ae60;
+}
+
+/* --------------- */
+/* Utility Classes */
+/* --------------- */
+
+.bg-bl-1 {
+  background-color: var(--blue-100);
+}
+
+.bg-bl-2 {
+  background-color: var(--blue-200);
+}
+
+.bg-or-1 {
+  background-color: var(--orange-100);
+}
+
+.bg-or-2 {
+  background-color: var(--orange-200);
+}
+
+.bg-gr {
+  background-color: var(--greenishCyan-100);
+}
+
+.bg-pr {
+  background-color: var(--purpleMagenta-100);
+}
+
+.bg-rd {
+  background-color: var(--red-100);
+}
+
+.bg-tl {
+  background-color: var(--teal-100);
+}
+
+.fx-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gd-center {
+  display: grid;
+  align-items: center;
+}
+
+.fl-center-half {
+  line-height: 9rem;
+}
+
+.fl-center-quarter {
+  line-height: 4.5rem;
+}
+
+.method__header {
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+.wrapper {
+  padding: 1rem;
+  font-family: 'Cairo', sans-serif;
+}
+
+.container {
+  width: 50rem;
+  height: 19rem;
+  margin: 2rem auto;
+  background-color: #eee;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ------------- */
+/*  Float Style  */
+/*-------------- */
+
+.container.fl > div {
+  height: 50%;
+}
+
+.fl__row-1 > div {
+  float: left;
+  height: 100%;
+}
+
+.fl__one {
+  width: 30%;
+}
+
+.fl__two-three {
+  width: 50%;
+}
+
+.fl__two-three > div {
+  height: 50%;
+}
+
+.fl__four {
+  width: 20%;
+}
+
+.fl__row-2 > div {
+  float: left;
+  height: 100%;
+}
+
+.fl__five-six-seven {
+  width: 60%;
+}
+
+.fl__five-six {
+  height: 50%;
+}
+
+.fl__five-six > div {
+  float: left;
+  height: 100%;
+}
+
+.fl__five {
+  width: 70%;
+}
+
+.fl__six {
+  width: 30%;
+}
+
+.fl__eight {
+  width: 40%;
+}
+
+.fl__seven {
+  width: 100%;
+  height: 50%;
+}
+
+/* ---------------- */
+/*  Flex Box Style  */
+/* ---------------  */
+.container.fx {
+  display: flex;
+  flex-direction: column;
+}
+
+.fx__row-one {
+  display: flex;
+  height: 9.5rem;
+}
+
+.fx__one {
+  flex-basis: 30%;
+}
+
+.fx__two-three {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.fx__two-three div {
+  height: 100%;
+}
+
+.fx__four {
+  flex-basis: 20%;
+}
+
+.fx__row-two {
+  height: 9.5rem;
+}
+
+.fx__row-two {
+  display: flex;
+}
+
+.fx__five-six-seven {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+.fx__five-six-seven div {
+  height: 100%;
+}
+
+.fx__five-six {
+  display: flex;
+}
+
+.fx__five {
+  flex-basis: 70%;
+}
+
+.fx__six {
+  flex-basis: 30%;
+}
+
+.fx__eight {
+  flex-basis: 40%;
+}
+
+/* ------------ */
+/*  Grid Style  */
+/*------------  */
+
+.container.gd {
+  display: grid;
+  grid-template-columns: 30% 12% 18% 20% 20%;
+  grid-template-areas:
+    'one two two two four'
+    'one three three three four'
+    'five five six eight eight'
+    'seven seven seven eight eight';
+}
+
+.gd__one {
+  grid-area: one;
+}
+
+.gd__two {
+  grid-area: two;
+}
+
+.gd__three {
+  grid-area: three;
+}
+
+.gd__four {
+  grid-area: four;
+}
+
+.gd__five {
+  grid-area: five;
+}
+
+.gd__six {
+  grid-area: six;
+}
+
+.gd__seven {
+  grid-area: seven;
+}
+
+.gd__eight {
+  grid-area: eight;
+}
+
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

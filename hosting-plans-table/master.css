@@ -5,9 +5,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Vermilion */
+  --vermilion-100: #fc5103;
+
+  /* Gray */
+  --gray-100: #fafafa;
+  --gray-200: #f7f7f7;
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.container {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* --------------- */
 /* Personal Footer */

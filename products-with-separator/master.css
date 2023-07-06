@@ -22,6 +22,132 @@
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.wrapper {
+  width: 900px;
+  padding: 1rem;
+  margin: auto;
+  background-color: var(--greenishCyan-100);
+  font-family: 'Cairo', sans-serif;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product {
+  position: relative;
+  min-width: 19rem;
+  height: 19rem;
+  margin: 4rem;
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+.product.one::after {
+  content: '';
+  position: absolute;
+  -webkit-transform: translateY(-5.8rem);
+  -ms-transform: translateY(-5.8rem);
+  transform: translateY(-5.8rem);
+  right: -3.9rem;
+  height: 19.2rem;
+  width: 0.1rem;
+  background-color: white;
+  z-index: 0;
+}
+
+.product.one::before {
+  content: 'OR';
+  position: absolute;
+  top: 45%;
+  right: -5.1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--greenishCyan-100);
+  text-align: center;
+  line-height: 2.5rem;
+  z-index: 1;
+}
+
+.product__name {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 1rem 0 3.36rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+  font-size: 1.45rem;
+  font-weight: bold;
+}
+
+.product__name span {
+  color: var(--green-100);
+}
+
+.product__info {
+  position: absolute;
+  width: 15.3rem;
+  padding: 1rem 2.45rem;
+  background-color: white;
+  top: 3.6rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 0.4rem;
+  -webkit-box-shadow: 0px 0px 7px 0px #d3d3d3;
+  box-shadow: 0px 0px 7px 0px #d3d3d3;
+}
+
+h3.product__main-feature {
+  margin: 0.7rem 0 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+li.product__feature {
+  position: relative;
+  margin-bottom: 0.8rem;
+  margin-left: 0.6rem;
+}
+
+li.product__feature::before {
+  content: '';
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--scarletRed-100);
+  border-radius: 50%;
+}
+
+a.product__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2rem;
+  width: 10rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.4rem;
+  background-color: var(--scarletRed-100);
+  color: white;
+  font-size: 0.9rem;
+}
 
 /* --------------- */
 /* Personal Footer */

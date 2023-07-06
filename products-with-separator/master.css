@@ -1,0 +1,50 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Green */
+  --green-100: #4caf50;
+
+  /* Gray */
+  --gray-100: #282828;
+
+  /* Greenish cyan */
+  --greenishCyan-100: #20bfa9;
+
+  /* Scarlet red */
+  --scarletRed-100: #f73859;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.footer {
+  min-width: 300px;
+  margin: 2rem 1rem;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

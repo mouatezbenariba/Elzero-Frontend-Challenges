@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)                       | ⭐⭐       | HTML, CSS                 |
 | [Products With Separator](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/products-with-separator/)               | ⭐⭐       | HTML, CSS                 |
 | [Colored Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/colored-boxes/)                                   | ⭐⭐       | HTML, CSS                 |
 | [Control Local Storage](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/control-local-storage/)                   | ⭐⭐       | HTML, CSS, JS             |

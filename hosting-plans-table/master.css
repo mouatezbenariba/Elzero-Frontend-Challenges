@@ -12,13 +12,121 @@
   /* Gray */
   --gray-100: #fafafa;
   --gray-200: #f7f7f7;
+  --gray-300: #777;
 }
 
 /* ---------- */
 /* Main Style */
 /* ---------- */
 .container {
+  padding: 1rem;
   font-family: 'Open Sans', sans-serif;
+}
+
+.table__responsive {
+  overflow-x: auto;
+}
+
+table.plans {
+  width: 1032px;
+  margin: auto;
+}
+
+table.plans thead th {
+  padding: 1.5rem 2rem;
+  background-color: var(--vermilion-100);
+  color: white;
+}
+
+tr.plans__prices td {
+  color: var(--gray-300);
+}
+
+tr.plans__prices td span {
+  position: relative;
+  font-size: 3.1rem;
+  color: var(--vermilion-100);
+}
+
+tr.plans__prices td span:before {
+  content: '$';
+  left: -1.1rem;
+}
+
+tr.plans__prices td span:after {
+  content: '99';
+  right: -1.5rem;
+}
+
+tr.plans__prices td span:before,
+tr.plans__prices td span:after {
+  position: absolute;
+  top: 0.9rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+table.plans tbody td {
+  background-color: var(--gray-100);
+  text-align: center;
+  font-weight: bold;
+}
+
+table.plans tbody tr td {
+  border-right: 1px solid #eeeeee;
+}
+
+table.plans tbody tr td:first-child {
+  color: var(--gray-300);
+  width: 10rem;
+}
+
+table.plans tbody tr:nth-child(even) td {
+  background-color: var(--gray-200);
+}
+
+table.plans td svg {
+  fill: #333;
+}
+
+.plans__order {
+  padding: 0.6rem 1.3rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+table.plans tr:last-child td:nth-child(4) .plans__order {
+  background-color: var(--vermilion-100);
+}
+
+/* adjust table measures */
+
+table.plans thead th {
+  padding: 1.6rem 0;
+}
+
+table.plans tbody tr:first-child td {
+  height: 6rem;
+  padding-top: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--gray-300);
+}
+
+table.plans tbody tr:not(:first-child) td {
+  line-height: 3.4rem;
+  font-size: 0.8rem;
+}
+
+table.plans tbody tr:not(:first-child) td:not(:first-child) {
+  width: 13.1rem;
+  color: #666666;
+}
+
+table.plans tbody tr:last-child td {
+  padding-top: 0.5rem;
 }
 
 /* --------------- */

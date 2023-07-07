@@ -28,8 +28,8 @@ The challenge was to build a Hosting Plans Table.
 
 ## My Solution
 
-- Demo : [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/colored-boxes/)
-- Codepen : [Hosting Plans Table](https://codepen.io/mouatezbenariba/pen/wvQqZzo)
+- Demo : [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)
+- Codepen : [Hosting Plans Table](https://codepen.io/mouatezbenariba/pen/XWyedPm)
 
 ## Made with ❤ by:
 

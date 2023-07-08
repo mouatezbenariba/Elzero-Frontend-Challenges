@@ -30,9 +30,59 @@
   </head>
   <body>
     <!-- start challenge -->
-
+    <div class="container">
+      <section class="search">
+        <div class="search__estate">
+          <input
+            type="search"
+            name="city"
+            id="city"
+            class="search__city"
+            placeholder="City"
+          />
+          <select name="category" id="category" class="search__category">
+            <option value="" disabled selected>Category</option>
+            <option value="cat-1">cat-1</option>
+            <option value="cat-1">cat-2</option>
+            <option value="cat-3">cat-3</option>
+          </select>
+          <select name="type" id="type" class="search__type">
+            <option value="" disabled selected>Type</option>
+            <option value="typ-1">typ-1</option>
+            <option value="typ-1">typ-2</option>
+            <option value="typ-3">typ-3</option>
+          </select>
+          <div class="input__container">
+            <input
+              type="text"
+              name="min-price"
+              id="min-price"
+              placeholder="Min Price"
+              class="search__min-price"
+            />
+          </div>
+          <div class="input__container">
+            <input
+              type="text"
+              name="max-price"
+              id="max-price"
+              placeholder="Max Price"
+              class="search__max-price"
+            />
+          </div>
+          <button type="submit" class="search__submit">Search</button>
+        </div>
+      </section>
+      <div class="estate__welcome">
+        <h2 class="welcome__header">Find Your Dream</h2>
+        <p class="welcome__text">
+          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+          adipisci velit
+        </p>
+      </div>
+    </div>
     <!-- end   challenge -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       Challenge by
       <a
         href="https://elzero.org/category/challenges/front-end-challenges/"
@@ -45,6 +95,6 @@
       <a href="https://mouatezbenariba.me/" target="_blank" rel="noopener" class="coder"
         >Elmouatez Billah Benariba.</a
       >
-    </footer> -->
+    </footer>
   </body>
 </html>

@@ -5,9 +5,149 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Cyan */
+  --cyan-100: #0eaaa6;
+
+  /* Gray */
+  --gray-100: #f7f7f7;
+}
+
+.container {
+  margin-top: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.search {
+  max-width: 64rem;
+  margin: auto;
+  padding: 1.3rem 2rem;
+  background-color: #000000;
+}
+
+.search__estate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.search__city,
+.search__category,
+.search__type,
+.search__min-price,
+.search__max-price,
+.search__submit {
+  height: 2.3rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+  border-style: none;
+}
+
+.search__city {
+  width: 11.6rem;
+  padding-left: 0.7rem;
+}
+
+.search__category {
+  width: 6.5rem;
+}
+
+.search__type {
+  width: 5rem;
+}
+
+.search__category,
+.search__type {
+  padding-left: 0.7rem;
+  color: #777;
+}
+
+.search__category option:disabled,
+.search__type option:disabled {
+  color: #ddd;
+}
+
+.search__category option,
+.search__type option {
+  color: black;
+}
+
+.search__min-price,
+.search__max-price {
+  position: relative;
+  padding-left: 2.7rem;
+  background-color: white;
+}
+
+.search__submit {
+  background-color: var(--cyan-100);
+  color: #ffffff;
+  width: 4.5rem;
+  cursor: pointer;
+}
+
+.input__container {
+  display: inline-block;
+  position: relative;
+  min-width: 13.7rem;
+}
+
+.input__container::before {
+  content: '$';
+  position: absolute;
+  left: 0.3rem;
+  width: 2.1rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  border-right: 1px solid #ddd;
+  border-radius: 0.2rem 0 0 0.2rem;
+  background-color: var(--gray-100);
+  text-align: center;
+  z-index: 1;
+}
+
+.search__type::before {
+  content: '$';
+}
+
+.estate__welcome {
+  max-width: 64rem;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--cyan-100);
+  text-align: center;
+  color: white;
+}
+
+.welcome__header {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.welcome__text {
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 950px) {
+  .search__estate {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
 
 /* --------------- */
 /* Personal Footer */

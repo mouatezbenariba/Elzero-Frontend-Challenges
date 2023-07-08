@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Bluish cyan */
+  --bluishCyan-100: #74cee4;
+
+  /* Khaki */
+  --khaki-100: #edbf47;
+
+  /* Purple magenta */
+  --purpleMagenta-100: #c389ce;
+
+  /* Red */
+  --red-100: #e16c6c;
+
+  /* Teal */
+  --teal-100: #6fc191;
+
+  /* Vermilion */
+  --vermilion-100: #ec774b;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.footer {
+  min-width: 300px;
+  margin: 2rem 1rem;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

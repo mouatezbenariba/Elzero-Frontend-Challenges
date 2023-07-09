@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Kids Education Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/kids-education-section/)                 | ⭐⭐       | HTML, CSS                 |
 | [Find Real Estate](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/find-real-estate/)                             | ⭐⭐       | HTML, CSS                 |
 | [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)                       | ⭐⭐       | HTML, CSS                 |
 | [Products With Separator](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/products-with-separator/)               | ⭐⭐       | HTML, CSS                 |

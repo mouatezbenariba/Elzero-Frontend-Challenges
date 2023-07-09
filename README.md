@@ -22,6 +22,7 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                           | Difficulty | Technologies / Approaches |
 | ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
+| [Simple Articles Editor](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-articles-editor/)                 | ⭐⭐⭐     | HTML, CSS                 |
 | [Kids Education Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/kids-education-section/)                 | ⭐⭐       | HTML, CSS                 |
 | [Find Real Estate](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/find-real-estate/)                             | ⭐⭐       | HTML, CSS                 |
 | [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)                       | ⭐⭐       | HTML, CSS                 |

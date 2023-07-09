@@ -280,6 +280,24 @@ blockquote.quote {
     grid-row: 2/5;
   }
 }
+
+.activities__card.main {
+  position: relative;
+}
+
+.activities__card.main::before {
+  content: 'NEWS';
+  position: absolute;
+  right: 1.35rem;
+  top: 1.25rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 0.3rem;
+  background-color: #495052;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+}
+
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

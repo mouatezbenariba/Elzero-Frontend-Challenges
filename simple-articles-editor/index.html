@@ -12,12 +12,9 @@
     <link rel="stylesheet" href="master.css" />
     <link rel="stylesheet" href="../css/reset.css" />
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&family=Dongle:wght@400&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
     <!-- Google Validation -->
     <meta
       name="google-site-verification"
@@ -29,7 +26,29 @@
   </head>
   <body>
     <!-- start challenge -->
-
+    <div class="container">
+      <div class="editor">
+        <div class="editor__action">
+          <select name="font" id="font" class="editor__font">
+            <option value="" selected disabled>Choose a Font</option>
+            <option value="ubuntu">ubuntu</option>
+            <option value="cairo">Cairo</option>
+            <option value="dongle">Dongle</option>
+          </select>
+          <button class="editor__bold">
+            B
+          </button>
+          <div class="editor__font-size">
+            <button class="editor__font-size--decrease">-</button>
+            <span class="editor__editor__font-size---value"></span>
+            <button class="editor__font-size--increase">+</button>
+          </div>
+          <button class="editor__invert">Invert Colors</button>
+        </div>
+        <textarea name="content" id="content" class="editor__content"></textarea>
+      </div>
+    </div>
+    <script src="main.js"></script>
     <!-- end   challenge -->
     <!-- <footer class="footer">
       Challenge by

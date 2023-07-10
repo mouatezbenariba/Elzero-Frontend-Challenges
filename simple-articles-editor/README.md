@@ -12,7 +12,9 @@ The challenge was to build a Simple Articles Editor.
 
 ## Requirements
 
-- Ensure that the same colors are used in the background and in all elements throughout the entire page.
+- Create the design exactly as shown using the same colors.
+- The change of Minimum and Maximum font should be done from a single location.
+- Adding a new Font should be accomplished by adding an option to the select box.
 
 ## Technologies Used
 

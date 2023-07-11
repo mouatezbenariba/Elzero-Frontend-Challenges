@@ -12,6 +12,14 @@ The challenge was to build a Microsoft Windows Logo.
 
 ## Requirements
 
+- You must use the same design colors.
+
+## Challenges
+
+- You should use a single div element.
+- Don't use pseudo-elements.
+- Don't use SVG or Canvas.
+
 ## Technologies Used
 
 - HTML5

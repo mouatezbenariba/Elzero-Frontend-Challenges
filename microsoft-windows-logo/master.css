@@ -5,10 +5,124 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Bluish cyan */
+  --bluishCyan-100: #00a1f1;
+
+  /* Gray */
+  --gray-100: #787878;
+
+  /* Khaki */
+  --khaki-100: #ffbb00;
+
+  /* Lime */
+  --lime-100: #7cbb00;
+
+  /* Vermilion */
+  --vermilion-100: #f65314;
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
-
+.single-div {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid red;
+  margin: 3rem auto;
+  padding: 5rem;
+  background: -webkit-gradient(
+        linear,
+        right top,
+        left top,
+        from(var(--gray-100)),
+        to(var(--gray-100))
+      )
+      content-box,
+    -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(49.5%, transparent),
+        color-stop(49.5%, white),
+        color-stop(50.5%, white),
+        color-stop(50.5%, transparent),
+        to(transparent)
+      ) border-box,
+    -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(49.5%, transparent),
+        color-stop(49.5%, white),
+        color-stop(50.5%, white),
+        color-stop(50.5%, transparent),
+        to(transparent)
+      ) border-box,
+    conic-gradient(
+      var(--lime-100) 89deg,
+      var(--khaki-100) 90deg,
+      var(--khaki-100) 180deg,
+      var(--bluishCyan-100) 180deg,
+      var(--bluishCyan-100) 270deg,
+      var(--vermilion-100) 270deg,
+      var(--vermilion-100) 360deg
+    );
+  background: -o-linear-gradient(right, var(--gray-100), var(--gray-100)) content-box,
+    -o-linear-gradient(
+        left,
+        transparent 49.5%,
+        white 49.5%,
+        white 50.5%,
+        transparent 50.5%,
+        transparent 100%
+      ) border-box,
+    -o-linear-gradient(
+        top,
+        transparent 49.5%,
+        white 49.5%,
+        white 50.5%,
+        transparent 50.5%,
+        transparent 100%
+      ) border-box,
+    conic-gradient(
+      var(--lime-100) 89deg,
+      var(--khaki-100) 90deg,
+      var(--khaki-100) 180deg,
+      var(--bluishCyan-100) 180deg,
+      var(--bluishCyan-100) 270deg,
+      var(--vermilion-100) 270deg,
+      var(--vermilion-100) 360deg
+    );
+  background: linear-gradient(to left, var(--gray-100), var(--gray-100)) content-box,
+    linear-gradient(
+        to right,
+        transparent 49.5%,
+        white 49.5%,
+        white 50.5%,
+        transparent 50.5%,
+        transparent 100%
+      )
+      border-box,
+    linear-gradient(
+        to bottom,
+        transparent 49.5%,
+        white 49.5%,
+        white 50.5%,
+        transparent 50.5%,
+        transparent 100%
+      )
+      border-box,
+    conic-gradient(
+      var(--lime-100) 89deg,
+      var(--khaki-100) 90deg,
+      var(--khaki-100) 180deg,
+      var(--bluishCyan-100) 180deg,
+      var(--bluishCyan-100) 270deg,
+      var(--vermilion-100) 270deg,
+      var(--vermilion-100) 360deg
+    );
+}
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

@@ -43,20 +43,20 @@
         linear,
         left top,
         right top,
-        color-stop(49.5%, transparent),
-        color-stop(49.5%, white),
-        color-stop(50.5%, white),
-        color-stop(50.5%, transparent),
+        color-stop(49.75%, transparent),
+        color-stop(49.75%, white),
+        color-stop(50.25%, white),
+        color-stop(50.25%, transparent),
         to(transparent)
       ) border-box,
     -webkit-gradient(
         linear,
         left top,
         left bottom,
-        color-stop(49.5%, transparent),
-        color-stop(49.5%, white),
-        color-stop(50.5%, white),
-        color-stop(50.5%, transparent),
+        color-stop(49.75%, transparent),
+        color-stop(49.75%, white),
+        color-stop(50.25%, white),
+        color-stop(50.25%, transparent),
         to(transparent)
       ) border-box,
     conic-gradient(
@@ -71,18 +71,18 @@
   background: -o-linear-gradient(right, var(--gray-100), var(--gray-100)) content-box,
     -o-linear-gradient(
         left,
-        transparent 49.5%,
-        white 49.5%,
-        white 50.5%,
-        transparent 50.5%,
+        transparent 49.75%,
+        white 49.75%,
+        white 50.25%,
+        transparent 50.25%,
         transparent 100%
       ) border-box,
     -o-linear-gradient(
         top,
-        transparent 49.5%,
-        white 49.5%,
-        white 50.5%,
-        transparent 50.5%,
+        transparent 49.75%,
+        white 49.75%,
+        white 50.25%,
+        transparent 50.25%,
         transparent 100%
       ) border-box,
     conic-gradient(
@@ -97,19 +97,19 @@
   background: linear-gradient(to left, var(--gray-100), var(--gray-100)) content-box,
     linear-gradient(
         to right,
-        transparent 49.5%,
-        white 49.5%,
-        white 50.5%,
-        transparent 50.5%,
+        transparent 49.75%,
+        white 49.75%,
+        white 50.25%,
+        transparent 50.25%,
         transparent 100%
       )
       border-box,
     linear-gradient(
         to bottom,
-        transparent 49.5%,
-        white 49.5%,
-        white 50.5%,
-        transparent 50.5%,
+        transparent 49.75%,
+        white 49.75%,
+        white 50.25%,
+        transparent 50.25%,
         transparent 100%
       )
       border-box,

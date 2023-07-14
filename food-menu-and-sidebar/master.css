@@ -20,9 +20,27 @@
 /* ---------- */
 
 .container.menu {
-  width: 69.4rem;
+  position: relative;
+  width: 81.4rem;
   margin: 2rem auto;
+  padding: 2rem 7rem;
+  overflow: hidden;
   font-family: 'Roboto', sans-serif;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -3rem;
+  height: 8rem;
+  z-index: -1;
+  background-image: url(images/footer.jpg);
+  background-position: 0 79%;
+  background-size: 106rem;
+  -webkit-filter: brightness(0.2);
+  filter: brightness(0.2);
 }
 
 .main-section {
@@ -43,7 +61,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 13.85rem;
   margin-bottom: 2rem;
   border-radius: 0.7rem;
   background-color: var(--gray-100);
@@ -60,6 +77,8 @@
   height: 100%;
   width: 100%;
   border-radius: 0.7rem 0 0 0.7rem;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .dish__info {
@@ -72,6 +91,7 @@
   font-size: 1.25rem;
   margin-bottom: 1.2rem;
   font-family: 'Courgette', cursive;
+  cursor: pointer;
 }
 
 .dish__date {
@@ -105,6 +125,7 @@
   border-style: none;
   background-color: transparent;
   color: var(--scarletRed-200);
+  cursor: pointer;
 }
 
 .menu__pages {
@@ -218,11 +239,12 @@ h4.post__header {
   font-size: 1rem;
   line-height: 1.2;
   font-family: 'Courgette', cursive;
+  cursor: pointer;
 }
 
 .post__image {
-  -ms-flex-preferred-size: 56%;
-  flex-basis: 56%;
+  -ms-flex-preferred-size: 40%;
+  flex-basis: 40%;
 }
 
 .post__image img {
@@ -231,6 +253,8 @@ h4.post__header {
 }
 
 .post__info {
+  -ms-flex-preferred-size: 60%;
+  flex-basis: 60%;
   padding: 0.2rem 0 0 0.6rem;
 }
 
@@ -283,6 +307,7 @@ h4.post__header {
   color: #fff;
   font-size: 0.9rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .menu__instagram {
@@ -333,26 +358,9 @@ h4.post__header {
   position: relative;
 }
 
-.menu__footer::before {
-  content: '';
-  width: calc(100% + 30rem);
-  -webkit-transform: translateX(-15rem);
-  -ms-transform: translateX(-15rem);
-  transform: translateX(-15rem);
-  height: 8rem;
-  position: absolute;
-  bottom: -3rem;
-  z-index: -1;
-  background-image: url(images/footer.jpg);
-  background-position: 0 79%;
-  background-size: 106rem;
-  -webkit-filter: brightness(0.2);
-  filter: brightness(0.2);
-}
-
 .footer__newsletter {
   -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
+  flex-basis: 41%;
 }
 
 .newsletter__title {

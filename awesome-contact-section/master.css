@@ -1,0 +1,44 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Greenish cyan */
+  --greenishCyan-100: #0fdb9b;
+
+  /* Violet */
+  --violet-100: #3729b2;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.footer {
+  min-width: 274px;
+  margin: 5rem 1rem;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

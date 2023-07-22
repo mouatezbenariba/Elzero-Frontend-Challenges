@@ -20,6 +20,8 @@
 /* ---------- */
 .container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   min-width: 107rem;
   margin: 13rem auto 19rem;
@@ -27,7 +29,11 @@
 }
 
 .webapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 81.5rem;
   margin: auto;
@@ -36,6 +42,7 @@
 
 .sidebar {
   position: relative;
+  -ms-flex-preferred-size: 397px;
   flex-basis: 397px;
   background-color: var(--violet-100);
   padding: 1rem var(--main-padding) 3.8rem;
@@ -46,6 +53,8 @@
   position: absolute;
   left: -13rem;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 38rem;
   height: 76rem;
@@ -58,6 +67,8 @@
   position: absolute;
   top: 2rem;
   left: 2rem;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 12.5rem;
   height: 12.5rem;
@@ -136,6 +147,7 @@ span.job-offer__email {
 
 .main {
   position: relative;
+  -ms-flex-preferred-size: 907px;
   flex-basis: 907px;
   padding: 4.7rem 4.1rem;
 }
@@ -145,6 +157,8 @@ span.job-offer__email {
   position: absolute;
   right: -14rem;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 70.6rem;
   height: 76rem;
@@ -165,12 +179,17 @@ span.job-offer__email {
 }
 
 .contact__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 1.6rem;
 }
 
 .contact__content form {
+  -ms-flex-preferred-size: 46.8%;
   flex-basis: 46.8%;
   margin-top: 1.5rem;
 }
@@ -230,6 +249,7 @@ span.job-offer__email {
 }
 
 .contact__info {
+  -ms-flex-preferred-size: 42.5%;
   flex-basis: 42.5%;
   margin-top: 1rem;
   line-height: 1.4;

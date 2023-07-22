@@ -19,12 +19,7 @@
 /* Main Style */
 /* ---------- */
 .container {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 107rem;
-  margin: 13rem auto 19rem;
+  width: 81rem;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -48,7 +43,7 @@
   padding: 1rem var(--main-padding) 3.8rem;
 }
 
-.sidebar::before {
+/* .sidebar::before {
   content: '';
   position: absolute;
   left: -13rem;
@@ -60,9 +55,9 @@
   height: 76rem;
   background-color: #eceaf4;
   z-index: -1;
-}
+} */
 
-.sidebar::after {
+/* .sidebar::after {
   content: '';
   position: absolute;
   top: 2rem;
@@ -75,7 +70,7 @@
   background-color: var(--greenishCyan-100);
   border-radius: 50%;
   z-index: -1;
-}
+} */
 
 .logo {
   position: relative;
@@ -152,7 +147,7 @@ span.job-offer__email {
   padding: 4.7rem 4.1rem;
 }
 
-.main::before {
+/* .main::before {
   content: '';
   position: absolute;
   right: -14rem;
@@ -164,7 +159,7 @@ span.job-offer__email {
   height: 76rem;
   background-color: var(--violet-100);
   z-index: -1;
-}
+} */
 
 .contact__welcome h2 {
   font-size: 2.45rem;
@@ -290,8 +285,8 @@ p.contact__email {
 /* --------------- */
 
 .footer {
-  min-width: 107rem;
-  margin: 5rem 1rem;
+  width: 81rem;
+  margin: 3rem 1rem;
   font-family: 'Cairo', sans-serif;
   line-height: 1.5;
   text-align: center;

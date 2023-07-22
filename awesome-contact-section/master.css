@@ -11,12 +11,260 @@
 
   /* Violet */
   --violet-100: #3729b2;
+
+  --main-padding: 2rem;
 }
 
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.container {
+  position: relative;
+  display: flex;
+  min-width: 107rem;
+  margin: 13rem auto 19rem;
+  font-family: 'Quicksand', sans-serif;
+}
 
+.webapp {
+  display: flex;
+  justify-content: center;
+  width: 81.5rem;
+  margin: auto;
+  background-color: white;
+}
+
+.sidebar {
+  position: relative;
+  flex-basis: 397px;
+  background-color: var(--violet-100);
+  padding: 1rem var(--main-padding) 3.8rem;
+}
+
+.sidebar::before {
+  content: '';
+  position: absolute;
+  left: -13rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38rem;
+  height: 76rem;
+  background-color: #eceaf4;
+  z-index: -1;
+}
+
+.sidebar::after {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  transform: translate(-50%, -50%);
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: var(--greenishCyan-100);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.logo {
+  position: relative;
+  height: 7.6rem;
+}
+
+.logo img {
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+}
+
+.navigation {
+  margin-bottom: 9.9rem;
+}
+
+.navigation__link a {
+  display: block;
+  width: 8.2rem;
+  margin: 0.6rem 0;
+  margin-bottom: 0.85rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.navigation__link:last-child a {
+  background-color: #4d40b9;
+}
+
+.job-offer {
+  padding: 0 1.2rem;
+}
+
+.job-offer span:first-child {
+  display: block;
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.3;
+}
+
+.job-offer__header {
+  font-size: 1.63rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.job-offer p {
+  font-size: 0.8rem;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 1.4rem;
+  font-weight: 300;
+  word-spacing: 2px;
+  opacity: 0.8;
+}
+
+span.job-offer__email {
+  font-size: 0.86rem;
+  font-weight: bold;
+  color: white;
+}
+
+.main {
+  position: relative;
+  flex-basis: 907px;
+  padding: 4.7rem 4.1rem;
+}
+
+.main::before {
+  content: '';
+  position: absolute;
+  right: -14rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70.6rem;
+  height: 76rem;
+  background-color: var(--violet-100);
+  z-index: -1;
+}
+
+.contact__welcome h2 {
+  font-size: 2.45rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__welcome p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #b9b9b9;
+  line-height: 1.5;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem;
+}
+
+.contact__content form {
+  flex-basis: 46.8%;
+  margin-top: 1.5rem;
+}
+
+.contact__content form input {
+  width: 100%;
+  padding: 0.9rem 1.8rem;
+  margin-bottom: 1.3rem;
+  border-style: none;
+  border-bottom: 1px solid #ededed;
+  font-size: 1.08rem;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.contact__content form input:focus-visible {
+  outline-style: none;
+  border-bottom: 2px solid black;
+  /* prevent layout shift */
+  margin-bottom: 1.3rem;
+}
+
+.contact__content form textarea {
+  width: 100%;
+  height: 8.8rem;
+  margin-top: 0.9rem;
+  padding: 0 1.8rem;
+  border-style: none;
+  border-bottom: 1px solid #ededed;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  resize: none;
+}
+
+.contact__content form textarea:focus-visible {
+  outline-style: none;
+  border-bottom: 2px solid black;
+}
+
+.contact__content form button {
+  display: block;
+  margin-top: 1.98rem;
+  margin-left: 1.2rem;
+  background-color: white;
+  border-style: none;
+  color: var(--violet-100);
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+}
+
+.contact__content form button svg {
+  fill: var(--violet-100);
+  margin-right: 0.4rem;
+}
+
+.contact__info {
+  flex-basis: 42.5%;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+p.contact__address {
+  font-size: 1.44rem;
+  font-weight: 700;
+  margin-bottom: 1.3rem;
+}
+
+.contact__info .contact__address + p {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+p.contact__email,
+p.contact__phone {
+  font-size: 0.85rem;
+  color: var(--violet-100);
+}
+
+p.contact__phone {
+  margin-top: 1.35rem;
+}
+
+p.contact__email {
+  margin-top: 0.8rem;
+}
+
+.castle {
+  position: absolute;
+  right: -1rem;
+  bottom: -1.2rem;
+}
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

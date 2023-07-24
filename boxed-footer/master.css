@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+/* .footer {
+  width: 81rem;
+  margin: 3rem auto;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+} */

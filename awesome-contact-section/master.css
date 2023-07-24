@@ -18,6 +18,10 @@
 /* ---------- */
 /* Main Style */
 /* ---------- */
+body {
+  background-color: #f5f4fb;
+}
+
 .container {
   width: 81rem;
   font-family: 'Quicksand', sans-serif;
@@ -42,6 +46,7 @@
   flex-basis: 397px;
   background-color: var(--violet-100);
   padding: 1rem var(--main-padding) 3.8rem;
+  box-shadow: 19px 0 23px 6px #3729b221;
 }
 
 /* .sidebar::before {
@@ -98,6 +103,7 @@
   color: white;
   font-size: 1rem;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .navigation__link:last-child a {
@@ -279,7 +285,7 @@ p.contact__email {
 .castle {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -0.2rem;
 }
 /* --------------- */
 /* Personal Footer */

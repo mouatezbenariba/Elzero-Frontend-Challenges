@@ -108,6 +108,7 @@
   max-width: 24.5rem;
   margin: 1rem;
   background-color: white;
+  box-shadow: 0 0 5px 0px #777777;
 }
 
 .real-estate__image {

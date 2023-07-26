@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Cyan */
+  --cyan-100: #23a6ae;
+
+  /* Gray */
+  --gray-100: #b3b3b3;
+
+  /* Red */
+  --red-100: #dd3333;
+
+  /* Vermilion */
+  --vermilion-100: #ea723d;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.personal-footer {
+  width: 800px;
+  margin: 3rem auto;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

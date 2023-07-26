@@ -49,26 +49,43 @@
 
 .footer__social {
   grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .footer__logo {
+  -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
   width: 8.4rem;
   padding: 1.3rem;
   background-color: var(--gray-200);
   font-size: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 
 .footer__links {
   background-color: var(--vermilion-200);
+  -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 2.1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -88,12 +105,18 @@ ul.footer__links li svg {
 }
 
 .footer__latest {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 h3.footer__heading {
   width: 10.6rem;
+  -ms-flex-preferred-size: 28%;
   flex-basis: 28%;
   background-color: var(--vermilion-200);
   font-size: 1.3rem;
@@ -103,13 +126,18 @@ h3.footer__heading {
 }
 
 ul.footer__posts {
+  -ms-flex-preferred-size: 72%;
   flex-basis: 72%;
   background-color: var(--gray-100);
   padding: 1rem;
 }
 
 ul.footer__posts li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 0.8rem;
   margin-left: 0.8rem;
@@ -130,7 +158,12 @@ p.post__date {
 }
 
 .footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -142,6 +175,7 @@ p.post__date {
 
 ul.footer__contact-info {
   background-color: var(--vermilion-100);
+  -ms-flex-preferred-size: 71%;
   flex-basis: 71%;
   padding: 1.4rem 2rem;
 }
@@ -160,8 +194,12 @@ ul.footer__contact-info svg {
 
 .footer__nav {
   grid-column: 2/4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: var(--gray-300);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 1.12rem;
 }
@@ -178,9 +216,16 @@ ul.footer__nav li a {
 .footer__reserved {
   grid-column: 4/5;
   background-color: var(--vermilion-300);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-filter: brightness(0.8);
   filter: brightness(0.8);
 }
 

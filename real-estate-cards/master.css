@@ -19,10 +19,226 @@
   --vermilion-100: #ea723d;
 }
 
+/* --------------- */
+/* Utility Classes */
+/* --------------- */
+.featured::before {
+  content: 'Featured';
+  position: absolute;
+  left: 0;
+  top: -0.8rem;
+  padding: 0.3rem 0.5rem;
+  background-color: var(--vermilion-100);
+  color: white;
+  z-index: 2;
+}
+
+.featured::after {
+  content: '';
+  position: absolute;
+  left: 4.3rem;
+  top: -0.35rem;
+  z-index: 1;
+  width: 1.6rem;
+  height: 0.7rem;
+  -webkit-transform: rotateZ(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotateZ(90deg);
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      color-stop(50%, transparent),
+      color-stop(0, var(--vermilion-100))
+    ),
+    -webkit-gradient(linear, left bottom, right top, color-stop(50%, var(--vermilion-100)), color-stop(0, transparent));
+  background-image: -o-linear-gradient(top left, transparent 50%, var(--vermilion-100) 0),
+    -o-linear-gradient(bottom left, var(--vermilion-100) 50%, transparent 0);
+  background-image: linear-gradient(
+      to bottom right,
+      transparent 50%,
+      var(--vermilion-100) 0
+    ),
+    linear-gradient(to top right, var(--vermilion-100) 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+
+.hot::before {
+  content: 'Hot';
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 0.3rem 0.5rem;
+  background-color: var(--red-100);
+  color: white;
+  z-index: 2;
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.container {
+  margin-top: 2rem;
+}
 
+.real-estate {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 72rem;
+  padding: 1rem;
+  margin: auto;
+  background-color: #eee;
+  font-family: 'Cairo', sans-serif;
+}
+
+.real-estate__card {
+  position: relative;
+  max-width: 21rem;
+  margin: 1rem;
+  background-color: white;
+}
+
+.real-estate__image {
+  position: relative;
+}
+
+a.view {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 0.6rem;
+  border: 1px solid white;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.real-estate__image::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--cyan-100);
+  opacity: 0.4;
+  z-index: 1;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.real-estate__image:hover::after {
+  height: 98.9%;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.real-estate__image:hover a.view {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  z-index: 2;
+}
+
+.real-estate__image img {
+  max-width: 100%;
+}
+
+.real-estate__links {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 2;
+}
+
+.real-estate__links i {
+  color: white;
+}
+
+.real-estate__links a:first-child {
+  margin-right: 0.3rem;
+}
+
+.real-estate__info {
+  padding: 1rem;
+}
+
+.real-estate__info h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.real-estate__info h3 + p {
+  color: var(--gray-100);
+  margin-bottom: 1rem;
+}
+
+.real-estate__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.real-estate__feature {
+  margin-right: 1rem;
+}
+
+p.feature__label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p.feature__quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+p.feature__quantity span {
+  margin-left: 0.3rem;
+  color: var(--gray-100);
+}
+
+.real-estate__features i {
+  font-size: 1.5rem;
+  margin-right: 0.7rem;
+  color: var(--gray-100);
+}
+
+.price__label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.price__value {
+  font-size: 2rem;
+  color: var(--cyan-100);
+}
 /* --------------- */
 /* Personal Footer */
 /* --------------- */

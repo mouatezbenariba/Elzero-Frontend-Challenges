@@ -1,0 +1,43 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Khaki */
+  --khaki-100: #ffa500;
+
+  /* Scarlet red */
+  --scarletRed-100: #e91e63;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.personal-footer {
+  width: 106rem;
+  margin: 3rem auto;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

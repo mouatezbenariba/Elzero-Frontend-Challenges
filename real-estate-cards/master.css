@@ -37,14 +37,16 @@
 .featured::after {
   content: '';
   position: absolute;
-  left: 3.9rem;
-  top: -0.35rem;
+  left: 3.87rem;
+  top: -0.37rem;
   z-index: 1;
   width: 1.6rem;
   height: 0.7rem;
   -webkit-transform: rotateZ(90deg);
   -ms-transform: rotate(90deg);
   transform: rotateZ(90deg);
+  background-image: -o-linear-gradient(top left, transparent 50%, var(--vermilion-100) 0),
+    -o-linear-gradient(bottom left, var(--vermilion-100) 50%, transparent 0);
   background-image: -o-linear-gradient(top left, transparent 50%, var(--vermilion-100) 0),
     -o-linear-gradient(bottom left, var(--vermilion-100) 50%, transparent 0);
   background-image: -webkit-gradient(
@@ -168,9 +170,10 @@ a.view {
 
 .real-estate__links {
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.42rem;
+  right: 1.5rem;
   z-index: 2;
+  font-size: 1.5rem;
 }
 
 .real-estate__links i {

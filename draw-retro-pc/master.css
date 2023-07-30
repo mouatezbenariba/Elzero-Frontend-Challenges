@@ -6,6 +6,24 @@
 }
 
 :root {
+  /* Red */
+  --red-100: #ffd7d7;
+  --red-200: #e69a99;
+  --red-300: #ff5d5d;
+
+  /* Scarlet red */
+  --scarletRed-100: #e93751;
+  --scarletRed-200: #6c1837;
+
+  /* Vermilion */
+  --vermilion-100: #fff8f4;
+  --vermilion-200: #f6b6ac;
+
+  /* Cyan */
+  --cyan-100: #01d3be;
+
+  /* Khaki */
+  --khaki-100: #fecb2a;
 }
 
 /* --------------- */
@@ -15,6 +33,387 @@
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.container {
+  position: relative;
+  width: 41.125rem;
+  height: 26.9rem;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: var(--khaki-100);
+  z-index: -1;
+}
+
+.pc {
+  position: absolute;
+  left: 10%;
+  top: 13.4%;
+  width: 33rem;
+  height: 20.8rem;
+}
+
+.pc__screen::before {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  left: 24.8rem;
+  width: 0.6rem;
+  height: 12rem;
+  background-color: var(--scarletRed-200);
+  z-index: 7;
+}
+
+.screen__front-speaker {
+  position: absolute;
+  left: 7.2rem;
+  top: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-shadow: inset 3px 0 0px 17px var(--scarletRed-200), 0 0 0 5px white;
+  box-shadow: inset 3px 0 0px 17px var(--scarletRed-200), 0 0 0 5px white;
+  border-style: solid;
+  border-color: var(--scarletRed-200);
+  border-width: 0.5rem 0.17rem 0.42rem 0.5rem;
+  border-radius: 1.3rem;
+  z-index: 1;
+}
+
+.screen__front {
+  display: inline-block;
+  width: 13.1rem;
+  height: 14rem;
+  border: 4px solid var(--scarletRed-200);
+  -webkit-box-shadow: -3px 0 0 2px var(--scarletRed-200);
+  box-shadow: -3px 0 0 2px var(--scarletRed-200);
+  border-radius: 14px;
+  background-color: var(--vermilion-100);
+  z-index: 2;
+}
+
+.front__main {
+  position: absolute;
+  left: 1.3rem;
+  top: 1.3rem;
+  width: 10.4rem;
+  height: 8.9rem;
+  border: 4px solid var(--scarletRed-200);
+  border-radius: 0.6rem;
+  background-color: var(--cyan-100);
+  -webkit-box-shadow: inset 17px 17px 0 0 var(--scarletRed-200);
+  box-shadow: inset 17px 17px 0 0 var(--scarletRed-200);
+}
+
+.front__buttons {
+  position: absolute;
+  top: 11.2rem;
+  left: 1.35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 10.6rem;
+  height: 1.8rem;
+}
+
+.buttons__main {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 0.2rem;
+  background-color: var(--scarletRed-200);
+  border-radius: 50%;
+}
+
+.buttons__secondary p {
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: var(--scarletRed-200);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.1rem;
+}
+
+.screen__speaker {
+  position: relative;
+  left: -4px;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 4.45rem;
+  height: 14.1rem;
+  padding: 3.67rem 0;
+  border: 6px solid var(--scarletRed-200);
+  border-radius: 0 0.9rem 0.9rem 0;
+  border-left: none;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(22%, var(--scarletRed-100)),
+    color-stop(22%, var(--red-300)),
+    color-stop(95%, var(--red-300)),
+    color-stop(95%, var(--red-100))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    var(--scarletRed-100) 22%,
+    var(--red-300) 22%,
+    var(--red-300) 95%,
+    var(--red-100) 95%
+  );
+  background-image: linear-gradient(
+    to top,
+    var(--scarletRed-100) 22%,
+    var(--red-300) 22%,
+    var(--red-300) 95%,
+    var(--red-100) 95%
+  );
+  -webkit-box-shadow: 3px 0 0 2px var(--scarletRed-200);
+  box-shadow: 3px 0 0 2px var(--scarletRed-200);
+}
+
+p.speaker__line {
+  width: 2.6rem;
+  height: 0.2rem;
+  background-color: var(--scarletRed-200);
+  margin-left: 0.2rem;
+  border-radius: 1rem;
+}
+
+.screen__back {
+  position: absolute;
+  left: 26rem;
+  top: 54px;
+  width: 1rem;
+  height: 9.3rem;
+  border-radius: 0 21px 21px 0;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(32%, var(--scarletRed-100)),
+    color-stop(20%, transparent),
+    color-stop(84%, transparent),
+    color-stop(84%, var(--red-100))
+  );
+  background: -o-linear-gradient(
+    bottom,
+    var(--scarletRed-100) 32%,
+    transparent 20%,
+    transparent 84%,
+    var(--red-100) 84%
+  );
+  background: linear-gradient(
+    to top,
+    var(--scarletRed-100) 32%,
+    transparent 20%,
+    transparent 84%,
+    var(--red-100) 84%
+  );
+  -webkit-box-shadow: 0 0 0 13px var(--scarletRed-200), 0 0 0 18px white;
+  box-shadow: 0 0 0 13px var(--scarletRed-200), 0 0 0 18px white;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.screen__back div {
+  width: 7rem;
+  height: 6.25rem;
+  position: absolute;
+  left: -2.6rem;
+  top: 0.7rem;
+  background: -o-radial-gradient(
+    0% 50%,
+    ellipse,
+    var(--red-300) 20%,
+    var(--red-300) 70%,
+    transparent 70%
+  );
+  background: radial-gradient(
+    ellipse at 0% 50%,
+    var(--red-300) 20%,
+    var(--red-300) 70%,
+    transparent 70%
+  );
+}
+
+.pc__screen-holder {
+  position: absolute;
+  top: 15.4rem;
+  left: 9.15rem;
+  width: 14.4rem;
+  height: 1rem;
+  border: 1px solid var(--scarletRed-200);
+  border-width: 4px 11px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(68.5%, var(--vermilion-200)),
+    color-stop(60%, var(--scarletRed-200)),
+    color-stop(71%, var(--scarletRed-200)),
+    color-stop(70%, var(--red-200))
+  );
+  background: -o-linear-gradient(
+    left,
+    var(--vermilion-200) 68.5%,
+    var(--scarletRed-200) 60%,
+    var(--scarletRed-200) 71%,
+    var(--red-200) 70%
+  );
+  background: linear-gradient(
+    to right,
+    var(--vermilion-200) 68.5%,
+    var(--scarletRed-200) 60%,
+    var(--scarletRed-200) 71%,
+    var(--red-200) 70%
+  );
+  z-index: 3;
+}
+
+.pc__computer-case {
+  position: absolute;
+  top: 16.5rem;
+  left: 6.4rem;
+  width: 19.9rem;
+  height: 3.3rem;
+  border-radius: 8px 8px 0 0;
+  -webkit-box-shadow: 0 0 0 13px var(--scarletRed-200), 0 0 0 17px white;
+  box-shadow: 0 0 0 13px var(--scarletRed-200), 0 0 0 17px white;
+  z-index: 1;
+}
+
+.pc__computer-case::before {
+  content: '';
+  position: absolute;
+  top: 2.75rem;
+  left: -3.2rem;
+  width: 26.3rem;
+  height: 1.3rem;
+  border-radius: 19px;
+  background-color: var(--scarletRed-200);
+  -webkit-box-shadow: 0 0 0 5px white;
+  box-shadow: 0 0 0 5px white;
+  z-index: -1;
+}
+
+.computer-case__front {
+  position: relative;
+  top: -0.2rem;
+  left: -0.85rem;
+  width: 16.8rem;
+  height: 3.8rem;
+  border: 6px solid var(--scarletRed-200);
+  border-top-width: 3px;
+  border-left-width: 13px;
+  border-right-width: 4px;
+  border-radius: 17px 9px 0 0;
+  background-color: var(--vermilion-100);
+  z-index: 3;
+}
+
+.front__control {
+  position: absolute;
+  top: 0.59rem;
+  left: 2.1rem;
+  width: 5.6rem;
+  height: 2.1rem;
+  border: 5px solid var(--scarletRed-200);
+  border-radius: 4px;
+  background-color: var(--red-200);
+  -webkit-box-shadow: -11px 0px 0 0 var(--scarletRed-200);
+  box-shadow: -11px 0px 0 0 var(--scarletRed-200);
+}
+
+.control__lines {
+  margin-top: 0.3rem;
+}
+
+.control__lines p {
+  width: 2.1rem;
+  height: 0.18rem;
+  margin-bottom: 0.15rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+  background-color: var(--scarletRed-200);
+}
+
+.control__on {
+  position: absolute;
+  right: 0.4rem;
+  top: 3px;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 3px solid var(--scarletRed-200);
+  border-radius: 50%;
+  background-color: var(--cyan-100);
+  -webkit-box-shadow: 5px -1px 0 -1px var(--scarletRed-200);
+  box-shadow: 5px -1px 0 -1px var(--scarletRed-200);
+}
+
+.front__box {
+  position: absolute;
+  right: 20px;
+  top: 1.1rem;
+  width: 3.9rem;
+  height: 1.1rem;
+  border-radius: 3px;
+  background-color: var(--scarletRed-200);
+}
+
+.computer-case__back {
+  position: absolute;
+  top: -1px;
+  right: -13.2px;
+  width: 5.2rem;
+  height: 3.29rem;
+  border-right: 12px solid var(--scarletRed-200);
+  border-top-right-radius: 26%;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(35%, var(--scarletRed-100)),
+    color-stop(35%, var(--red-300)),
+    color-stop(77%, var(--red-300)),
+    color-stop(77%, var(--red-100))
+  );
+  background: -o-linear-gradient(
+    bottom,
+    var(--scarletRed-100) 35%,
+    var(--red-300) 35%,
+    var(--red-300) 77%,
+    var(--red-100) 77%
+  );
+  background: linear-gradient(
+    to top,
+    var(--scarletRed-100) 35%,
+    var(--red-300) 35%,
+    var(--red-300) 77%,
+    var(--red-100) 77%
+  );
+  z-index: 2;
+}
 
 /* --------------- */
 /* Personal Footer */

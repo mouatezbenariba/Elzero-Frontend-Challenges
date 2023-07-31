@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Blue */
+  --blue-100: #4285f4;
+
+  /* Khaki */
+  --khaki-100: #f4b400;
+
+  /* Red */
+  --red-100: #db4437;
+
+  /* Teal */
+  --teal-100: #0f9d58;
+}
+
+/* ---------- */
+/* Main Style */
+/* ---------- */
+
+/* --------------- */
+/* Personal Footer */
+/* --------------- */
+
+.personal-footer {
+  width: 800px;
+  margin: 3rem auto;
+  font-family: 'Cairo', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+.platform {
+  font-weight: 600;
+  color: #2eca7f;
+}
+
+.coder {
+  font-weight: 600;
+  color: #cf2937;
+}
+
+a {
+  text-decoration: none;
+}

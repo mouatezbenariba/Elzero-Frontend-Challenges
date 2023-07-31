@@ -23,7 +23,7 @@
 /* Main Style */
 /* ---------- */
 .container {
-  width: 22rem;
+  width: 20rem;
   margin: auto;
   margin-top: 7rem;
   font-family: 'Cairo', sans-serif;
@@ -119,6 +119,7 @@ p.box {
 /* --------------- */
 
 .personal-footer {
+  min-width: 20rem;
   margin: 3rem auto;
   font-family: 'Cairo', sans-serif;
   line-height: 1.5;

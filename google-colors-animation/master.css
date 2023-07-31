@@ -22,6 +22,49 @@
 /* ---------- */
 /* Main Style */
 /* ---------- */
+.container {
+  width: 22rem;
+  margin: auto;
+  margin-top: 7rem;
+  font-family: 'Cairo', sans-serif;
+}
+
+p.box {
+  position: relative;
+  padding: 1.3rem 1.6rem;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3rem;
+}
+
+p.box::before {
+  content: '';
+  position: absolute;
+  left: -0.2rem;
+  top: -0.2rem;
+  width: calc(100% + 0.4rem);
+  height: calc(100% + 0.4rem);
+  background-image: conic-gradient(
+    var(--teal-100) 0deg,
+    var(--teal-100) 42deg,
+    var(--red-100) 42deg,
+    var(--red-100) 85deg,
+    var(--blue-100) 85deg,
+    var(--blue-100) 128deg,
+    var(--khaki-100) 100deg,
+    var(--khaki-100) 170deg,
+    var(--teal-100) 170deg,
+    var(--teal-100) 216deg,
+    var(--red-100) 216deg,
+    var(--red-100) 265deg,
+    var(--blue-100) 265deg,
+    var(--blue-100) 311deg,
+    var(--khaki-100) 293deg
+  );
+  z-index: -1;
+  border-radius: 3rem;
+}
 
 /* --------------- */
 /* Personal Footer */

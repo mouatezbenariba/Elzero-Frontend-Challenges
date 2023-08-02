@@ -47,6 +47,12 @@
   border-radius: 4rem;
 }
 
+@supports (-moz-appearance: none) {
+  .wrapper {
+    width: 20.8rem;
+  }
+}
+
 .wrapper::before {
   content: '';
   position: absolute;

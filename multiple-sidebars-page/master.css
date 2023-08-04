@@ -64,6 +64,14 @@ body {
   left: 100%;
 }
 
+.gray-highlight {
+  background-color: var(--gray-200);
+}
+
+.green-highlight {
+  background-color: var(--lime-200);
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
@@ -544,10 +552,6 @@ ul.latest-posts__pages a {
   border-radius: 0.3rem;
   background-color: var(--gray-100);
   color: var(--gray-300);
-}
-
-ul.latest-posts__pages li:first-child a {
-  background-color: var(--gray-200);
 }
 
 section.features {

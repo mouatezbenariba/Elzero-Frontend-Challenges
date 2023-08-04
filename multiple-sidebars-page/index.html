@@ -243,13 +243,20 @@
       </aside>
       <main>
         <div class="slider">
-          <div class="images">
-            <img src="images/slider/slider.PNG" alt="" />
+          <div class="slider__images">
+            <img src="images/slider/slider-1.jpg" class="slider-0" alt="desert image 1" />
+            <img src="images/slider/slider-2.jpg" class="slider-1" alt="desert image 2" />
+            <img src="images/slider/slider-3.jpg" class="slider-2" alt="desert image 3" />
           </div>
-          <p>Welcome to the community!</p>
+          <p class="slider__welcome">Welcome to the community!</p>
+          <div class="slider__tabs">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
         <section class="latest-activity">
-          <h2 class="latest-activity__title">Latest Activity</h2>
+          <h2 class="latest-activity__title title-1">Latest Activity</h2>
           <ul>
             <li class="latest-activity__card">
               <div class="latest-activity__image">
@@ -363,7 +370,7 @@
           <button class="latest-activity__load">Load More</button>
         </section>
         <section class="latest-posts">
-          <h2 class="latest-posts">Latest Posts</h2>
+          <h2 class="latest-posts title-1">Latest Posts</h2>
           <ul>
             <li class="latest-posts__card">
               <div class="latest__posts__image">
@@ -424,7 +431,7 @@
           </ul>
         </section>
         <section class="features">
-          <h2 class="features__title">The Features</h2>
+          <h2 class="features__title title-1">The Features</h2>
           <ul>
             <li class="features__card">
               <div class="features__image">
@@ -551,9 +558,10 @@
           </ul>
         </section>
       </aside>
+      <script src="main.js"></script>
     </div>
     <!-- end   challenge -->
-    <!-- <footer class="personal-footer">
+    <footer class="personal-footer">
       Challenge by
       <a
         href="https://elzero.org/category/challenges/front-end-challenges/"
@@ -566,6 +574,6 @@
       <a href="https://mouatezbenariba.me/" target="_blank" rel="noopener" class="coder"
         >Elmouatez Billah Benariba.</a
       >
-    </footer> -->
+    </footer>
   </body>
 </html>

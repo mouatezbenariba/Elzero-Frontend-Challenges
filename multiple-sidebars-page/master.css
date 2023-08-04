@@ -546,6 +546,10 @@ ul.latest-posts__pages a {
   color: var(--gray-300);
 }
 
+ul.latest-posts__pages li:first-child a {
+  background-color: var(--gray-200);
+}
+
 section.features {
   position: relative;
   width: 100%;

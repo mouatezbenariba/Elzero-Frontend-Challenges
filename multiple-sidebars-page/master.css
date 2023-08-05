@@ -29,6 +29,53 @@ body {
   background-color: var(--gray-200);
 }
 
+/* --------------- */
+/* Utility Classes */
+/* --------------- */
+
+.italic {
+  font-style: italic;
+}
+
+.aside-section {
+  width: 100%;
+  padding: 1.3rem;
+  margin-bottom: 1.15rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.title-1 {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.title-2 {
+  margin-top: 0.15rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.left {
+  left: 100%;
+}
+
+.bg-lm-100 {
+  background-color: var(--lime-100);
+}
+
+.gray-highlight {
+  background-color: var(--gray-200);
+}
+
+.green-highlight {
+  background-color: var(--lime-200);
+}
+
 /* ---------- */
 /* Main Style */
 /* ---------- */
@@ -113,7 +160,6 @@ section.members {
   font-size: 0.6rem;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
-  background-color: var(--lime-100);
   color: white;
   font-weight: bold;
 }
@@ -178,7 +224,6 @@ section.groups {
   margin-bottom: 0.1rem;
   padding: 0.3rem 0.5rem;
   border-radius: 0.2rem;
-  background-color: var(--lime-100);
   color: white;
   font-size: 0.63rem;
   font-weight: bold;
@@ -720,49 +765,6 @@ section.recent-topics {
   display: block;
   font-size: 0.7rem;
   color: var(--gray-300);
-}
-
-/* --------------- */
-/* Utility Classes */
-/* --------------- */
-
-.italic {
-  font-style: italic;
-}
-
-.aside-section {
-  width: 100%;
-  padding: 1.3rem;
-  margin-bottom: 1.15rem;
-  border-radius: 0.5rem;
-  background-color: white;
-}
-
-.title-1 {
-  margin-top: 0.2rem;
-  margin-bottom: 1rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-}
-
-.title-2 {
-  margin-top: 0.15rem;
-  margin-bottom: 1rem;
-  color: black;
-  font-size: 0.75rem;
-  font-weight: bold;
-}
-
-.left {
-  left: 100%;
-}
-
-.gray-highlight {
-  background-color: var(--gray-200);
-}
-
-.green-highlight {
-  background-color: var(--lime-200);
 }
 
 /* --------------- */

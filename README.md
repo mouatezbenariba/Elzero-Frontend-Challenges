@@ -20,53 +20,62 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 | Hard       | ⭐ ⭐ ⭐ ⭐    |
 | Very Hard  | ⭐ ⭐ ⭐ ⭐ ⭐ |
 
-| Name                                                                                                                           | Difficulty | Technologies / Approaches |
-| ------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------------------------- |
-| [Simple Articles Editor](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-articles-editor/)                 | ⭐⭐⭐     | HTML, CSS                 |
-| [Kids Education Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/kids-education-section/)                 | ⭐⭐       | HTML, CSS                 |
-| [Find Real Estate](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/find-real-estate/)                             | ⭐⭐       | HTML, CSS                 |
-| [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)                       | ⭐⭐       | HTML, CSS                 |
-| [Products With Separator](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/products-with-separator/)               | ⭐⭐       | HTML, CSS                 |
-| [Colored Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/colored-boxes/)                                   | ⭐⭐       | HTML, CSS                 |
-| [Control Local Storage](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/control-local-storage/)                   | ⭐⭐       | HTML, CSS, JS             |
-| [Reminder Menu App](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/reminder-menu-app/)                           | ⭐⭐       | HTML, CSS                 |
-| [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)                                 | ⭐⭐       | HTML, CSS                 |
-| [Total Points From Tables](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)             | ⭐⭐       | HTML, CSS, JS             |
-| [Chat Messenger With Background](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/chat-messenger-with-background/) | ⭐⭐       | HTML, CSS                 |
-| [Interests Boxes Select](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/interests-boxes-select/)                 | ⭐⭐       | HTML, CSS                 |
-| [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)                         | ⭐⭐       | HTML, CSS                 |
-| [Restaurant Orders List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/restaurant-orders-list/)                 | ⭐⭐       | HTML, CSS                 |
-| [Joystick and Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/joystick-and-sidebar/)                     | ⭐⭐       | HTML, CSS                 |
-| [Ultimate Black Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/ultimate-black-footer/)                   | ⭐⭐       | HTML, CSS                 |
-| [Canvas Smiley Face](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/canvas-smiley-face/)                         | ⭐⭐       | HTML, CSS                 |
-| [Circle Animated Progress](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-animated-progress/)             | ⭐⭐       | HTML, CSS                 |
-| [Simple Jobs List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-jobs-list/)                             | ⭐⭐       | HTML, CSS                 |
-| [Overlay Effects On Hover](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/overlay-effects-on-hover/)             | ⭐⭐       | HTML, CSS                 |
-| [Circle And Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-and-boxes/)                             | ⭐⭐       | HTML, CSS                 |
-| [Latest Posts With Head](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/latest-posts-with-head/)                 | ⭐⭐       | HTML, CSS                 |
-| [Dark Pricing Plan](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/dark-pricing-plan/)                           | ⭐⭐       | HTML, CSS                 |
-| [Pricing Plans With Ribbons](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/pricing-plans-with-ribbons/)         | ⭐⭐       | HTML, CSS                 |
-| [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-features/)                               | ⭐⭐       | HTML, CSS                 |
-| [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/)                   | ⭐⭐       | HTML, CSS                 |
-| [Product Box With Progress Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/product-box-with-progress/) | ⭐⭐       | HTML, CSS                 |
-| [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)          | ⭐⭐       | HTML, CSS                 |
-| [Custom Checkbox Todo List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/custom-checkbox-todo-list/)           | ⭐⭐       | HTML, CSS                 |
-| [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)           | ⭐⭐       | HTML, CSS                 |
-| [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                             | ⭐⭐       | HTML, CSS                 |
-| [Picture With Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/picture-with-frame/)                         | ⭐⭐       | HTML, CSS                 |
-| [Classic Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/classic-sidebar/)                               | ⭐         | HTML, CSS, JS             |
-| [Font Changer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/font-changer/)                                     | ⭐         | HTML, CSS, JS             |
-| [Show / Hide Paragraph](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/show-hide-paragraph/)                     | ⭐         | HTML, CSS                 |
-| [Team Skills and Stats](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/team-skills-and-stats/)                   | ⭐         | HTML, CSS                 |
-| [Two Columns Form](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/two-columns-form/)                             | ⭐         | HTML, CSS                 |
-| [Splitted Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/splitted-frame/)                                 | ⭐         | HTML, CSS                 |
-| [Featured Products](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/featured-products/)                           | ⭐         | HTML, CSS                 |
-| [Hover To Show Tooltip](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hover-to-show-tooltip/)                   | ⭐         | HTML, CSS                 |
-| [Features Comparison](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/features-comparison/)                       | ⭐         | HTML, CSS                 |
-| [Gaming Profile Sections](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/gaming-profile-sections/)               | ⭐         | HTML, CSS                 |
-| [Creative Titles](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/creative-titles/)                               | ⭐         | HTML, CSS                 |
-| [Scroll To Top Button CSS Only](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/scroll-to-top-button/)            | ⭐         | HTML, CSS                 |
-| [Card With Transparent Image](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/card-with-transparent-image/)       | ⭐         | HTML, CSS                 |
+| Name                                                                                                                                | Difficulty | Technologies / Approaches |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------- |
+| [Multiple Sidebars Page](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/multiple-sidebars-page/)   | ⭐⭐⭐⭐   | HTML, CSS                 |
+| [Google Colors Animation](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/google-colors-animation/) | ⭐⭐⭐⭐   | HTML, CSS                 |
+| [Real Estate Cards](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/real-estate-cards/)             | ⭐⭐⭐     | HTML, CSS                 |
+| [Draw Retro PC](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/draw-retro-pc/)                     | ⭐⭐⭐     | HTML, CSS                 |
+| [Advanced Card With Shapes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-card-with-shapes/)                | ⭐⭐⭐     | HTML, CSS                 |
+| [Boxed Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/boxed-footer/)                                          | ⭐⭐⭐     | HTML, CSS                 |
+| [Awesome Contact Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/awesome-contact-section/)                    | ⭐⭐⭐     | HTML, CSS                 |
+| [Food Menu And Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/food-menu-and-sidebar/)                        | ⭐⭐⭐     | HTML, CSS                 |
+| [Microsoft Windows Logo](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/microsoft-windows-logo/)                      | ⭐⭐⭐     | HTML, CSS                 |
+| [Simple Articles Editor](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-articles-editor/)                      | ⭐⭐⭐     | HTML, CSS                 |
+| [Kids Education Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/kids-education-section/)                      | ⭐⭐       | HTML, CSS                 |
+| [Find Real Estate](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/find-real-estate/)                                  | ⭐⭐       | HTML, CSS                 |
+| [Hosting Plans Table](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hosting-plans-table/)                            | ⭐⭐       | HTML, CSS                 |
+| [Products With Separator](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/products-with-separator/)                    | ⭐⭐       | HTML, CSS                 |
+| [Colored Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/colored-boxes/)                                        | ⭐⭐       | HTML, CSS                 |
+| [Control Local Storage](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/control-local-storage/)                        | ⭐⭐       | HTML, CSS, JS             |
+| [Reminder Menu App](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/reminder-menu-app/)                                | ⭐⭐       | HTML, CSS                 |
+| [Wedding Invite](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/wedding-invite/)                                      | ⭐⭐       | HTML, CSS                 |
+| [Total Points From Tables](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/total-points-from-tables/)                  | ⭐⭐       | HTML, CSS, JS             |
+| [Chat Messenger With Background](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/chat-messenger-with-background/)      | ⭐⭐       | HTML, CSS                 |
+| [Interests Boxes Select](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/interests-boxes-select/)                      | ⭐⭐       | HTML, CSS                 |
+| [Advanced User Card](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-user-card/)                              | ⭐⭐       | HTML, CSS                 |
+| [Restaurant Orders List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/restaurant-orders-list/)                      | ⭐⭐       | HTML, CSS                 |
+| [Joystick and Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/joystick-and-sidebar/)                          | ⭐⭐       | HTML, CSS                 |
+| [Ultimate Black Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/ultimate-black-footer/)                        | ⭐⭐       | HTML, CSS                 |
+| [Canvas Smiley Face](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/canvas-smiley-face/)                              | ⭐⭐       | HTML, CSS                 |
+| [Circle Animated Progress](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-animated-progress/)                  | ⭐⭐       | HTML, CSS                 |
+| [Simple Jobs List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/simple-jobs-list/)                                  | ⭐⭐       | HTML, CSS                 |
+| [Overlay Effects On Hover](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/overlay-effects-on-hover/)                  | ⭐⭐       | HTML, CSS                 |
+| [Circle And Boxes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-and-boxes/)                                  | ⭐⭐       | HTML, CSS                 |
+| [Latest Posts With Head](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/latest-posts-with-head/)                      | ⭐⭐       | HTML, CSS                 |
+| [Dark Pricing Plan](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/dark-pricing-plan/)                                | ⭐⭐       | HTML, CSS                 |
+| [Pricing Plans With Ribbons](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/pricing-plans-with-ribbons/)              | ⭐⭐       | HTML, CSS                 |
+| [Circle Features](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/circle-features/)                                    | ⭐⭐       | HTML, CSS                 |
+| [Blue Signup Form Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/blue-signup-form/)                        | ⭐⭐       | HTML, CSS                 |
+| [Product Box With Progress Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/product-box-with-progress/)      | ⭐⭐       | HTML, CSS                 |
+| [Simple Bitcoin Dashboard Challenge](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/bitcoin-dashboard/)               | ⭐⭐       | HTML, CSS                 |
+| [Custom Checkbox Todo List](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/custom-checkbox-todo-list/)                | ⭐⭐       | HTML, CSS                 |
+| [Responsive Email Template](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/responsive-email-template/)                | ⭐⭐       | HTML, CSS                 |
+| [Course Offer Box](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/course-offer-box/)                                  | ⭐⭐       | HTML, CSS                 |
+| [Picture With Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/picture-with-frame/)                              | ⭐⭐       | HTML, CSS                 |
+| [Classic Sidebar](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/classic-sidebar/)                                    | ⭐         | HTML, CSS, JS             |
+| [Font Changer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/font-changer/)                                          | ⭐         | HTML, CSS, JS             |
+| [Show / Hide Paragraph](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/show-hide-paragraph/)                          | ⭐         | HTML, CSS                 |
+| [Team Skills and Stats](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/team-skills-and-stats/)                        | ⭐         | HTML, CSS                 |
+| [Two Columns Form](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/two-columns-form/)                                  | ⭐         | HTML, CSS                 |
+| [Splitted Frame](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/splitted-frame/)                                      | ⭐         | HTML, CSS                 |
+| [Featured Products](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/featured-products/)                                | ⭐         | HTML, CSS                 |
+| [Hover To Show Tooltip](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/hover-to-show-tooltip/)                        | ⭐         | HTML, CSS                 |
+| [Features Comparison](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/features-comparison/)                            | ⭐         | HTML, CSS                 |
+| [Gaming Profile Sections](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/gaming-profile-sections/)                    | ⭐         | HTML, CSS                 |
+| [Creative Titles](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/creative-titles/)                                    | ⭐         | HTML, CSS                 |
+| [Scroll To Top Button CSS Only](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/scroll-to-top-button/)                 | ⭐         | HTML, CSS                 |
+| [Card With Transparent Image](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/card-with-transparent-image/)            | ⭐         | HTML, CSS                 |
 
 ### 2. [Practical HTML & CSS](https://elzero.org/practical-html-css/)
 

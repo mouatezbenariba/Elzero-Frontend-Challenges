@@ -22,10 +22,10 @@ This collection features my solutions to various HTML & CSS challenges from Elze
 
 | Name                                                                                                                                | Difficulty | Technologies / Approaches |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------------------------- |
-| [Multiple Sidebars Page](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/multiple-sidebars-page/)   | ⭐⭐⭐⭐   | HTML, CSS                 |
-| [Google Colors Animation](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/google-colors-animation/) | ⭐⭐⭐⭐   | HTML, CSS                 |
-| [Real Estate Cards](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/real-estate-cards/)             | ⭐⭐⭐     | HTML, CSS                 |
-| [Draw Retro PC](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/https://elzero.org/draw-retro-pc/)                     | ⭐⭐⭐     | HTML, CSS                 |
+| [Multiple Sidebars Page](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/multiple-sidebars-page/)   | ⭐⭐⭐⭐   | HTML, CSS                 |
+| [Google Colors Animation](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/google-colors-animation/) | ⭐⭐⭐⭐   | HTML, CSS                 |
+| [Real Estate Cards](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/real-estate-cards/)             | ⭐⭐⭐     | HTML, CSS                 |
+| [Draw Retro PC](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/draw-retro-pc/)                     | ⭐⭐⭐     | HTML, CSS                 |
 | [Advanced Card With Shapes](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/advanced-card-with-shapes/)                | ⭐⭐⭐     | HTML, CSS                 |
 | [Boxed Footer](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/boxed-footer/)                                          | ⭐⭐⭐     | HTML, CSS                 |
 | [Awesome Contact Section](https://mouatezbenariba.github.io/Elzero-Frontend-Challenges/awesome-contact-section/)                    | ⭐⭐⭐     | HTML, CSS                 |
